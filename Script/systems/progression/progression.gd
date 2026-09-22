@@ -10,7 +10,8 @@ var gold: int = 0
 var cleared_levels: Array[String] = []
 
 func required_experience() -> int:
-	return 60 + (level - 1) * 40
+	var curve := [140,160,180,200,220,300,400,500,600,700,800,900,1200,1400,1600,2000,2400,3000,4000]
+	return int(curve[level - 1]) if level < 20 else 5000 + 5000 * (level - 19)
 
 func reward(xp: int, coins: int) -> void:
 	experience += maxi(0, xp)

@@ -25,7 +25,7 @@ static func character_id(skin: StringName) -> int:
 static func skin_id(character: int) -> StringName:
 	return StringName(CHARACTER_TO_SKIN.get(character, &"tang_sanzang"))
 
-static func register_actor(actor: CombatActor, skin: StringName, catalog: AbilityCatalog = null) -> Array[StringName]:
+static func register_actor(actor: CombatActor, skin: StringName, catalog: AbilityCatalog = null, learned: Variant = null) -> Array[StringName]:
 	if actor == null or actor.abilities == null:
 		return []
 	var ability_catalog := catalog if catalog != null else AbilityCatalog.new()
@@ -33,9 +33,17 @@ static func register_actor(actor: CombatActor, skin: StringName, catalog: Abilit
 	var definitions := ability_catalog.for_character(character_id(skin))
 	var active_ids: Array[StringName] = []
 	for definition: AbilityDefinition in definitions:
-		actor.abilities.grant(definition, &"character", &"character", &"character")
-		if definition.passive:
-			AbilityExecutor.execute(definition, actor)
+		if learned is Dictionary and int(learned.get(String(definition.id), 0)) <= 0:
+			continue
+		var runtime := CharacterActionCatalog.configure(definition, character_id(skin)).duplicate(true) as AbilityDefinition
+		if learned is Dictionary:
+			runtime.learned_level = int(learned.get(String(definition.id), 0))
+		if not runtime.mp_expression.is_empty():
+			runtime.mp_cost = OriginalCombatCatalog.evaluate(runtime.mp_expression, {"skill_level": runtime.learned_level})
+		for passive_definition: AbilityDefinition in definitions:
+			if passive_definition.passive and learned is Dictionary:
+				runtime.passive_level = int(learned.get(String(passive_definition.id), 0))
+		actor.abilities.grant(runtime, &"character", &"character", &"character")
 		if not definition.passive:
 			active_ids.append(definition.id)
 	if actor.normal_attack == null or character_id(skin) != 2:
@@ -68,9 +76,9 @@ static func _normal_attack(character: int) -> AbilityDefinition:
 	definition.character_id = character
 	definition.cast_duration = 0.35
 	definition.cooldown = 0.35
-	definition.animation = &"hit1"
+	definition.animation = &"hit1_1" if character == 4 else &"hit1"
 	var effect := MeleeEffect.new()
 	effect.power_scale = 1.0
 	effect.lifetime = 0.16
 	definition.effects = [effect]
-	return definition
+	return CharacterActionCatalog.configure(definition, character)

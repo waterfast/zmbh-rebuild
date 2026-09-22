@@ -1,0 +1,62 @@
+{
+  "dshl": {
+    "name": "地煞葫芦",
+    "skill": "烈焰火柱",
+    "description": "释放三道火柱，对范围内的敌人造成多段物理伤害（并令其灼烧）。",
+    "icon": "res://assets/Art/MagicWeapon/Skill_Icon/dshl.png"
+  },
+  "tsgj": {
+    "name": "天煞古剑",
+    "skill": "万剑归宗",
+    "description": "召唤数把巨剑从天而降，造成多段魔法伤害(30%概率冰冻命中的目标)。",
+    "icon": "res://assets/Art/MagicWeapon/Skill_Icon/wjgz.png"
+  },
+  "bsyj": {
+    "name": "白霜妖镜",
+    "skill": "邪灵寄生",
+    "description": "附身到怪物身上偷取生命并令其减速，一段时间后将偷取到的生命给予玩家。",
+    "icon": "res://assets/Art/MagicWeapon/Skill_Icon/bsyj.png"
+  },
+  "lsys": {
+    "name": "罗刹妖伞",
+    "skill": "暴雨梨花",
+    "description": "散出漫天毒针，命中敌人后会造成少量伤害并令其中毒。",
+    "icon": "res://assets/Art/MagicWeapon/Skill_Icon/lsys.png"
+  },
+  "xhmt": {
+    "name": "血海魔童",
+    "skill": "魔童连击",
+    "description": "清除低级负面效果，之后对目标进行多次打击，造成魔法伤害。",
+    "icon": "res://assets/Art/MagicWeapon/Skill_Icon/xhmt.png"
+  },
+  "kyl": {
+    "name": "枯叶灵",
+    "skill": "沐浴回春",
+    "description": "每秒为玩家恢复生命,期间免疫击退，持续10秒。",
+    "icon": "res://assets/Art/MagicWeapon/Skill_Icon/kyl.png"
+  },
+  "xhhl": {
+    "name": "萱花葫芦",
+    "skill": "万象天引",
+    "description": "将怪物吸引至玩家身边.",
+    "icon": "res://assets/Art/MagicWeapon/Skill_Icon/xhhl.png"
+  },
+  "qyj": {
+    "name": "青云剑",
+    "skill": "戮天斩击",
+    "description": "释放剑阵，飞向当前生命最高的敌人，对受到伤害所有目标施加破甲",
+    "icon": "res://assets/Art/MagicWeapon/Skill_Icon/qyj.png"
+  },
+  "zjfyd": {
+    "name": "混元伏妖盾",
+    "skill": "不灭神盾",
+    "description": "拥有【不灭神盾】技能，使用后获得【不灭】Buff，一段时间内免疫高于当前生命的伤害。",
+    "icon": "res://assets/Art/MagicWeapon/Skill_Icon/zjfyd.png"
+  },
+  "zjhl": {
+    "name": "紫金葫芦",
+    "skill": "伏妖神火",
+    "description": "拥有【伏妖神火】技能，朝前方喷出火焰，造成物理伤害,并有10%概率施加一层（灼烧）。",
+    "icon": "res://assets/Art/MagicWeapon/Skill_Icon/zjhl.png"
+  }
+}

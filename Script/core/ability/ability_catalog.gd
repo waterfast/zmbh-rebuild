@@ -34,6 +34,8 @@ func resolve(id: StringName) -> AbilityDefinition:
 	definition.character_id = int(data.get("character_id", 0))
 	definition.slot = int(data.get("slot", 0))
 	definition.passive = bool(data.get("passive", false))
+	definition.icon_path = data.get("icon_path", "res://assets/Art/Skill/SkillIcon/%s.png" % definition.legacy_id)
+	definition.mp_expression = data.get("mp_expression", {})
 	definition.mp_cost = float(data.get("mp_cost", 0.0))
 	definition.cooldown = float(data.get("cooldown", 0.0))
 	definition.cast_duration = float(data.get("cast_duration", 0.3))
@@ -54,7 +56,7 @@ func runtime_resolve(id: StringName) -> AbilityDefinition:
 	if not source.effects.is_empty():
 		return source
 	var runtime := source.duplicate(true) as AbilityDefinition
-	runtime.migration_status = "implemented"
+	runtime.migration_status = "prototype"
 	runtime.effects = _default_effects(runtime)
 	return runtime
 
@@ -78,14 +80,6 @@ func _default_effects(definition: AbilityDefinition) -> Array[AbilityEffect]:
 	var effects: Array[AbilityEffect] = []
 	var id := String(definition.id)
 	if definition.passive:
-		var passive := BuffDefinition.new()
-		passive.id = StringName("passive_%s" % id)
-		passive.tag = "super_armor"
-		passive.duration = 3600.0
-		passive.flat_modifiers = {"attack": 2.0, "defense": 1.0}
-		var passive_effect := SelfBuffEffect.new()
-		passive_effect.buff = passive
-		effects.append(passive_effect)
 		return effects
 	if id in ["tjgl", "myhc", "lhsq"]:
 		var heal := HealEffect.new()

@@ -40,7 +40,7 @@ static func definition_for(item_id: StringName) -> AbilityDefinition:
 	definition.mp_cost = 20.0
 	definition.cooldown = 4.0
 	definition.cast_duration = 0.35
-	definition.migration_status = "implemented"
+	definition.migration_status = "prototype"
 	var effect: AbilityEffect
 	if item_id in [&"xhhl", &"nmwdnh"]:
 		var dash := DashEffect.new()

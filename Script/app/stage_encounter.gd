@@ -6,6 +6,7 @@ signal enemy_defeated(monster_id: int, position: Vector2)
 signal stage_cleared(stage: int)
 signal completed
 
+var received_hits := 0
 var world: WorldSession
 var player: CombatActor
 var stage_index: int = 0
@@ -20,6 +21,7 @@ var _enemies: Array[CombatActor] = []
 func setup(session: WorldSession, target: CombatActor) -> void:
 	world = session
 	player = target
+	player.combatant.damaged.connect(_count_received_hit)
 	for wave: Dictionary in world.definition.waves:
 		world.set_gate_open(int(wave.stage), false)
 	_start_wave()
@@ -59,12 +61,14 @@ func _spawn_one() -> void:
 	var position: Vector2 = wave.positions[_next_spawn]
 	_next_spawn += 1
 	var enemy := load("res://actors/enemy.tscn").instantiate() as CombatActor
-	var stats := StatDefinition.new()
-	stats.max_hp = 60.0 + float(monster_id - 1) * 24.0
-	stats.attack = 10.0 + float(monster_id - 1) * 2.0
-	stats.defense = 2.0 + float(monster_id - 1)
-	stats.max_mp = 0.0
-	stats.move_speed = 80.0 + minf(55.0, monster_id * 4.0)
+	var stats := OriginalCombatCatalog.monster(monster_id, {
+		"hero_level": player.combatant.stats.value(&"level"),
+		"max_hp": player.combatant.health.maximum,
+		"attack": player.combatant.stats.value(&"attack"),
+		"hero_defense": player.combatant.stats.value(&"defense"),
+		"hero_magic_defense": player.combatant.stats.value(&"magic_defense"),
+		"received_hits": received_hits,
+	})
 	enemy.definition = stats
 	enemy.debug_draw = false
 	world.add_actor(enemy, position)
@@ -97,3 +101,6 @@ func remaining_enemies() -> int:
 	if finished or stage_index >= world.definition.waves.size():
 		return 0
 	return _living + world.definition.waves[stage_index].monster_ids.size() - _next_spawn
+
+func _count_received_hit(_amount: float, _stun: float) -> void:
+	received_hits += 1

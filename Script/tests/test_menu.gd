@@ -34,7 +34,7 @@ func _run() -> void:
 	var store: SaveStore = menu.archives.store_for(1)
 	check(store.save_data(profile.serialize()), "测试档可保存")
 	var initial_content := FileAccess.get_file_as_string(temporary_path)
-	menu._on_game_set_pressed()
+	menu._on_game_warn_pressed()
 	var notice := menu.get_child(menu.get_child_count() - 1) as GameNotification
 	check(notice != null and notice.scene_file_path == "res://Scene/show_text/Message_show.tscn", "菜单反馈复用原提示动画场景")
 	check(notice.message_text.contains("尚未迁移"), "未迁移功能明确提示")

@@ -4,8 +4,6 @@ extends RefCounted
 static func execute(definition: AbilityDefinition, actor: Node2D, _request: SkillTriggerRequest = null) -> bool:
 	if definition == null or actor == null or not actor.combatant.health.is_alive():
 		return false
-	if actor.action != null and actor.action.current in [ActionState.State.ATTACK, ActionState.State.SKILL]:
-		SkillCutInPresenter.present(actor, definition)
 	for effect in definition.effects:
 		if effect != null:
 			effect.execute(actor, definition)

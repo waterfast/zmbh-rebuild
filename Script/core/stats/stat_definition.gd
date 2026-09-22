@@ -22,3 +22,12 @@ extends Resource
 @export var magic_penetration: float = 0.0
 @export var spell_power: float = 0.0
 @export var damage_reduction: float = 0.0
+
+# 原版评级点数在装备边界按 /100 保存，公式边界统一还原；此值不是直接概率。
+@export var level: float = 1.0
+@export var defense_reduction: float = 0.0
+@export var critical_damage_reduction: float = 0.0
+@export var critical_damage_bonus: float = 0.0
+@export var weakness_multiplier: float = 1.0
+@export var damage_dealt_multiplier: float = 1.0
+@export var damage_taken_multiplier: float = 1.0

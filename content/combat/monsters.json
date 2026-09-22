@@ -1,0 +1,7997 @@
+{
+  "1": {
+    "level": {
+      "integer": 5
+    },
+    "max_hp": {
+      "integer": 60
+    },
+    "defense": {
+      "integer": 50
+    },
+    "magic_defense": {
+      "integer": 80
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 10,
+    "move_speed": 80.0
+  },
+  "10": {
+    "level": {
+      "integer": 18
+    },
+    "max_hp": {
+      "integer": 500
+    },
+    "defense": {
+      "integer": 60
+    },
+    "magic_defense": {
+      "integer": 70
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 4
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 30,
+    "move_speed": 70.0
+  },
+  "100": {
+    "level": {
+      "integer": 40
+    },
+    "max_hp": {
+      "integer": 120000
+    },
+    "defense": {
+      "integer": 165
+    },
+    "magic_defense": {
+      "integer": 165
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 35
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 15
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 30
+    },
+    "magic_penetration": {
+      "integer": 30
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 350,
+    "move_speed": 110.0
+  },
+  "101": {
+    "level": {
+      "integer": 40
+    },
+    "max_hp": {
+      "integer": 140000
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 180
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 50
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 115
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 35
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 30
+    },
+    "magic_penetration": {
+      "integer": 30
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 350,
+    "move_speed": 160.0
+  },
+  "102": {
+    "level": {
+      "integer": 40
+    },
+    "max_hp": {
+      "integer": 150000
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 180
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 50
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 115
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 35
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 30
+    },
+    "magic_penetration": {
+      "integer": 30
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 350,
+    "move_speed": 160.0
+  },
+  "103": {
+    "level": {
+      "integer": 40
+    },
+    "max_hp": {
+      "integer": 180000
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 180
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 50
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 115
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 35
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 30
+    },
+    "magic_penetration": {
+      "integer": 30
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 300,
+    "move_speed": 160.0
+  },
+  "104": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 15000
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 180
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 25
+    },
+    "magic_penetration": {
+      "integer": 25
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 300,
+    "move_speed": 110.0
+  },
+  "105": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 13000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 25
+    },
+    "magic_penetration": {
+      "integer": 25
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 120,
+    "move_speed": 110.0
+  },
+  "106": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 17000
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 180
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 25
+    },
+    "magic_penetration": {
+      "integer": 25
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 500,
+    "move_speed": 110.0
+  },
+  "107": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 200000
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 180
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 35
+    },
+    "magic_penetration": {
+      "integer": 35
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 500,
+    "move_speed": 110.0
+  },
+  "108": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 300000
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 180
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 35
+    },
+    "magic_penetration": {
+      "integer": 35
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 500,
+    "move_speed": 110.0
+  },
+  "109": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 15000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 25
+    },
+    "magic_penetration": {
+      "integer": 25
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 500,
+    "move_speed": 110.0
+  },
+  "11": {
+    "level": {
+      "integer": 18
+    },
+    "max_hp": {
+      "integer": 3500
+    },
+    "defense": {
+      "integer": 60
+    },
+    "magic_defense": {
+      "integer": 70
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 6
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 135,
+    "move_speed": 120.0
+  },
+  "110": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 300000
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 180
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 35
+    },
+    "magic_penetration": {
+      "integer": 35
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 300,
+    "move_speed": 110.0
+  },
+  "111": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 16000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 25
+    },
+    "magic_penetration": {
+      "integer": 25
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 500,
+    "move_speed": 110.0
+  },
+  "112": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 300000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 35
+    },
+    "magic_penetration": {
+      "integer": 35
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 500,
+    "move_speed": 140.0
+  },
+  "113": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 15000
+    },
+    "defense": {
+      "integer": 120
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 25
+    },
+    "magic_penetration": {
+      "integer": 25
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 500,
+    "move_speed": 110.0
+  },
+  "114": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 400000
+    },
+    "defense": {
+      "integer": 200
+    },
+    "magic_defense": {
+      "integer": 200
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 35
+    },
+    "magic_penetration": {
+      "integer": 35
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 500,
+    "move_speed": 110.0
+  },
+  "115": {
+    "level": {
+      "integer": 55
+    },
+    "max_hp": {
+      "integer": 35000
+    },
+    "defense": {
+      "integer": 300
+    },
+    "magic_defense": {
+      "integer": 300
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 60
+    },
+    "magic_penetration": {
+      "integer": 60
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 500,
+    "move_speed": 120.0
+  },
+  "116": {
+    "level": {
+      "integer": 55
+    },
+    "max_hp": {
+      "integer": 300000
+    },
+    "defense": {
+      "integer": 350
+    },
+    "magic_defense": {
+      "integer": 400
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 20
+    },
+    "magic_penetration": {
+      "integer": 20
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 400,
+    "move_speed": 140.0
+  },
+  "117": {
+    "level": {
+      "integer": 55
+    },
+    "max_hp": {
+      "integer": 300000
+    },
+    "defense": {
+      "integer": 350
+    },
+    "magic_defense": {
+      "integer": 400
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 20
+    },
+    "magic_penetration": {
+      "integer": 20
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 600,
+    "move_speed": 140.0
+  },
+  "119": {
+    "level": {
+      "integer": 55
+    },
+    "max_hp": {
+      "integer": 40000
+    },
+    "defense": {
+      "integer": 355
+    },
+    "magic_defense": {
+      "integer": 365
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 28
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 28
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 40
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 35
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 65
+    },
+    "magic_penetration": {
+      "integer": 65
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 500,
+    "move_speed": 120.0
+  },
+  "12": {
+    "level": {
+      "integer": 20
+    },
+    "max_hp": {
+      "integer": 4500
+    },
+    "defense": {
+      "integer": 80
+    },
+    "magic_defense": {
+      "integer": 80
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 70,
+    "move_speed": 100.0
+  },
+  "120": {
+    "level": {
+      "integer": 55
+    },
+    "max_hp": {
+      "integer": 40000
+    },
+    "defense": {
+      "integer": 355
+    },
+    "magic_defense": {
+      "integer": 365
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 28
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 28
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 40
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 35
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 65
+    },
+    "magic_penetration": {
+      "integer": 65
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 500,
+    "move_speed": 120.0
+  },
+  "121": {
+    "level": {
+      "integer": 55
+    },
+    "max_hp": {
+      "integer": 800000
+    },
+    "defense": {
+      "integer": 600
+    },
+    "magic_defense": {
+      "integer": 600
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 30
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 50
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 60
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 30
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 35
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 100
+    },
+    "magic_penetration": {
+      "integer": 100
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 500,
+    "move_speed": 120.0
+  },
+  "13": {
+    "level": {
+      "integer": 18
+    },
+    "max_hp": {
+      "integer": 500
+    },
+    "defense": {
+      "integer": 60
+    },
+    "magic_defense": {
+      "integer": 60
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 45,
+    "move_speed": 80.0
+  },
+  "132": {
+    "level": {
+      "integer": {
+        "operation": "Add",
+        "left": {
+          "variable": "hero_level"
+        },
+        "right": 5
+      }
+    },
+    "max_hp": {
+      "integer": 300000
+    },
+    "defense": {
+      "integer": 200
+    },
+    "magic_defense": {
+      "integer": 200
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 50
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 115
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 35
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 200,
+    "move_speed": 140.0
+  },
+  "133": {
+    "level": {
+      "integer": 1500
+    },
+    "max_hp": {
+      "integer": 9999999999
+    },
+    "defense": {
+      "integer": 9999999
+    },
+    "magic_defense": {
+      "integer": 9999999
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 50
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 115
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 35
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 40
+    },
+    "magic_penetration": {
+      "integer": 40
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 150,
+    "move_speed": 0.0
+  },
+  "134": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 100000
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 180
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 40
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 25
+    },
+    "magic_penetration": {
+      "integer": 25
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 400,
+    "move_speed": 120.0
+  },
+  "135": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 15000
+    },
+    "defense": {
+      "integer": 175
+    },
+    "magic_defense": {
+      "integer": 170
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 20
+    },
+    "magic_penetration": {
+      "integer": 20
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 400,
+    "move_speed": 120.0
+  },
+  "136": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 15000
+    },
+    "defense": {
+      "integer": 170
+    },
+    "magic_defense": {
+      "integer": 170
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 25
+    },
+    "magic_penetration": {
+      "integer": 25
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 200,
+    "move_speed": 130.0
+  },
+  "137": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 110000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 25
+    },
+    "magic_penetration": {
+      "integer": 25
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 300,
+    "move_speed": 130.0
+  },
+  "138": {
+    "max_hp": {
+      "integer": 100
+    },
+    "defense": {
+      "integer": 0
+    },
+    "magic_defense": {
+      "integer": 0
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 0,
+    "move_speed": 90.0
+  },
+  "139": {
+    "level": {
+      "integer": 5
+    },
+    "max_hp": {
+      "integer": 5000
+    },
+    "defense": {
+      "integer": 100
+    },
+    "magic_defense": {
+      "integer": 100
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 100,
+    "move_speed": 100.0
+  },
+  "14": {
+    "level": {
+      "integer": 20
+    },
+    "max_hp": {
+      "integer": 500
+    },
+    "defense": {
+      "integer": 80
+    },
+    "magic_defense": {
+      "integer": 120
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 30,
+    "move_speed": 110.0
+  },
+  "140": {
+    "level": {
+      "integer": 55
+    },
+    "max_hp": {
+      "integer": 500000
+    },
+    "defense": {
+      "integer": 400
+    },
+    "magic_defense": {
+      "integer": 400
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 40
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 50
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 15
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 50
+    },
+    "magic_penetration": {
+      "integer": 50
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 500,
+    "move_speed": 140.0
+  },
+  "141": {
+    "level": {
+      "integer": 55
+    },
+    "max_hp": {
+      "integer": 500000
+    },
+    "defense": {
+      "integer": 300
+    },
+    "magic_defense": {
+      "integer": 300
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 30
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 20
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 300,
+    "move_speed": 120.0
+  },
+  "142": {
+    "level": {
+      "integer": 55
+    },
+    "max_hp": {
+      "integer": 500000
+    },
+    "defense": {
+      "integer": 400
+    },
+    "magic_defense": {
+      "integer": 400
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 30
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 20
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 60
+    },
+    "magic_penetration": {
+      "integer": 60
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 500,
+    "move_speed": 120.0
+  },
+  "143": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 450000
+    },
+    "defense": {
+      "integer": 300
+    },
+    "magic_defense": {
+      "integer": 300
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 50
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 35
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 115
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 35
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": {
+        "operation": "Mult",
+        "left": {
+          "variable": "hero_defense"
+        },
+        "right": 0.5
+      }
+    },
+    "magic_penetration": {
+      "integer": {
+        "operation": "Mult",
+        "left": {
+          "variable": "hero_magic_defense"
+        },
+        "right": 0.5
+      }
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 30
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 350,
+    "move_speed": 160.0
+  },
+  "144": {
+    "level": {
+      "integer": 1000
+    },
+    "max_hp": {
+      "integer": 1000
+    },
+    "defense": {
+      "integer": 0
+    },
+    "magic_defense": {
+      "integer": 0
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 225,
+    "move_speed": 130.0
+  },
+  "145": {
+    "level": {
+      "integer": {
+        "variable": "hero_level"
+      }
+    },
+    "max_hp": {
+      "integer": {
+        "operation": "Add",
+        "left": 100000,
+        "right": {
+          "integer": {
+            "operation": "Mult",
+            "left": {
+              "variable": "hero_level"
+            },
+            "right": 6000
+          }
+        }
+      }
+    },
+    "defense": {
+      "integer": {
+        "operation": "Add",
+        "left": 120,
+        "right": {
+          "integer": {
+            "operation": "Mult",
+            "left": {
+              "variable": "hero_level"
+            },
+            "right": 2
+          }
+        }
+      }
+    },
+    "magic_defense": {
+      "integer": {
+        "operation": "Add",
+        "left": 120,
+        "right": {
+          "integer": {
+            "operation": "Mult",
+            "left": {
+              "variable": "hero_level"
+            },
+            "right": 2
+          }
+        }
+      }
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": {
+          "operation": "Add",
+          "left": 15,
+          "right": {
+            "integer": {
+              "operation": "Mult",
+              "left": {
+                "variable": "hero_level"
+              },
+              "right": 0.6
+            }
+          }
+        }
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": {
+          "operation": "Add",
+          "left": 15,
+          "right": {
+            "integer": {
+              "operation": "Mult",
+              "left": {
+                "variable": "hero_level"
+              },
+              "right": 0.3
+            }
+          }
+        }
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": {
+        "operation": "Add",
+        "left": 45,
+        "right": {
+          "integer": {
+            "operation": "Mult",
+            "left": {
+              "variable": "hero_level"
+            },
+            "right": 1
+          }
+        }
+      }
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 9999
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": {
+        "operation": "Add",
+        "left": 30,
+        "right": {
+          "integer": {
+            "operation": "Mult",
+            "left": {
+              "variable": "hero_level"
+            },
+            "right": 0.5
+          }
+        }
+      }
+    },
+    "magic_penetration": {
+      "integer": {
+        "operation": "Add",
+        "left": 30,
+        "right": {
+          "integer": {
+            "operation": "Mult",
+            "left": {
+              "variable": "hero_level"
+            },
+            "right": 0.5
+          }
+        }
+      }
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "attack": {
+      "operation": "Add",
+      "left": 100,
+      "right": {
+        "integer": {
+          "operation": "Mult",
+          "left": {
+            "variable": "hero_level"
+          },
+          "right": 8
+        }
+      }
+    },
+    "move_speed": 120.0
+  },
+  "15": {
+    "level": {
+      "integer": 20
+    },
+    "max_hp": {
+      "integer": 600
+    },
+    "defense": {
+      "integer": 80
+    },
+    "magic_defense": {
+      "integer": 120
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 30,
+    "move_speed": 60.0
+  },
+  "16": {
+    "level": {
+      "integer": 20
+    },
+    "max_hp": {
+      "integer": 700
+    },
+    "defense": {
+      "integer": 80
+    },
+    "magic_defense": {
+      "integer": 120
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 30,
+    "move_speed": 80.0
+  },
+  "17": {
+    "level": {
+      "integer": 20
+    },
+    "max_hp": {
+      "integer": 5000
+    },
+    "defense": {
+      "integer": 90
+    },
+    "magic_defense": {
+      "integer": 120
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 155,
+    "move_speed": 90.0
+  },
+  "18": {
+    "level": {
+      "integer": 23
+    },
+    "max_hp": {
+      "integer": 7000
+    },
+    "defense": {
+      "integer": 100
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 15
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 165,
+    "move_speed": 100.0
+  },
+  "19": {
+    "level": {
+      "integer": 100
+    },
+    "max_hp": {
+      "integer": 1000000
+    },
+    "defense": {
+      "integer": 100
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 15
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 260,
+    "move_speed": 120.0
+  },
+  "2": {
+    "level": {
+      "integer": 5
+    },
+    "max_hp": {
+      "integer": 90
+    },
+    "defense": {
+      "integer": 50
+    },
+    "magic_defense": {
+      "integer": 80
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 20,
+    "move_speed": 110.0
+  },
+  "20": {
+    "level": {
+      "integer": 25
+    },
+    "max_hp": {
+      "integer": 10000
+    },
+    "defense": {
+      "integer": 100
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 15
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 225,
+    "move_speed": 80.0
+  },
+  "21": {
+    "level": {
+      "integer": 25
+    },
+    "max_hp": {
+      "integer": 1200
+    },
+    "defense": {
+      "integer": 100
+    },
+    "magic_defense": {
+      "integer": 160
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 50
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 150,
+    "move_speed": 100.0
+  },
+  "22": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 250000
+    },
+    "defense": {
+      "integer": 300
+    },
+    "magic_defense": {
+      "integer": 350
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 105
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 40
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 100
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 200
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 100
+    },
+    "magic_penetration": {
+      "integer": 100
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 1000,
+    "move_speed": 400.0
+  },
+  "23": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 350000
+    },
+    "defense": {
+      "integer": 335
+    },
+    "magic_defense": {
+      "integer": 350
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 30
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 60
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 40
+    },
+    "magic_penetration": {
+      "integer": 40
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": {
+      "integer": {
+        "operation": "Mult",
+        "left": 250,
+        "right": {
+          "variable": "up_power"
+        }
+      }
+    },
+    "move_speed": 100.0
+  },
+  "24": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 400000
+    },
+    "defense": {
+      "integer": 500
+    },
+    "magic_defense": {
+      "integer": 500
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 40
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 35
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 60
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 50
+    },
+    "magic_penetration": {
+      "integer": 50
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 450,
+    "move_speed": 400.0
+  },
+  "25": {
+    "level": {
+      "integer": 25
+    },
+    "max_hp": {
+      "integer": 10000000000
+    },
+    "defense": {
+      "integer": 20
+    },
+    "magic_defense": {
+      "integer": 20
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 800,
+    "move_speed": 70.0
+  },
+  "26": {
+    "level": {
+      "integer": 25
+    },
+    "max_hp": {
+      "integer": 1300
+    },
+    "defense": {
+      "integer": 120
+    },
+    "magic_defense": {
+      "integer": 120
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 15
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 175,
+    "move_speed": 130.0
+  },
+  "27": {
+    "level": {
+      "integer": 25
+    },
+    "max_hp": {
+      "integer": 1600
+    },
+    "defense": {
+      "integer": 120
+    },
+    "magic_defense": {
+      "integer": 120
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 255,
+    "move_speed": 100.0
+  },
+  "28": {
+    "level": {
+      "integer": 25
+    },
+    "max_hp": {
+      "integer": 15000
+    },
+    "defense": {
+      "integer": 120
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 35
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 18
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 20
+    },
+    "magic_penetration": {
+      "integer": 20
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 180,
+    "move_speed": 60.0
+  },
+  "29": {
+    "level": {
+      "integer": {
+        "operation": "Add",
+        "left": {
+          "variable": "hero_level"
+        },
+        "right": 2
+      }
+    },
+    "max_hp": {
+      "integer": {
+        "operation": "Add",
+        "left": 5000,
+        "right": {
+          "operation": "Mult",
+          "left": {
+            "variable": "max_hp"
+          },
+          "right": 10
+        }
+      }
+    },
+    "defense": {
+      "integer": {
+        "operation": "Add",
+        "left": 65,
+        "right": {
+          "variable": "hero_defense"
+        }
+      }
+    },
+    "magic_defense": {
+      "integer": {
+        "operation": "Add",
+        "left": 65,
+        "right": {
+          "variable": "hero_magic_defense"
+        }
+      }
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 15
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 15
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": {
+      "integer": {
+        "operation": "Add",
+        "left": 40,
+        "right": {
+          "operation": "Mult",
+          "left": {
+            "variable": "attack"
+          },
+          "right": 0.2
+        }
+      }
+    },
+    "move_speed": 130.0
+  },
+  "3": {
+    "level": {
+      "integer": 5
+    },
+    "max_hp": {
+      "integer": 300
+    },
+    "defense": {
+      "integer": 50
+    },
+    "magic_defense": {
+      "integer": 80
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 65,
+    "move_speed": 120.0
+  },
+  "30": {
+    "level": {
+      "integer": 27
+    },
+    "max_hp": {
+      "integer": 20000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 15
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 338,
+    "move_speed": 80.0
+  },
+  "31": {
+    "level": {
+      "integer": 27
+    },
+    "max_hp": {
+      "integer": 15000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 15
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 368,
+    "move_speed": 80.0
+  },
+  "32": {
+    "level": {
+      "integer": 30
+    },
+    "max_hp": {
+      "integer": 20000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 30
+    },
+    "magic_penetration": {
+      "integer": 30
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 350,
+    "move_speed": 90.0
+  },
+  "33": {
+    "level": {
+      "integer": 27
+    },
+    "max_hp": {
+      "integer": 25000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 0,
+    "move_speed": 400.0
+  },
+  "34": {
+    "level": {
+      "integer": 999
+    },
+    "max_hp": {
+      "integer": 999999999
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 20
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 240,
+    "move_speed": 90.0
+  },
+  "35": {
+    "level": {
+      "integer": 90
+    },
+    "max_hp": {
+      "integer": 10000
+    },
+    "defense": {
+      "integer": 70
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 400,
+    "move_speed": 0.0
+  },
+  "36": {
+    "level": {
+      "integer": 90
+    },
+    "max_hp": {
+      "integer": 10000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 400,
+    "move_speed": 70.0
+  },
+  "37": {
+    "level": {
+      "integer": 27
+    },
+    "max_hp": {
+      "integer": 20000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 155
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 15
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 120,
+    "move_speed": 90.0
+  },
+  "38": {
+    "level": {
+      "integer": 99
+    },
+    "max_hp": {
+      "integer": 999999
+    },
+    "defense": {
+      "integer": 999
+    },
+    "magic_defense": {
+      "integer": 999
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 15
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 99,
+    "move_speed": 130.0
+  },
+  "39": {
+    "level": {
+      "integer": 27
+    },
+    "max_hp": {
+      "integer": 2000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 6
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 98,
+    "move_speed": 80.0
+  },
+  "4": {
+    "level": {
+      "integer": 10
+    },
+    "max_hp": {
+      "integer": 600
+    },
+    "defense": {
+      "integer": 50
+    },
+    "magic_defense": {
+      "integer": 80
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 55,
+    "move_speed": 90.0
+  },
+  "40": {
+    "level": {
+      "integer": 27
+    },
+    "max_hp": {
+      "integer": 2000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 15
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 100,
+    "move_speed": 80.0
+  },
+  "41": {
+    "level": {
+      "integer": 27
+    },
+    "max_hp": {
+      "integer": 20000
+    },
+    "defense": {
+      "integer": 120
+    },
+    "magic_defense": {
+      "integer": 120
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 270,
+    "move_speed": 80.0
+  },
+  "42": {
+    "level": {
+      "integer": {
+        "operation": "Add",
+        "left": {
+          "variable": "hero_level"
+        },
+        "right": 4
+      }
+    },
+    "max_hp": {
+      "integer": {
+        "operation": "Add",
+        "left": 500000,
+        "right": {
+          "operation": "Mult",
+          "left": {
+            "variable": "max_hp"
+          },
+          "right": 75
+        }
+      }
+    },
+    "defense": {
+      "integer": {
+        "variable": "hero_defense"
+      }
+    },
+    "magic_defense": {
+      "integer": {
+        "variable": "hero_magic_defense"
+      }
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "attack": {
+      "integer": {
+        "operation": "Add",
+        "left": 800,
+        "right": {
+          "variable": "attack"
+        }
+      }
+    },
+    "move_speed": 130.0
+  },
+  "43": {
+    "level": {
+      "integer": 27
+    },
+    "max_hp": {
+      "integer": 28000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 15
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 40
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 6
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 220,
+    "move_speed": 80.0
+  },
+  "44": {
+    "level": {
+      "integer": 90
+    },
+    "max_hp": {
+      "integer": 12000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 0,
+    "move_speed": 0.0
+  },
+  "45": {
+    "level": {
+      "integer": 90
+    },
+    "max_hp": {
+      "integer": 12000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 0,
+    "move_speed": 0.0
+  },
+  "46": {
+    "level": {
+      "integer": 90
+    },
+    "max_hp": {
+      "integer": 12000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 0,
+    "move_speed": 0.0
+  },
+  "47": {
+    "level": {
+      "integer": {
+        "variable": "hero_level"
+      }
+    },
+    "max_hp": {
+      "integer": 1
+    },
+    "defense": {
+      "integer": 0
+    },
+    "magic_defense": {
+      "integer": 0
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": {
+      "operation": "Add",
+      "left": {
+        "integer": {
+          "operation": "Mult",
+          "left": {
+            "variable": "max_hp"
+          },
+          "right": 0.04
+        }
+      },
+      "right": 1
+    },
+    "move_speed": 0.0
+  },
+  "48": {
+    "level": {
+      "integer": 30
+    },
+    "max_hp": {
+      "integer": 35000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": {
+          "operation": "Mult",
+          "left": -1,
+          "right": 10
+        }
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": {
+      "integer": {
+        "operation": "Add",
+        "left": 100,
+        "right": {
+          "operation": "Mult",
+          "left": {
+            "variable": "max_hp"
+          },
+          "right": 0.02
+        }
+      }
+    },
+    "move_speed": 80.0
+  },
+  "49": {
+    "level": {
+      "integer": 30
+    },
+    "max_hp": {
+      "integer": 30000
+    },
+    "defense": {
+      "integer": 125
+    },
+    "magic_defense": {
+      "integer": 125
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 240,
+    "move_speed": 70.0
+  },
+  "5": {
+    "level": {
+      "integer": 13
+    },
+    "max_hp": {
+      "integer": 1200
+    },
+    "defense": {
+      "integer": 50
+    },
+    "magic_defense": {
+      "integer": 80
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 55,
+    "move_speed": 110.0
+  },
+  "50": {
+    "level": {
+      "integer": 30
+    },
+    "max_hp": {
+      "integer": 35000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 120
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 18
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 16
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 260,
+    "move_speed": 120.0
+  },
+  "51": {
+    "level": {
+      "integer": 30
+    },
+    "max_hp": {
+      "integer": 3000
+    },
+    "defense": {
+      "integer": 170
+    },
+    "magic_defense": {
+      "integer": 130
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 22
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 20
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 150,
+    "move_speed": 70.0
+  },
+  "52": {
+    "level": {
+      "integer": 30
+    },
+    "max_hp": {
+      "integer": 2500
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 130
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": {
+          "operation": "Mult",
+          "left": -1,
+          "right": 20
+        }
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 20
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 130,
+    "move_speed": 70.0
+  },
+  "53": {
+    "level": {
+      "integer": 30
+    },
+    "max_hp": {
+      "integer": 2500
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 130
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": {
+          "operation": "Mult",
+          "left": -1,
+          "right": 20
+        }
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 20
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 90,
+    "move_speed": 70.0
+  },
+  "54": {
+    "level": {
+      "integer": 30
+    },
+    "max_hp": {
+      "integer": 3000
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 130
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 19
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 20
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 150,
+    "move_speed": 70.0
+  },
+  "55": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 300000
+    },
+    "defense": {
+      "integer": 350
+    },
+    "magic_defense": {
+      "integer": 350
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 15
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 15
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 15
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 80
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 700,
+    "move_speed": 60.0
+  },
+  "56": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 350000
+    },
+    "defense": {
+      "integer": 400
+    },
+    "magic_defense": {
+      "integer": 400
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 35
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 6
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 12
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 1000
+    },
+    "move_speed": 0.0
+  },
+  "57": {
+    "level": {
+      "integer": 50
+    },
+    "max_hp": {
+      "integer": 250000
+    },
+    "defense": {
+      "integer": 350
+    },
+    "magic_defense": {
+      "integer": 380
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 15
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 15
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 30
+    },
+    "magic_penetration": {
+      "integer": 70
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 600,
+    "move_speed": 100.0
+  },
+  "58": {
+    "level": {
+      "integer": 30
+    },
+    "max_hp": {
+      "integer": 5000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 100
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 180,
+    "move_speed": 80.0
+  },
+  "59": {
+    "level": {
+      "integer": 30
+    },
+    "max_hp": {
+      "integer": {
+        "operation": "Add",
+        "left": 19000,
+        "right": {
+          "operation": "Mult",
+          "left": {
+            "variable": "received_hits"
+          },
+          "right": 8000
+        }
+      }
+    },
+    "defense": {
+      "integer": {
+        "operation": "Add",
+        "left": 125,
+        "right": {
+          "operation": "Mult",
+          "left": {
+            "variable": "received_hits"
+          },
+          "right": 15
+        }
+      }
+    },
+    "magic_defense": {
+      "integer": {
+        "operation": "Add",
+        "left": 95,
+        "right": {
+          "operation": "Mult",
+          "left": {
+            "variable": "received_hits"
+          },
+          "right": 15
+        }
+      }
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": {
+          "operation": "Add",
+          "left": 5,
+          "right": {
+            "operation": "Mult",
+            "left": {
+              "variable": "received_hits"
+            },
+            "right": 0.2
+          }
+        }
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": {
+          "operation": "Add",
+          "left": 5,
+          "right": {
+            "operation": "Mult",
+            "left": {
+              "variable": "received_hits"
+            },
+            "right": 0.8
+          }
+        }
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": {
+        "operation": "Add",
+        "left": 5,
+        "right": {
+          "operation": "Mult",
+          "left": {
+            "variable": "received_hits"
+          },
+          "right": 0.5
+        }
+      }
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": {
+          "operation": "Add",
+          "left": 5,
+          "right": {
+            "operation": "Mult",
+            "left": {
+              "variable": "received_hits"
+            },
+            "right": 0.5
+          }
+        }
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": {
+        "operation": "Mult",
+        "left": {
+          "variable": "received_hits"
+        },
+        "right": 70
+      }
+    },
+    "attack": {
+      "operation": "Add",
+      "left": 128,
+      "right": {
+        "operation": "Mult",
+        "left": {
+          "variable": "received_hits"
+        },
+        "right": 25
+      }
+    },
+    "move_speed": 100.0
+  },
+  "6": {
+    "level": {
+      "integer": 18
+    },
+    "max_hp": {
+      "integer": 6000
+    },
+    "defense": {
+      "integer": 90
+    },
+    "magic_defense": {
+      "integer": 90
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 70,
+    "move_speed": 110.0
+  },
+  "60": {
+    "level": {
+      "integer": 30
+    },
+    "max_hp": {
+      "integer": 33000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 120
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 22
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 15
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 338,
+    "move_speed": 100.0
+  },
+  "67": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 35000
+    },
+    "defense": {
+      "integer": 130
+    },
+    "magic_defense": {
+      "integer": 120
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 5
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 150,
+    "move_speed": 100.0
+  },
+  "68": {
+    "level": {
+      "integer": {
+        "operation": "Add",
+        "left": {
+          "variable": "hero_level"
+        },
+        "right": 2
+      }
+    },
+    "max_hp": {
+      "integer": 3000
+    },
+    "defense": {
+      "integer": 120
+    },
+    "magic_defense": {
+      "integer": 120
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": {
+      "random": "randi_range",
+      "min": 100,
+      "max": 150
+    },
+    "move_speed": 90.0
+  },
+  "69": {
+    "level": {
+      "integer": 45
+    },
+    "max_hp": {
+      "integer": 3000
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 120
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 18
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 20
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 268,
+    "move_speed": 130.0
+  },
+  "7": {
+    "level": {
+      "integer": 17
+    },
+    "max_hp": {
+      "integer": 370
+    },
+    "defense": {
+      "integer": 60
+    },
+    "magic_defense": {
+      "integer": 70
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 25,
+    "move_speed": 80.0
+  },
+  "72": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 40000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 18
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 18
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 20
+    },
+    "magic_penetration": {
+      "integer": 20
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 288,
+    "move_speed": 120.0
+  },
+  "73": {
+    "level": {
+      "integer": 90
+    },
+    "max_hp": {
+      "integer": 1
+    },
+    "defense": {
+      "integer": 1
+    },
+    "magic_defense": {
+      "integer": 1
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 1
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": {
+      "operation": "Add",
+      "left": 1,
+      "right": {
+        "operation": "Mult",
+        "left": {
+          "variable": "max_hp"
+        },
+        "right": 0.04
+      }
+    },
+    "move_speed": 150.0
+  },
+  "74": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 4000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 200,
+    "move_speed": 90.0
+  },
+  "75": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 4000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 200,
+    "move_speed": 140.0
+  },
+  "76": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 5000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 18
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 25
+    },
+    "magic_penetration": {
+      "integer": 25
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 200,
+    "move_speed": 110.0
+  },
+  "77": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 40000
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 180
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 330,
+    "move_speed": 140.0
+  },
+  "78": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 40000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 500,
+    "move_speed": 100.0
+  },
+  "79": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 50000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 200,
+    "move_speed": 150.0
+  },
+  "8": {
+    "level": {
+      "integer": 17
+    },
+    "max_hp": {
+      "integer": 2500
+    },
+    "defense": {
+      "integer": 500
+    },
+    "magic_defense": {
+      "integer": 500
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 200
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 500
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 50
+    },
+    "attack": 0,
+    "move_speed": 0.0
+  },
+  "80": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 8000
+    },
+    "defense": {
+      "integer": 160
+    },
+    "magic_defense": {
+      "integer": 160
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 18
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 10
+    },
+    "magic_penetration": {
+      "integer": 10
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 225,
+    "move_speed": 90.0
+  },
+  "81": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 7000
+    },
+    "defense": {
+      "integer": 160
+    },
+    "magic_defense": {
+      "integer": 160
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 18
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 8
+    },
+    "magic_penetration": {
+      "integer": 8
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 225,
+    "move_speed": 110.0
+  },
+  "82": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 6000
+    },
+    "defense": {
+      "integer": 130
+    },
+    "magic_defense": {
+      "integer": 130
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 58
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 20
+    },
+    "magic_penetration": {
+      "integer": 20
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 325,
+    "move_speed": 140.0
+  },
+  "83": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 85000
+    },
+    "defense": {
+      "integer": 170
+    },
+    "magic_defense": {
+      "integer": 170
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 22
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 18
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 10
+    },
+    "magic_penetration": {
+      "integer": 10
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 225,
+    "move_speed": 100.0
+  },
+  "84": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 90000
+    },
+    "defense": {
+      "integer": 170
+    },
+    "magic_defense": {
+      "integer": 170
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 18
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 10
+    },
+    "magic_penetration": {
+      "integer": 10
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 225,
+    "move_speed": 100.0
+  },
+  "85": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 100000
+    },
+    "defense": {
+      "integer": 170
+    },
+    "magic_defense": {
+      "integer": 170
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 18
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 10
+    },
+    "magic_penetration": {
+      "integer": 10
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 225,
+    "move_speed": 100.0
+  },
+  "87": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 13000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 35
+    },
+    "magic_penetration": {
+      "integer": 35
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 130,
+    "move_speed": 100.0
+  },
+  "88": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 12000
+    },
+    "defense": {
+      "integer": 140
+    },
+    "magic_defense": {
+      "integer": 140
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 70
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 70
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 35
+    },
+    "magic_penetration": {
+      "integer": 35
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 150,
+    "move_speed": 80.0
+  },
+  "89": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 120000
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 180
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 70
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 35
+    },
+    "magic_penetration": {
+      "integer": 35
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 400,
+    "move_speed": 100.0
+  },
+  "9": {
+    "level": {
+      "integer": 18
+    },
+    "max_hp": {
+      "integer": 450
+    },
+    "defense": {
+      "integer": 60
+    },
+    "magic_defense": {
+      "integer": 70
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 8
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 35,
+    "move_speed": 70.0
+  },
+  "90": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 15000
+    },
+    "defense": {
+      "integer": 120
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 25
+    },
+    "magic_penetration": {
+      "integer": 25
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 300,
+    "move_speed": 130.0
+  },
+  "91": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 130000
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 180
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 20
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 20
+    },
+    "magic_penetration": {
+      "integer": 20
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 330,
+    "move_speed": 90.0
+  },
+  "92": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 16000
+    },
+    "defense": {
+      "integer": 150
+    },
+    "magic_defense": {
+      "integer": 150
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 25
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 70
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 15
+    },
+    "magic_penetration": {
+      "integer": 15
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 300,
+    "move_speed": 80.0
+  },
+  "93": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 140000
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 180
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 0
+    },
+    "magic_penetration": {
+      "integer": 0
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 500,
+    "move_speed": 120.0
+  },
+  "94": {
+    "level": {
+      "integer": 35
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    }
+  },
+  "95": {
+    "level": {
+      "integer": 35
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    }
+  },
+  "96": {
+    "level": {
+      "integer": 35
+    },
+    "max_hp": {
+      "integer": 60000
+    },
+    "defense": {
+      "integer": 180
+    },
+    "magic_defense": {
+      "integer": 180
+    },
+    "critical_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 10
+      },
+      "right": 100
+    },
+    "dodge_chance": {
+      "operation": "Div",
+      "left": {
+        "integer": 18
+      },
+      "right": 100
+    },
+    "luck": {
+      "integer": 0
+    },
+    "accuracy": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "armor_penetration": {
+      "integer": 30
+    },
+    "magic_penetration": {
+      "integer": 30
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "attack": 505,
+    "move_speed": 120.0
+  },
+  "97": {
+    "level": {
+      "integer": 40
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "move_speed": 80.0
+  },
+  "98": {
+    "level": {
+      "integer": 40
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "move_speed": 120.0
+  },
+  "99": {
+    "level": {
+      "integer": 40
+    },
+    "toughness": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "critical_reduction": {
+      "operation": "Div",
+      "left": {
+        "integer": 0
+      },
+      "right": 100
+    },
+    "hp_regen": {
+      "integer": 0
+    },
+    "move_speed": 150.0
+  }
+}

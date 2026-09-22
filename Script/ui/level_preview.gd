@@ -9,6 +9,7 @@ var profile: PlayerProfile
 var spawn_speed_multiplier: int = 1
 
 func _ready() -> void:
+	$ColorRect/TextureRect/Speed/speedtext.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	$ColorRect/TextureRect/Close.pressed.connect(closed.emit)
 	$ColorRect/TextureRect/Challenge.pressed.connect(func(): challenge_requested.emit(level_id))
 	$ColorRect/TextureRect/Speed.pressed.connect(_toggle_spawn_speed)

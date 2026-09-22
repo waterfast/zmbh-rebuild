@@ -21,6 +21,7 @@ var progression: PlayerProgression
 var _skills: Array[StringName] = []
 var _skill_categories: Array[StringName] = []
 var _slots: Array[TextureRect] = []
+var _relic_skill: StringName = &""
 var _elapsed: float = 0.0
 
 @onready var _hp: TextureProgressBar = get_node(STATUS + "hp_bar")
@@ -45,9 +46,16 @@ func _ready() -> void:
 	_set_button("pet", pet_requested.emit, "宠物")
 	get_node(LAYER + "Gogo").hide()
 	get_node(STATUS + "RoleProtect").hide()
-	get_node(MENU + "SkillBox/MagicWeaponSkillCD").tooltip_text = "法宝技能使用统一技能触发流程"
+	get_node(MENU + "SkillBox/MagicWeaponSkillCD").tooltip_text = "实战法宝 H"
 	get_node(MENU + "SkillBox2/ZhenFa").tooltip_text = "阵法系统尚未迁移"
+	var relic_slot: Control = get_node(MENU + "SkillBox/MagicWeaponSkillCD")
+	relic_slot.mouse_filter = Control.MOUSE_FILTER_STOP
+	relic_slot.gui_input.connect(_relic_input)
 	_refresh_skills()
+
+func _relic_input(event: InputEvent) -> void:
+	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT and not _relic_skill.is_empty() and not get_tree().paused:
+		actor.use_ability(_relic_skill, &"magic_weapon")
 
 func _ignore_pointer_input(node: Node) -> void:
 	if node is Control:
@@ -110,10 +118,26 @@ func _refresh_skills() -> void:
 				if event is InputEventKey:
 					keys[input.source.slots[action_name]] = OS.get_keycode_string(event.physical_keycode if event.physical_keycode != 0 else event.keycode)
 					break
+	_relic_skill = input.source.slots.get(&"magic_weapon", &"") if input != null and input.source is ActionInputSource else &""
+	var relic_slot := get_node(MENU + "SkillBox/MagicWeaponSkillCD")
+	relic_slot.get_node("skillicon").texture = null
+	if not _relic_skill.is_empty():
+		var relic_definition := actor.abilities.get_definition(_relic_skill)
+		if relic_definition != null:
+			relic_slot.tooltip_text = relic_definition.display_name
+			var relic_data: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://content/combat/relic_presentation.json"))
+			for item_id: String in relic_data:
+				if RelicAbilityRegistry.ITEM_TO_ABILITY.get(StringName(item_id)) == _relic_skill:
+					var data: Dictionary = relic_data[item_id]
+					relic_slot.tooltip_text = data.get("skill", "")
+					var texture: Texture2D = load(data.icon) if data.has("icon") else null
+					relic_slot.get_node("skillicon").texture = texture
+					relic_slot.get_node("PicBox").texture_progress = texture
+
 	var pending: Array = []
 	for id: StringName in actor.abilities.granted_ids():
 		var definition := actor.abilities.get_definition(id)
-		if definition != null and definition.passive:
+		if definition != null and (definition.passive or actor.abilities.has_category(id, &"magic_weapon")):
 			continue
 		var index := SLOT_NAMES.find(String(keys.get(id, "")))
 		if index >= 0 and _skills[index].is_empty():
@@ -185,6 +209,12 @@ func _process(delta: float) -> void:
 	if _elapsed < 0.1 or not is_instance_valid(actor):
 		return
 	_elapsed = 0.0
+	if not _relic_skill.is_empty():
+		var relic_slot := get_node(MENU + "SkillBox/MagicWeaponSkillCD")
+		var remaining := actor.abilities.remaining_cooldown(_relic_skill)
+		var definition := actor.abilities.get_definition(_relic_skill)
+		relic_slot.get_node("TimeText").text = "%.1f" % remaining if remaining > 0 else ""
+		relic_slot.get_node("PicBox").value = remaining / definition.cooldown if definition != null and definition.cooldown > 0 else 0
 	for index in range(_skills.size()):
 		if _skills[index].is_empty():
 			continue

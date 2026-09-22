@@ -13,6 +13,7 @@ const MELEE_SCENE = preload("res://actors/melee.tscn")
 @export var debug_draw: bool = true
 
 var combatant: Combatant
+var combo := AttackCombo.new()
 var motor := CharacterMotor.new()
 var locomotion := LocomotionState.new()
 var action := ActionState.new()
@@ -26,6 +27,7 @@ var _corpse_time: float = 0.0
 var _melee: Hitbox
 var current_animation: StringName
 var _normal_cooldown: float = 0.0
+var _action_timeline: CharacterActionTimeline
 var _pending_action: AbilityDefinition
 var _release_remaining: float = 0.0
 
@@ -45,6 +47,7 @@ func _ready() -> void:
 func _physics_process(delta: float) -> void:
 	_advance_pending_action(delta)
 	action.tick(delta)
+	combo.tick(delta)
 	_normal_cooldown = maxf(0.0, _normal_cooldown - delta)
 	abilities.tick(delta)
 	if _attack_intent:
@@ -84,15 +87,18 @@ func request_dash(speed: float, duration: float) -> void:
 	motor.dash(facing * speed, duration)
 
 func register_attack(hitbox: Hitbox) -> void:
-	_cancel_melee()
+	if is_instance_valid(_melee):
+		_melee.cancel()
 	_melee = hitbox
 
 func attack() -> bool:
 	if normal_attack != null:
-		if _normal_cooldown > 0.0 or not action.try_start(ActionState.State.ATTACK, normal_attack.cast_duration):
+		var attack_definition := combo.next(normal_attack)
+		if _normal_cooldown > 0.0 or not action.try_start(ActionState.State.ATTACK, attack_definition.cast_duration):
 			return false
-		_normal_cooldown = normal_attack.cooldown
-		_schedule_action(normal_attack)
+		_normal_cooldown = attack_definition.cooldown
+		combo.advance(attack_definition.cast_duration)
+		_schedule_action(attack_definition)
 		return true
 	if not action.try_start(ActionState.State.ATTACK, 0.35):
 		return false
@@ -115,7 +121,10 @@ func _on_cast(data: AbilityDefinition) -> void:
 	_schedule_action(data)
 
 func _schedule_action(data: AbilityDefinition) -> void:
+	if is_instance_valid(_action_timeline):
+		_action_timeline.cancel()
 	current_animation = data.animation
+	_action_timeline = CharacterActionCatalog.present(self, data)
 	if data.release_delay <= 0.0:
 		AbilityExecutor.execute(data, self)
 	else:
@@ -137,6 +146,7 @@ func _advance_pending_action(delta: float) -> void:
 func _on_damaged(_amount: float, hitstun: float) -> void:
 	if hitstun > 0.0 and combatant.health.is_alive():
 		_pending_action = null
+		combo.reset()
 		action.hurt(hitstun)
 		motor.stop_impulses()
 		_cancel_melee()
@@ -151,6 +161,9 @@ func _on_died() -> void:
 	hurtbox.set_deferred("monitorable", false)
 
 func _cancel_melee() -> void:
+	if is_instance_valid(_action_timeline):
+		_action_timeline.cancel()
+		_action_timeline = null
 	if is_instance_valid(_melee):
 		_melee.cancel()
 		_melee = null

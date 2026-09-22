@@ -9,13 +9,14 @@ extends AbilityEffect
 @export var damage_type: HitData.DamageType = HitData.DamageType.PHYSICAL
 @export var buff: BuffDefinition
 
-func execute(actor: Node2D, _definition: AbilityDefinition) -> void:
+func execute(actor: Node2D, definition: AbilityDefinition) -> void:
 	var scene: PackedScene = load(scene_path)
 	if scene == null or actor.get_parent() == null:
 		return
 	var projectile = scene.instantiate()
-	projectile.payload = HitData.from_attacker(actor.combatant, actor.combatant.stats.value(&"attack") * power_scale)
-	projectile.payload.damage_type = damage_type
+	projectile.payload = OriginalCombatCatalog.payload(actor, definition, power_scale)
+	if OriginalCombatCatalog.hit(definition.character_id, definition.animation).is_empty():
+		projectile.payload.damage_type = damage_type
 	projectile.payload.buff = buff
 	projectile.speed = speed
 	projectile.direction = actor.facing

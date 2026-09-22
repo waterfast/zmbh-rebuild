@@ -1,0 +1,1456 @@
+{
+  "1": {
+    "death": {
+      "duration": 1.0999999999999999,
+      "speed": 3.0,
+      "hitbox": false,
+      "events": {
+        "add_music": [
+          0.0
+        ],
+        "play": [
+          0.0
+        ]
+      }
+    },
+    "drop": {
+      "duration": 0.45,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {}
+    },
+    "hit1": {
+      "duration": 0.35000000000000003,
+      "speed": 3.0,
+      "hitbox": true,
+      "events": {
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "hit2": {
+      "duration": 0.31666666666666665,
+      "speed": 3.0,
+      "hitbox": true,
+      "events": {
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "hit3": {
+      "duration": 0.31666666666666665,
+      "speed": 3.0,
+      "hitbox": true,
+      "events": {
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "hit4": {
+      "duration": 0.31666666666666665,
+      "speed": 3.0,
+      "hitbox": true,
+      "events": {
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "hmz__": {
+      "duration": 1.5,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {}
+    },
+    "hurt": {
+      "duration": 0.225,
+      "speed": 2.0,
+      "hitbox": false,
+      "events": {
+        "reset": [
+          0.0
+        ]
+      }
+    },
+    "hyjj": {
+      "duration": 0.775,
+      "speed": 2.0,
+      "hitbox": false,
+      "events": {
+        "add_music": [
+          0.0
+        ],
+        "call_hyjj": [
+          0.7
+        ]
+      }
+    },
+    "hytj": {
+      "duration": 0.5,
+      "speed": 2.0,
+      "hitbox": true,
+      "events": {
+        "removeSpeed": [
+          0.5
+        ]
+      }
+    },
+    "jdy": {
+      "duration": 0.55,
+      "speed": 2.0,
+      "hitbox": true,
+      "events": {
+        "add_music": [
+          0.0
+        ],
+        "removeSpeed": [
+          0.55
+        ]
+      }
+    },
+    "jdy_1": {
+      "duration": 0.55,
+      "speed": 2.0,
+      "hitbox": true,
+      "events": {
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "jump1": {
+      "duration": 0.45833333333333337,
+      "speed": 1.2,
+      "hitbox": false,
+      "events": {}
+    },
+    "jump2": {
+      "duration": 0.225,
+      "speed": 2.0,
+      "hitbox": false,
+      "events": {}
+    },
+    "lyfb": {
+      "duration": 0.35000000000000003,
+      "speed": 3.0,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.0
+        ]
+      }
+    },
+    "lys": {
+      "duration": 0.3333333333333333,
+      "speed": 3.0,
+      "hitbox": true,
+      "events": {
+        "removeSpeed": [
+          0.3333333333333333
+        ]
+      }
+    },
+    "qsez": {
+      "duration": 0.6,
+      "speed": 3.0,
+      "hitbox": true,
+      "events": {
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "run": {
+      "duration": 0.2916666666666667,
+      "speed": 1.2,
+      "hitbox": false,
+      "events": {
+        "reset": [
+          0.0
+        ]
+      }
+    },
+    "slz": {
+      "duration": 0.34210526315789475,
+      "speed": 1.9,
+      "hitbox": true,
+      "events": {}
+    },
+    "wait": {
+      "duration": 0.7000000000000001,
+      "speed": 1.5,
+      "hitbox": false,
+      "events": {
+        "reset": [
+          0.0
+        ]
+      }
+    },
+    "zz": {
+      "duration": 1.0,
+      "speed": 3.0,
+      "hitbox": true,
+      "events": {
+        "add_music": [
+          0.0
+        ],
+        "fly": [
+          0.03333333333333333,
+          0.06666666666666667,
+          0.09999999999999999,
+          0.13333333333333333,
+          0.16666666666666666,
+          0.19999999999999998,
+          0.2333333333333333,
+          0.26666666666666666,
+          0.3,
+          0.3333333333333333,
+          0.3666666666666667,
+          0.39999999999999997,
+          0.43333333333333335,
+          0.4666666666666666,
+          0.5,
+          0.5333333333333333,
+          0.5666666666666667,
+          0.6,
+          0.6333333333333333,
+          0.6666666666666666,
+          0.7000000000000001,
+          0.7333333333333334
+        ],
+        "reset": [
+          0.7666666666666666
+        ]
+      }
+    }
+  },
+  "2": {
+    "blb": {
+      "duration": 0.8,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "ADDMusic": [
+          0.0,
+          0.5
+        ],
+        "AddBLb": [
+          0.5001
+        ]
+      }
+    },
+    "death": {
+      "duration": 1.6666666666666667,
+      "speed": 3.0,
+      "hitbox": false,
+      "events": {
+        "ADDMusic": [
+          0.0
+        ],
+        "play": [
+          0.0
+        ]
+      }
+    },
+    "drop": {
+      "duration": 0.45,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {}
+    },
+    "hit1": {
+      "duration": 0.55,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "ADDMusic": [
+          0.0
+        ],
+        "AddNormalHitEffect": [
+          0.2
+        ]
+      }
+    },
+    "hurt": {
+      "duration": 0.225,
+      "speed": 2.0,
+      "hitbox": false,
+      "events": {}
+    },
+    "jgz": {
+      "duration": 0.6,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "ADDMusic": [
+          0.0
+        ],
+        "AddJGZ": [
+          0.2
+        ]
+      }
+    },
+    "jhsj": {
+      "duration": 2.2,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "AddJHSJ": [
+          0.0
+        ],
+        "ADDMusic": [
+          0.1
+        ],
+        "SetInsky": [
+          0.2
+        ],
+        "AddJHSJ2": [
+          0.3
+        ],
+        "ResetInsky": [
+          2.1
+        ]
+      }
+    },
+    "jump1": {
+      "duration": 0.45833333333333337,
+      "speed": 1.2,
+      "hitbox": false,
+      "events": {}
+    },
+    "jump2": {
+      "duration": 0.225,
+      "speed": 2.0,
+      "hitbox": false,
+      "events": {}
+    },
+    "myhc": {
+      "duration": 0.75,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "ADDMusic": [
+          0.0
+        ],
+        "SetInsky": [
+          0.0001
+        ],
+        "AddMYHC": [
+          0.2
+        ],
+        "ResetInsky": [
+          0.7
+        ]
+      }
+    },
+    "run": {
+      "duration": 0.2833333333333334,
+      "speed": 1.2,
+      "hitbox": false,
+      "events": {}
+    },
+    "sgq": {
+      "duration": 1.0,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "Addsgq": [
+          0.7
+        ]
+      }
+    },
+    "shy": {
+      "duration": 0.19999999999999998,
+      "speed": 1.5,
+      "hitbox": false,
+      "events": {
+        "ADDMusic": [
+          0.0
+        ],
+        "AddShallow": [
+          0.06666666666666667
+        ]
+      }
+    },
+    "smb_1": {
+      "duration": 1.0,
+      "speed": 3.0,
+      "hitbox": false,
+      "events": {
+        "AddSMb_1": [
+          0.0
+        ],
+        "ResetSMB": [
+          0.9666666666666667
+        ],
+        "SetInsky": [
+          0.0
+        ],
+        "ResetInsky": [
+          0.9666666666666667
+        ],
+        "EmoveSMB1": [
+          0.9666666666666667
+        ]
+      }
+    },
+    "smb_2": {
+      "duration": 0.5,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "EmoveSMB1": [
+          0.0
+        ],
+        "AddSMb_2": [
+          0.1
+        ],
+        "ResetSMB": [
+          0.0
+        ],
+        "ResetInsky": [
+          0.4,
+          0.0001
+        ],
+        "removespeedy": [
+          0.0
+        ],
+        "AddShake": [
+          0.4
+        ]
+      }
+    },
+    "tjgl": {
+      "duration": 1.5,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "ADDMusic": [
+          0.0
+        ],
+        "AddTJGL": [
+          0.0001
+        ],
+        "SetInsky": [
+          0.0
+        ],
+        "ResetInsky": [
+          1.4
+        ]
+      }
+    },
+    "wait": {
+      "duration": 2.6,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {}
+    },
+    "xbz": {
+      "duration": 1.3333333333333335,
+      "speed": 1.2,
+      "hitbox": false,
+      "events": {
+        "SetInsky": [
+          0.0
+        ],
+        "ADDMusic": [
+          0.4166666666666667
+        ],
+        "AddXBZ": [
+          0.41675
+        ],
+        "AddShake": [
+          0.5
+        ],
+        "ResetInsky": [
+          1.25
+        ]
+      }
+    }
+  },
+  "3": {
+    "death": {
+      "duration": 1.6666666666666667,
+      "speed": 3.0,
+      "hitbox": false,
+      "events": {
+        "add_music": [
+          0.0
+        ],
+        "play": [
+          0.0
+        ]
+      }
+    },
+    "dgq": {
+      "duration": 1.0,
+      "speed": 2.0,
+      "hitbox": true,
+      "events": {
+        "add_music": [
+          0.0
+        ],
+        "Rush": [
+          0.1
+        ]
+      }
+    },
+    "dj": {
+      "duration": 1.0333333333333334,
+      "speed": 1.5,
+      "hitbox": true,
+      "events": {
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "drop": {
+      "duration": 0.45,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {}
+    },
+    "hit1": {
+      "duration": 0.3,
+      "speed": 2.0,
+      "hitbox": true,
+      "events": {
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "hit2": {
+      "duration": 0.3,
+      "speed": 2.0,
+      "hitbox": true,
+      "events": {
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "hit3": {
+      "duration": 0.325,
+      "speed": 2.0,
+      "hitbox": true,
+      "events": {
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "hurt": {
+      "duration": 0.225,
+      "speed": 2.0,
+      "hitbox": false,
+      "events": {}
+    },
+    "jsp": {
+      "duration": 0.87,
+      "speed": 2.0,
+      "hitbox": true,
+      "events": {
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "jump1": {
+      "duration": 0.45833333333333337,
+      "speed": 1.2,
+      "hitbox": false,
+      "events": {}
+    },
+    "jump2": {
+      "duration": 0.225,
+      "speed": 2.0,
+      "hitbox": false,
+      "events": {}
+    },
+    "run": {
+      "duration": 0.2833333333333334,
+      "speed": 1.2,
+      "hitbox": false,
+      "events": {}
+    },
+    "sd": {
+      "duration": 0.1,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "AddSD": [
+          0.0
+        ],
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "ssp": {
+      "duration": 0.7142857142857143,
+      "speed": 1.4,
+      "hitbox": false,
+      "events": {
+        "AddSSP": [
+          0.0
+        ],
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "syzq": {
+      "duration": 0.8142857142857143,
+      "speed": 1.4,
+      "hitbox": false,
+      "events": {
+        "add_music": [
+          0.0
+        ],
+        "CallSYZQ": [
+          0.7142857142857143
+        ]
+      }
+    },
+    "tmc": {
+      "duration": 6.0,
+      "speed": 2.5,
+      "hitbox": false,
+      "events": {
+        "removetmc": [
+          6.0
+        ],
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "tmc2": {
+      "duration": 1.0,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "add_music": [
+          0.0
+        ],
+        "AddTMC": [
+          0.0001
+        ],
+        "removetmc": [
+          0.1
+        ]
+      }
+    },
+    "wait": {
+      "duration": 2.6666666666666665,
+      "speed": 0.9,
+      "hitbox": false,
+      "events": {}
+    },
+    "xgq": {
+      "duration": 1.11,
+      "speed": 2.0,
+      "hitbox": true,
+      "events": {
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "zznh": {
+      "duration": 0.2,
+      "speed": 0.5,
+      "hitbox": false,
+      "events": {
+        "AddZZNH": [
+          0.0
+        ],
+        "add_music": [
+          0.0
+        ]
+      }
+    }
+  },
+  "4": {
+    "dcj_1": {
+      "duration": 0.8333333333333334,
+      "speed": 1.2,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.0
+        ],
+        "Rush": [
+          0.0
+        ],
+        "RemoveSpeed": [
+          0.16666666666666669
+        ],
+        "ADDMusic": [
+          0.0
+        ]
+      }
+    },
+    "dcj_2": {
+      "duration": 0.8333333333333334,
+      "speed": 1.2,
+      "hitbox": true,
+      "events": {
+        "ADDMusic": [
+          0.0
+        ],
+        "play": [
+          0.0
+        ]
+      }
+    },
+    "death": {
+      "duration": 2.0,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "play": [
+          0.0
+        ]
+      }
+    },
+    "drop": {
+      "duration": 0.45,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "play": [
+          0.0
+        ]
+      }
+    },
+    "hit1_1": {
+      "duration": 0.5,
+      "speed": 1.2,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.16666666666666669
+        ],
+        "ADDMusic": [
+          0.0
+        ]
+      }
+    },
+    "hit1_2": {
+      "duration": 0.5384615384615384,
+      "speed": 1.3,
+      "hitbox": false,
+      "events": {
+        "AddArrowHitEffect1": [
+          0.3076923076923077
+        ],
+        "ADDMusic": [
+          0.0
+        ]
+      }
+    },
+    "hit2_1": {
+      "duration": 0.4615384615384615,
+      "speed": 1.3,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.15384615384615385
+        ],
+        "ADDMusic": [
+          0.0
+        ]
+      }
+    },
+    "hit2_2": {
+      "duration": 0.5,
+      "speed": 1.6,
+      "hitbox": false,
+      "events": {
+        "ADDMusic": [
+          0.0
+        ],
+        "AddArrowHitEffect2": [
+          0.0625,
+          0.18749999999999997,
+          0.3125
+        ]
+      }
+    },
+    "hit3_1": {
+      "duration": 0.7000000000000001,
+      "speed": 1.5,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.0
+        ],
+        "ADDMusic": [
+          0.0
+        ]
+      }
+    },
+    "hurt": {
+      "duration": 0.225,
+      "speed": 2.0,
+      "hitbox": false,
+      "events": {
+        "play": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "jdz": {
+      "duration": 1.0,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "ADDMusic": [
+          0.5
+        ],
+        "CallJDZ": [
+          0.5
+        ]
+      }
+    },
+    "jump1": {
+      "duration": 0.45833333333333337,
+      "speed": 1.2,
+      "hitbox": false,
+      "events": {
+        "play": [
+          0.0
+        ]
+      }
+    },
+    "jump2": {
+      "duration": 0.225,
+      "speed": 2.0,
+      "hitbox": false,
+      "events": {
+        "play": [
+          0.0
+        ]
+      }
+    },
+    "mbyj": {
+      "duration": 0.6,
+      "speed": 2.0,
+      "hitbox": true,
+      "events": {
+        "ADDMusic": [
+          0.0
+        ],
+        "play": [
+          0.0
+        ]
+      }
+    },
+    "mmw_1": {
+      "duration": 0.7142857142857143,
+      "speed": 1.4,
+      "hitbox": false,
+      "events": {
+        "ADDMusic": [
+          0.0
+        ],
+        "AddShovelEffect1": [
+          0.14285714285714288
+        ]
+      }
+    },
+    "mmw_2": {
+      "duration": 1.0,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "play": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "AddArrowMMWSpecialEffect": [
+          0.0
+        ],
+        "ADDMusic": [
+          0.0
+        ],
+        "ToTop2": [
+          0.0
+        ],
+        "RemoveSpeed": [
+          0.1
+        ],
+        "Fall": [
+          1.0
+        ]
+      }
+    },
+    "qlj_1": {
+      "duration": 0.6666666666666667,
+      "speed": 1.2,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.25
+        ],
+        "ADDMusic": [
+          0.0
+        ]
+      }
+    },
+    "qlj_2": {
+      "duration": 0.6666666666666667,
+      "speed": 1.2,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.0
+        ],
+        "ToTop": [
+          0.0
+        ],
+        "RemoveSpeed": [
+          0.08333333333333334,
+          0.16666666666666669,
+          0.25,
+          0.33333333333333337,
+          0.4166666666666667,
+          0.5,
+          0.5833333333333334,
+          0.6666666666666667
+        ],
+        "ADDMusic": [
+          0.0
+        ]
+      }
+    },
+    "run": {
+      "duration": 0.3090909090909091,
+      "speed": 1.1,
+      "hitbox": false,
+      "events": {
+        "play": [
+          0.0
+        ]
+      }
+    },
+    "tkj_1": {
+      "duration": 0.8,
+      "speed": 1.0,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.0
+        ],
+        "FlyTop": [
+          0.3
+        ]
+      }
+    },
+    "tkj_2": {
+      "duration": 0.7142857142857143,
+      "speed": 1.4,
+      "hitbox": false,
+      "events": {
+        "play": [
+          0.0
+        ],
+        "ADDMusic": [
+          0.0
+        ],
+        "ToTop2": [
+          0.0
+        ],
+        "RemoveSpeed": [
+          0.07142857142857144
+        ],
+        "Fall": [
+          0.7142857142857143
+        ],
+        "ADDArrowTKJEffect": [
+          0.0
+        ]
+      }
+    },
+    "wait": {
+      "duration": 4.222222222222222,
+      "speed": 0.9,
+      "hitbox": false,
+      "events": {
+        "play": [
+          0.0
+        ]
+      }
+    },
+    "wdww": {
+      "duration": 0.5,
+      "speed": 2.0,
+      "hitbox": false,
+      "events": {
+        "ADDMusic": [
+          0.0
+        ],
+        "play": [
+          0.0
+        ],
+        "CallWDWW": [
+          0.4
+        ]
+      }
+    },
+    "wdww_2": {
+      "duration": 0.5,
+      "speed": 2.0,
+      "hitbox": false,
+      "events": {
+        "play": [
+          0.0
+        ],
+        "CallWDWW": [
+          0.45
+        ],
+        "ADDMusic": [
+          0.0
+        ]
+      }
+    },
+    "wdzt": {
+      "duration": 0.45,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "ADDMusic": [
+          0.0
+        ],
+        "AddWDZT": [
+          0.0
+        ]
+      }
+    },
+    "zq_1": {
+      "duration": 1.0,
+      "speed": 1.0,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.1
+        ],
+        "ADDMusic": [
+          0.0
+        ]
+      }
+    },
+    "zq_2": {
+      "duration": 1.0,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "AddArrowZQSpecialEffect": [
+          0.2
+        ],
+        "ADDMusic": [
+          0.0
+        ]
+      }
+    }
+  },
+  "5": {
+    "blq": {
+      "duration": 0.6666666666666666,
+      "speed": 1.5,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.13333333333333333
+        ],
+        "InTheSky": [
+          0.0
+        ],
+        "RoleRush": [
+          0.13333333333333333
+        ],
+        "NoInTheSky": [
+          0.6666666666666666
+        ],
+        "Role5SkillBt": [
+          0.0
+        ],
+        "Role5SkillBtOver": [
+          0.6666666666666666
+        ],
+        "RemoveYspeed": [
+          0.0
+        ],
+        "add_music": [
+          0.13333333333333333
+        ],
+        "RemoveXspeed": [
+          0.6666666666666666
+        ]
+      }
+    },
+    "cxq": {
+      "duration": 1.909090909090909,
+      "speed": 1.1,
+      "hitbox": true,
+      "events": {
+        "Role5SkillBt": [
+          0.0
+        ],
+        "Role5SkillBtOver": [
+          1.909090909090909
+        ],
+        "add_music": [
+          0.0,
+          1.3636363636363635
+        ],
+        "play": [
+          0.0,
+          1.6363636363636362
+        ],
+        "InTheSky": [
+          0.0
+        ],
+        "RemoveYspeed": [
+          9.09090909090909e-05
+        ],
+        "NoInTheSky": [
+          1.909090909090909
+        ],
+        "SkillMove": [
+          0.0
+        ],
+        "ChangecxqHit": [
+          1.5454545454545452
+        ],
+        "SkillMoveOver": [
+          1.909090909090909
+        ]
+      }
+    },
+    "death": {
+      "duration": 3.0,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "play": [
+          0.0
+        ],
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "drop": {
+      "duration": 0.45,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {}
+    },
+    "fhf": {
+      "duration": 1.0,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {
+        "add_music": [
+          0.0
+        ],
+        "RoleRush5": [
+          0.3
+        ],
+        "RemoveXspeed": [
+          0.5
+        ],
+        "play": [
+          0.0,
+          0.5,
+          0.7
+        ],
+        "RemoveYspeed": [
+          0.0
+        ],
+        "InTheSky": [
+          0.0
+        ],
+        "NoInTheSky": [
+          1.0
+        ]
+      }
+    },
+    "hit1": {
+      "duration": 0.45,
+      "speed": 1.0,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.2
+        ],
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "hit2": {
+      "duration": 0.45,
+      "speed": 1.0,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.2
+        ],
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "hit3": {
+      "duration": 0.5,
+      "speed": 1.0,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.2
+        ],
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "hit4": {
+      "duration": 0.75,
+      "speed": 1.0,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.0
+        ],
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "hit5": {
+      "duration": 0.375,
+      "speed": 1.2,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.16666666666666669
+        ],
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "hurt": {
+      "duration": 0.225,
+      "speed": 2.0,
+      "hitbox": false,
+      "events": {
+        "play": [
+          0.0
+        ]
+      }
+    },
+    "jump1": {
+      "duration": 0.45833333333333337,
+      "speed": 1.2,
+      "hitbox": false,
+      "events": {}
+    },
+    "jump2": {
+      "duration": 0.225,
+      "speed": 2.0,
+      "hitbox": false,
+      "events": {}
+    },
+    "lljy": {
+      "duration": 0.6,
+      "speed": 1.0,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.1
+        ],
+        "RemoveYspeed": [
+          0.0
+        ],
+        "InTheSky": [
+          0.0001
+        ],
+        "NoInTheSky": [
+          0.6
+        ],
+        "add_music": [
+          0.0,
+          0.6
+        ],
+        "RoleRush3": [
+          0.0
+        ],
+        "RemoveXspeed": [
+          0.3
+        ],
+        "CallBullet3": [
+          0.6
+        ]
+      }
+    },
+    "llrd": {
+      "duration": 0.5454545454545454,
+      "speed": 1.1,
+      "hitbox": false,
+      "events": {
+        "TweenToTop": [
+          0.0
+        ],
+        "UpDownSpeed": [
+          0.45454545454545453
+        ],
+        "RemoveYspeed": [
+          0.0
+        ],
+        "add_music": [
+          0.09090909090909091
+        ],
+        "CallBullet2": [
+          0.2727272727272727
+        ],
+        "play": [
+          0.2727272727272727
+        ]
+      }
+    },
+    "run": {
+      "duration": 0.4,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {}
+    },
+    "slq": {
+      "duration": 0.45,
+      "speed": 2.0,
+      "hitbox": false,
+      "events": {
+        "SlqFly": [
+          0.0
+        ],
+        "add_music": [
+          0.0
+        ]
+      }
+    },
+    "tllz": {
+      "duration": 0.7999999999999999,
+      "speed": 1.5,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.0,
+          0.5333333333333333
+        ],
+        "add_music": [
+          0.0,
+          0.5333333333333333
+        ],
+        "RoleRush4": [
+          0.0
+        ],
+        "CallBullet4": [
+          0.5333333333333333
+        ],
+        "RemoveYspeed": [
+          0.0
+        ],
+        "RemoveXspeed": [
+          0.39999999999999997
+        ],
+        "InTheSky": [
+          0.0
+        ],
+        "NoInTheSky": [
+          0.6666666666666666
+        ]
+      }
+    },
+    "wait": {
+      "duration": 4.2,
+      "speed": 1.0,
+      "hitbox": false,
+      "events": {}
+    },
+    "xyq": {
+      "duration": 1.5,
+      "speed": 1.0,
+      "hitbox": true,
+      "events": {
+        "play": [
+          0.0,
+          1.3
+        ],
+        "Role5SkillBt": [
+          0.0
+        ],
+        "ChangexyqHit": [
+          1.3
+        ],
+        "Role5SkillBtOver": [
+          1.5
+        ],
+        "RoleRush2": [
+          0.0
+        ],
+        "RemoveXspeed": [
+          1.3
+        ],
+        "add_music": [
+          0.0,
+          1.3
+        ]
+      }
+    },
+    "ygth": {
+      "duration": 2.0,
+      "speed": 1.5,
+      "hitbox": true,
+      "events": {
+        "Role5SkillBt": [
+          0.0
+        ],
+        "Role5SkillBtOver": [
+          2.0
+        ],
+        "RemoveYspeed": [
+          0.0
+        ],
+        "InTheSky": [
+          6.666666666666667e-05
+        ],
+        "NoInTheSky": [
+          2.0
+        ],
+        "add_music": [
+          0.0,
+          1.6666666666666667
+        ],
+        "CallBullet5": [
+          1.8
+        ],
+        "play": [
+          0.0
+        ]
+      }
+    }
+  }
+}

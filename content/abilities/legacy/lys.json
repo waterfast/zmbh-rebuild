@@ -7,10 +7,10 @@
   "slot": 3,
   "passive": false,
   "mp_cost": 12,
-  "cooldown": 2.4,
+  "cooldown": 2.8,
   "cast_duration": 0.3,
   "migration_status": "prototype",
-  "migration_note": "名称、描述、槽位和一级消耗来自原版；效果组合为可运行原型，尚未逐帧还原位移/多段/特殊机制；冷却使用原型值。",
+  "migration_note": "场景、伤害表达式、耗蓝和主施放冷却来自原项目；特殊状态及派生攻击需逐项验收，不能据此认定整个技能等价。",
   "effects": [
     {
       "kind": "self_buff",
@@ -25,5 +25,35 @@
       "speed": 650.0,
       "duration": 0.18
     }
-  ]
+  ],
+  "mp_expression": {
+    "operation": "Add",
+    "left": 12,
+    "right": {
+      "operation": "Mult",
+      "left": {
+        "operation": "Add",
+        "left": 4,
+        "right": {
+          "operation": "Mult",
+          "left": 2,
+          "right": {
+            "operation": "Sub",
+            "left": {
+              "variable": "skill_level"
+            },
+            "right": 1
+          }
+        }
+      },
+      "right": {
+        "operation": "Sub",
+        "left": {
+          "variable": "skill_level"
+        },
+        "right": 1
+      }
+    }
+  },
+  "icon_path": "res://assets/Art/Skill/SkillIcon/lys.png"
 }

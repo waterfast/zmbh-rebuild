@@ -38,7 +38,7 @@ func _run() -> void:
 	var preview := load("res://Scene/OtherScene/LevelInfo.tscn").instantiate() as LevelPreview
 	preview.level_id = &"level_1"
 	preview.profile = profile
-	root.add_child(preview)
+	map1._layer.add_child(preview)
 	await process_frame
 	check(preview.get_node("ColorRect/TextureRect/Title").text == "花果山", "原关卡确认窗口显示关卡名")
 	check(preview.get_node("ColorRect/TextureRect/ScrollContainer2/MonsterList").get_child_count() == 3, "原确认窗口保留敌方头像列表")
@@ -57,7 +57,11 @@ func _run() -> void:
 	speed_event.button_index = MOUSE_BUTTON_LEFT
 	speed_event.pressed = true
 	speed_event.position = speed.get_global_rect().get_center()
-	Input.parse_input_event(speed_event)
+	root.push_input(speed_event, true)
+	await process_frame
+	var release_event := speed_event.duplicate() as InputEventMouseButton
+	release_event.pressed = false
+	root.push_input(release_event, true)
 	await process_frame
 	check(preview.get_node("ColorRect/TextureRect/Speed/speedtext").text == "×2", "真实点击移速按钮切换倍率")
 	preview.free()

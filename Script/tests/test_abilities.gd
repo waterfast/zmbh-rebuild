@@ -52,22 +52,22 @@ func _test_damage() -> void:
 	var attacker := Combatant.new(definition, 1)
 	var target := Combatant.new(definition, 2)
 	var hit := HitData.from_attacker(attacker, 20.0)
-	check(CombatResolver.resolve(hit, target) == 17.0, "Default damage preserves original rules")
+	check(CombatResolver.resolve(hit, target) == 19.0, "Original monster defense uses a ratio and integer truncation")
 	target.stats.set_modifier(&"magic", &"magic_defense", 8.0)
 	hit.damage_type = HitData.DamageType.MAGIC
 	hit.magic_penetration = 3.0
-	check(CombatResolver.resolve(hit, target) == 15.0, "Magic defense and penetration")
+	check(CombatResolver.resolve(hit, target) == 19.0, "Magic defense and penetration")
 	target.stats.set_modifier(&"mitigation", &"damage_reduction", 0.5)
 	hit.damage_type = HitData.DamageType.TRUE
-	check(CombatResolver.resolve(hit, target) == 20.0, "True damage bypasses defense and reduction")
+	check(CombatResolver.resolve(hit, target) == 10.0, "True damage bypasses defense but preserves final modifiers")
 	hit.damage_type = HitData.DamageType.PHYSICAL
-	hit.critical_chance = 1.0
+	hit.critical_chance = 1000000000.0
 	hit.critical_multiplier = 2.0
-	check(CombatResolver.resolve(hit, target) == 18.5, "Critical damage applies before defense and reduction")
-	target.stats.set_modifier(&"dodge", &"dodge_chance", 1.0)
+	check(CombatResolver.resolve(hit, target) == 19.0, "Critical damage applies before defense and reduction")
+	target.stats.set_modifier(&"dodge", &"dodge_chance", 1000000000.0)
 	check(CombatResolver.resolve(hit, target) == 0.0, "Guaranteed dodge avoids damage")
-	hit.accuracy = 1.0
-	check(CombatResolver.resolve(hit, target) == 18.5, "Accuracy offsets dodge")
+	hit.accuracy = 1000000000.0
+	check(CombatResolver.resolve(hit, target) == 19.0, "Accuracy offsets dodge")
 	target.health.heal(100.0)
 	hit.critical_chance = 0.0
 	hit.ignores_defense = true
@@ -86,19 +86,19 @@ func _test_passives_and_buffs() -> void:
 	attacker.passives.grant(passive, &"weapon")
 	var hit := HitData.from_attacker(attacker, 13.0)
 	CombatResolver.resolve(hit, target)
-	check(attacker.health.current == 55.0, "Passive receives actual damage for lifesteal")
+	check(attacker.health.current == 56.0, "Passive receives actual damage for lifesteal")
 	CombatResolver.resolve(hit, target)
-	check(attacker.health.current == 55.0, "Passive cooldown prevents repeated triggers")
+	check(attacker.health.current == 56.0, "Passive cooldown prevents repeated triggers")
 	attacker.tick(1.0)
 	CombatResolver.resolve(hit, target)
-	check(attacker.health.current == 60.0, "Passive cooldown expires through combatant tick")
+	check(attacker.health.current == 62.0, "Passive cooldown expires through combatant tick")
 	attacker.passives.grant(passive, &"ring")
 	attacker.passives.remove_source(&"weapon")
 	CombatResolver.resolve(hit, target)
-	check(attacker.health.current == 65.0, "Passive removal preserves another equipment source")
+	check(attacker.health.current == 68.0, "Passive removal preserves another equipment source")
 	attacker.passives.remove_source(&"ring")
 	CombatResolver.resolve(hit, target)
-	check(attacker.health.current == 65.0, "Removed passives stop triggering")
+	check(attacker.health.current == 68.0, "Removed passives stop triggering")
 	var armor := BuffDefinition.new()
 	armor.id = &"armor"
 	armor.duration = 1.0

@@ -12,14 +12,47 @@
   "animation": "blb",
   "release_delay": 0.5001,
   "migration_status": "prototype",
-  "migration_note": "角色释放时间与法术动画/碰撞轨道已从原 Scene 迁移；击退、技能成长及完整伤害公式仍待等价验收。",
+  "migration_note": "场景、伤害表达式、耗蓝和主施放冷却来自原项目；特殊状态及派生攻击需逐项验收，不能据此认定整个技能等价。",
   "effects": [
     {
       "kind": "timeline_attack",
       "scene_path": "res://Scene/Combat/IceDragonWave.tscn",
-      "offset": [15, -41],
+      "offset": [
+        15,
+        -41
+      ],
       "power_scale": 0.55,
       "damage_type": 1
     }
-  ]
+  ],
+  "mp_expression": {
+    "operation": "Add",
+    "left": 15,
+    "right": {
+      "operation": "Mult",
+      "left": {
+        "operation": "Add",
+        "left": 3,
+        "right": {
+          "operation": "Mult",
+          "left": 2,
+          "right": {
+            "operation": "Sub",
+            "left": {
+              "variable": "skill_level"
+            },
+            "right": 1
+          }
+        }
+      },
+      "right": {
+        "operation": "Sub",
+        "left": {
+          "variable": "skill_level"
+        },
+        "right": 1
+      }
+    }
+  },
+  "icon_path": "res://assets/Art/Skill/SkillIcon/blb.png"
 }

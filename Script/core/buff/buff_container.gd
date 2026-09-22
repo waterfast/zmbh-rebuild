@@ -73,6 +73,8 @@ func tick(delta: float, target: Combatant) -> void:
 				pulse.hitstun = 0.0
 				pulse.ignores_defense = true
 				pulse.can_dodge = false
+				pulse.can_crit = false
+				pulse.source_level = int(target.stats.value(&"level"))
 				pulse.triggers_passives = false
 				_pending_hits.append(pulse)
 		if instance.remaining <= 0.00001:

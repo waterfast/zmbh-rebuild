@@ -35,7 +35,7 @@ func _test_rules() -> void:
 	check(is_equal_approx(attacker.stats.value(&"attack"), 24.0), "按来源撤销属性")
 	check(definition.attack == 20.0 and target.stats.value(&"attack") == 20.0, "共享 Resource 不串改")
 	var hit := HitData.from_attacker(attacker, 20.0)
-	check(CombatResolver.resolve(hit, target) == 17.0, "防御结算")
+	check(CombatResolver.resolve(hit, target) == 19.0, "原版防御比率结算")
 	check(CombatResolver.resolve(hit, attacker) == 0.0, "友军不受伤")
 	var armor: BuffDefinition = load("res://content/super_armor.tres")
 	target.buffs.add(armor, &"a")
@@ -45,15 +45,15 @@ func _test_rules() -> void:
 	var observed: Array[float] = []
 	target.damaged.connect(func(_amount: float, stun: float): observed.append(stun))
 	CombatResolver.resolve(hit, target)
-	check(observed.back() == 0.0 and target.health.current == 66.0, "霸体免硬直但不免伤")
+	check(observed.back() == 0.0 and target.health.current == 62.0, "霸体免硬直但不免伤")
 	target.buffs.tick(3.0, target)
 	check(not target.buffs.has_tag(&"super_armor"), "霸体到期")
 	var poison: BuffDefinition = load("res://content/poison.tres")
 	target.buffs.add(poison, &"poison", hit)
 	target.buffs.tick(5.5, target)
-	check(target.health.current == 46.0, "长帧补齐 5 次中毒，不多扣到期伤害")
+	check(target.health.current == 42.0, "长帧补齐 5 次中毒，不多扣到期伤害")
 	target.buffs.tick(2.0, target)
-	check(target.health.current == 46.0, "中毒移除后不再扣血")
+	check(target.health.current == 42.0, "中毒移除后不再扣血")
 	var deaths: Array[int] = []
 	target.health.died.connect(func(): deaths.append(1))
 	target.health.damage(1000.0)
@@ -146,12 +146,12 @@ func _test_scene() -> void:
 	player.facing = 1.0
 	player.attack()
 	await frames(12)
-	check(enemy.combatant.health.current == 32.0, "真实 Hitbox 命中一次，不逐帧重复伤害")
+	check(enemy.combatant.health.current == 31.0, "真实 Hitbox 命中一次，不逐帧重复伤害")
 	await frames(15)
 	enemy.position = player.position + Vector2(160, 0)
 	player.use_ability(&"test_projectile")
 	await frames(35)
-	check(is_equal_approx(enemy.combatant.health.current, 17.5), "真实匀速飞行物碰撞扣血")
+	check(is_equal_approx(enemy.combatant.health.current, 16.0), "真实匀速飞行物碰撞扣血")
 	await frames(100)
 	var projectiles := 0
 	for child in arena.get_children():

@@ -8,8 +8,7 @@ const INVENTORY_SCENE := preload("res://Scene/UI/Inventory.tscn")
 const QUEST_SCENE := preload("res://Scene/UI/QuestJournal.tscn")
 const SETTINGS_SCENE := preload("res://Scene/UI/InGameSettings.tscn")
 const SKILL_SCENE := preload("res://Scene/UI/Skill/LearnSkill.tscn")
-const MAGIC_WEAPON_SCENE := preload("res://Scene/UI/MagicWeaponPanel.tscn")
-const PET_SCENE := preload("res://Scene/UI/PetPanel.tscn")
+const MAGIC_WEAPON_SCENE := preload("res://Scene/UI/MagicWeaponUpgrade.tscn")
 const PROFILE_PATH := "user://zaomeng_profile.json"
 var profile := PlayerProfile.new()
 var load_saved_profile: bool = true
@@ -22,8 +21,7 @@ var inventory_screen: InventoryScreen
 var quest_screen: QuestScreen
 var settings_screen: InGameSettingsScreen
 var skill_screen: SkillLearningScreen
-var magic_weapon_screen: MagicWeaponPanel
-var pet_screen: PetPanel
+var magic_weapon_screen: MagicWeaponUpgrade
 var settings_store := SettingsStore.new()
 var ui_layer: CanvasLayer
 var _manual_pause: bool = false
@@ -66,6 +64,8 @@ func _load_level(id: StringName) -> void:
 	if view != null:
 		view.set_skin(profile.selected_skin)
 	profile.attach_actor(player)
+	player.combatant.health.heal(player.combatant.health.maximum)
+	player.abilities.restore_mp(player.abilities.maximum_mp)
 	encounter = StageEncounter.new()
 	world.add_child(encounter)
 	encounter.setup(world, player)
@@ -139,7 +139,7 @@ func _show_quests() -> void:
 	_update_pause()
 
 func _any_overlay_open() -> bool:
-	return is_instance_valid(inventory_screen) or is_instance_valid(quest_screen) or is_instance_valid(settings_screen) or is_instance_valid(skill_screen) or is_instance_valid(magic_weapon_screen) or is_instance_valid(pet_screen)
+	return is_instance_valid(inventory_screen) or is_instance_valid(quest_screen) or is_instance_valid(settings_screen) or is_instance_valid(skill_screen) or is_instance_valid(magic_weapon_screen)
 
 func _show_settings() -> void:
 	if _any_overlay_open():
@@ -158,6 +158,7 @@ func _show_skills() -> void:
 	ui_layer.add_child(skill_screen)
 	skill_screen.setup(profile, player)
 	skill_screen.closed.connect(_close_skills)
+	skill_screen.changed.connect(_save)
 	_update_pause()
 
 func _show_magic_weapon() -> void:
@@ -167,16 +168,12 @@ func _show_magic_weapon() -> void:
 	ui_layer.add_child(magic_weapon_screen)
 	magic_weapon_screen.setup(profile, player)
 	magic_weapon_screen.closed.connect(_close_magic_weapon)
+	magic_weapon_screen.changed.connect(_save)
 	_update_pause()
 
 func _show_pet() -> void:
-	if _any_overlay_open():
-		return
-	pet_screen = PET_SCENE.instantiate()
-	ui_layer.add_child(pet_screen)
-	pet_screen.setup(profile, player)
-	pet_screen.closed.connect(_close_pet)
-	_update_pause()
+	if not _any_overlay_open():
+		hud.notify("敬请期待")
 
 func _close_inventory() -> void:
 	if is_instance_valid(inventory_screen):
@@ -234,12 +231,6 @@ func _close_magic_weapon() -> void:
 	magic_weapon_screen = null
 	_update_pause()
 
-func _close_pet() -> void:
-	if is_instance_valid(pet_screen):
-		pet_screen.queue_free()
-	pet_screen = null
-	_update_pause()
-
 func _toggle_pause() -> void:
 	if is_instance_valid(inventory_screen):
 		_close_inventory()
@@ -251,8 +242,6 @@ func _toggle_pause() -> void:
 		_close_skills()
 	elif is_instance_valid(magic_weapon_screen):
 		_close_magic_weapon()
-	elif is_instance_valid(pet_screen):
-		_close_pet()
 	else:
 		_manual_pause = not _manual_pause
 		_update_pause()

@@ -10,6 +10,36 @@
   "cooldown": 2.4,
   "cast_duration": 0.3,
   "migration_status": "metadata_only",
-  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
-  "effects": []
+  "migration_note": "场景、伤害表达式、耗蓝和主施放冷却来自原项目；特殊状态及派生攻击需逐项验收，不能据此认定整个技能等价。",
+  "effects": [],
+  "mp_expression": {
+    "operation": "Add",
+    "left": 10,
+    "right": {
+      "operation": "Mult",
+      "left": {
+        "operation": "Add",
+        "left": 2,
+        "right": {
+          "operation": "Mult",
+          "left": 2,
+          "right": {
+            "operation": "Sub",
+            "left": {
+              "variable": "skill_level"
+            },
+            "right": 1
+          }
+        }
+      },
+      "right": {
+        "operation": "Sub",
+        "left": {
+          "variable": "skill_level"
+        },
+        "right": 1
+      }
+    }
+  },
+  "icon_path": "res://assets/Art/Skill/SkillIcon/ssp.png"
 }

@@ -1,0 +1,33 @@
+[gd_scene format=3]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(1922.56, 6301)
+
+[sub_resource type="RectangleShape2D" id="2"]
+size = Vector2(9296.5, 431.375)
+
+[node name="BaseThoughLevel" type="Node2D"]
+position = Vector2(1, 112)
+
+[node name="wall" type="StaticBody2D" parent="."]
+
+[node name="wall_left" type="CollisionShape2D" parent="wall"]
+position = Vector2(-959.719, -419.5)
+shape = SubResource( "1" )
+
+[node name="thb" type="CollisionShape2D" parent="wall"]
+position = Vector2(4612.5, -595.875)
+shape = SubResource( "2" )
+
+[node name="BackGround" type="ParallaxBackground" parent="."]
+
+[node name="End" type="ParallaxLayer" parent="BackGround"]
+motion_scale = Vector2(0, 0)
+
+[node name="floor_2" type="ParallaxLayer" parent="BackGround"]
+
+[node name="floor" type="TileMap" parent="BackGround/floor_2"]
+format = 2
+
+[node name="exit" type="Marker2D" parent="."]
+position = Vector2(439, 387)

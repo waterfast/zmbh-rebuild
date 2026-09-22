@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "csgs",
+  "legacy": {
+    "名字": "苍生挂饰",
+    "所属": "通用",
+    "品质": "精良",
+    "类型": "饰品",
+    "颜色": "008aff",
+    "SHp": 0,
+    "SMp": 0,
+    "power": {
+      "random": "randi_range",
+      "min": 50,
+      "max": 55
+    },
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 7,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 3,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "苍天之下，至于酆都蔫蔫然枯草木，独挂饰盎然，万劫亦重生。",
+    "售价": 80,
+    "强化属性": {
+      "power": 9,
+      "Crit": 2
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

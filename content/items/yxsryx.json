@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "yxsryx",
+  "legacy": {
+    "名字": "射日英雄",
+    "所属": "通用",
+    "品质": "优秀",
+    "类型": "头衔",
+    "颜色": "00FF00",
+    "SHp": 100,
+    "SMp": 0,
+    "power": 10,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "",
+    "售价": 40,
+    "强化属性": {},
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

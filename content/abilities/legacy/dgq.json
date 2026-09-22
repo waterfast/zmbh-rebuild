@@ -1,0 +1,15 @@
+{
+  "id": "dgq",
+  "legacy_id": "dgq",
+  "display_name": "地滚球",
+  "description": "自身化作土球，快速向前翻滚，造成伤害，翻滚期间处于无法被命中状态",
+  "character_id": 3,
+  "slot": 3,
+  "passive": false,
+  "mp_cost": 15,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

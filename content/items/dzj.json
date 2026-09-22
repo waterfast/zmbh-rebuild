@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "dzj",
+  "legacy": {
+    "名字": "地藏戒",
+    "所属": "通用",
+    "品质": "史诗",
+    "类型": "饰品",
+    "颜色": "800080",
+    "SHp": 150,
+    "SMp": 150,
+    "power": 15,
+    "Def": 20,
+    "Mdef": 20,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "",
+    "售价": 320,
+    "强化属性": {
+      "SHp": 50,
+      "SMp": 50,
+      "power": 15
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

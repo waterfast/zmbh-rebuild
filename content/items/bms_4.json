@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "bms_4",
+  "legacy": {
+    "名字": "4级暴免石",
+    "所属": "宝石",
+    "品质": "史诗",
+    "类型": "道具",
+    "颜色": "800080",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 5,
+    "ar": 0,
+    "sp": 0,
+    "描述": "镶嵌后提供5暴免，也合成为5级暴免石。",
+    "售价": 0,
+    "强化属性": {}
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

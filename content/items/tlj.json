@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "tlj",
+  "legacy": {
+    "名字": "天龙甲",
+    "所属": "白龙",
+    "品质": "魂器",
+    "类型": "防具",
+    "颜色": "00ffff",
+    "SHp": {
+      "random": "randi_range",
+      "min": 1000,
+      "max": 1050
+    },
+    "SMp": {
+      "random": "randi_range",
+      "min": 440,
+      "max": 485
+    },
+    "power": 0,
+    "Def": 35,
+    "Mdef": 35,
+    "Crit": 20,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 3,
+    "vampirism": 0.0,
+    "Lucky": 15,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "",
+    "售价": 640,
+    "强化属性": {
+      "SHp": 100,
+      "Crit": 1,
+      "Lucky": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

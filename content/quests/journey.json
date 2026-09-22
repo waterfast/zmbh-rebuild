@@ -1,0 +1,8 @@
+{
+  "id": "journey",
+  "name": "踏上西行路",
+  "description": "完成一处关卡。",
+  "event": "level_completed",
+  "goal": 1,
+  "reward": {"gold": 150, "experience": 60}
+}

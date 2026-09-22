@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "hms_5",
+  "legacy": {
+    "名字": "5级回魔石",
+    "所属": "宝石",
+    "品质": "传说",
+    "类型": "道具",
+    "颜色": "FFA500",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 5,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "镶嵌后提供5回魔。",
+    "售价": 0,
+    "强化属性": {}
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

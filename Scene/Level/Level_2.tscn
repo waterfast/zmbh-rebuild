@@ -1,0 +1,141 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://content/world/geometry/base_geometry.tscn" id="1"]
+
+[ext_resource type="PackedScene" path="res://content/world/geometry/XP.tscn" id="3"]
+
+[ext_resource type="PackedScene" path="res://content/world/geometry/stage.tscn" id="4"]
+
+[ext_resource type="Texture2D" path="res://assets/Art/Level/Level_1/19_1.png" id="5"]
+
+[ext_resource type="Texture2D" path="res://assets/Art/Level/level_2/50.png" id="6"]
+
+[ext_resource type="PackedScene" path="res://content/world/geometry/River.tscn" id="7"]
+
+[ext_resource type="Texture2D" path="res://assets/Art/Level/level_2/227.png" id="8"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(1887, 84)
+
+[sub_resource type="RectangleShape2D" id="2"]
+size = Vector2(705, 82)
+
+[sub_resource type="RectangleShape2D" id="3"]
+size = Vector2(382.5, 82)
+
+[sub_resource type="RectangleShape2D" id="4"]
+size = Vector2(1278, 82)
+
+[sub_resource type="RectangleShape2D" id="5"]
+size = Vector2(879.75, 994)
+
+[sub_resource type="RectangleShape2D" id="6"]
+size = Vector2(1131.38, 994)
+
+[sub_resource type="RectangleShape2D" id="7"]
+size = Vector2(56, 994)
+
+[sub_resource type="RectangleShape2D" id="8"]
+size = Vector2(1270.38, 994)
+
+[sub_resource type="RectangleShape2D" id="9"]
+size = Vector2(1022, 1004)
+
+[sub_resource type="RectangleShape2D" id="10"]
+size = Vector2(174, 250)
+
+[node name="Level_2" instance=ExtResource( "1" )]
+
+[node name="wall" parent="."]
+position = Vector2(0, -6)
+
+[node name="斜坡" parent="wall" instance=ExtResource( "3" )]
+position = Vector2(533, 338)
+
+[node name="斜坡2" parent="wall" instance=ExtResource( "3" )]
+position = Vector2(4255, 336)
+
+[node name="floor" type="CollisionShape2D" parent="wall"]
+position = Vector2(936.5, 439)
+shape = SubResource( "1" )
+
+[node name="floor3" type="CollisionShape2D" parent="wall"]
+position = Vector2(2783.5, 443)
+shape = SubResource( "2" )
+
+[node name="floor4" type="CollisionShape2D" parent="wall"]
+position = Vector2(3281.75, 470)
+shape = SubResource( "3" )
+
+[node name="floor5" type="CollisionShape2D" parent="wall"]
+position = Vector2(4096, 441)
+shape = SubResource( "4" )
+
+[node name="stage" parent="wall" instance=ExtResource( "4" )]
+position = Vector2(1487, 256)
+
+[node name="stage2" parent="wall" instance=ExtResource( "4" )]
+position = Vector2(1215, 253)
+
+[node name="stage3" parent="wall" instance=ExtResource( "4" )]
+position = Vector2(2012, 156)
+
+[node name="stage4" parent="wall" instance=ExtResource( "4" )]
+position = Vector2(2177, 9)
+
+[node name="stage5" parent="wall" instance=ExtResource( "4" )]
+position = Vector2(2344, 153)
+
+[node name="stage6" parent="wall" instance=ExtResource( "4" )]
+position = Vector2(3292, 244)
+
+[node name="stop1" type="CollisionShape2D" parent="wall"]
+position = Vector2(1538.13, -21)
+shape = SubResource( "5" )
+disabled = true
+
+[node name="stop2" type="CollisionShape2D" parent="wall"]
+position = Vector2(2801.31, -17)
+shape = SubResource( "6" )
+disabled = true
+
+[node name="stop3" type="CollisionShape2D" parent="wall"]
+position = Vector2(3527, -19)
+shape = SubResource( "7" )
+disabled = true
+
+[node name="stop4" type="CollisionShape2D" parent="wall"]
+position = Vector2(5222.81, -18)
+shape = SubResource( "8" )
+
+[node name="stop5" type="CollisionShape2D" parent="wall"]
+position = Vector2(3042, -22)
+shape = SubResource( "9" )
+
+disabled = true
+
+[node name="WALL" type="CollisionShape2D" parent="wall"]
+position = Vector2(1819, 408)
+shape = SubResource( "10" )
+
+[node name="Sprite2D" type="Sprite2D" parent="BackGround/End"]
+position = Vector2(723, 244)
+texture = ExtResource( "5" )
+
+[node name="front" type="ParallaxLayer" parent="BackGround"]
+
+[node name="50" type="Sprite2D" parent="BackGround/front"]
+position = Vector2(2339, 329)
+texture = ExtResource( "6" )
+
+[node name="floor" type="ParallaxLayer" parent="BackGround"]
+
+[node name="River" parent="BackGround/floor" instance=ExtResource( "7" )]
+position = Vector2(2986, 567)
+
+[node name="227" type="Sprite2D" parent="BackGround/floor"]
+position = Vector2(2360, 493)
+texture = ExtResource( "8" )
+
+[node name="exit" parent="."]
+position = Vector2(4254, 240)

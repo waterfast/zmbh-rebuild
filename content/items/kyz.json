@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "kyz",
+  "legacy": {
+    "名字": "枯叶杖",
+    "所属": "唐僧",
+    "品质": "史诗",
+    "类型": "武器",
+    "颜色": "800080",
+    "SHp": 0,
+    "SMp": 700,
+    "power": {
+      "random": "randi_range",
+      "min": 195,
+      "max": 210
+    },
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 5,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": {
+      "random": "randi_range",
+      "min": 20,
+      "max": 22
+    },
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "求不得，放不下，梧桐化成杖，孤走枯苍道。",
+    "售价": 160,
+    "强化属性": {
+      "power": 25,
+      "SMp": 110,
+      "Htarget": 3
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mmw",
+  "legacy_id": "mmw",
+  "display_name": "木魔舞",
+  "description": "释放回旋镖在附近不停的移动，造成魔法伤害。",
+  "character_id": 4,
+  "slot": 5,
+  "passive": false,
+  "mp_cost": 25,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ygth",
+  "legacy_id": "ygth",
+  "display_name": "银钩铁画",
+  "description": "快速挥舞长枪，造成多次打击，最后一击召唤巨型银钩",
+  "character_id": 5,
+  "slot": 8,
+  "passive": false,
+  "mp_cost": 40,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

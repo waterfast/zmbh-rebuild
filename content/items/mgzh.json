@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "mgzh",
+  "legacy": {
+    "名字": "马官指环",
+    "所属": "通用",
+    "品质": "史诗",
+    "类型": "饰品",
+    "颜色": "800080",
+    "SHp": 0,
+    "SMp": 240,
+    "power": 100,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 15,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 5,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "马行处，雪无痕，相见难，别亦难。",
+    "售价": 160,
+    "强化属性": {},
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

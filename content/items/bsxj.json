@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "bsxj",
+  "legacy": {
+    "名字": "白霜胸甲",
+    "所属": "悟空",
+    "品质": "精良",
+    "类型": "防具",
+    "颜色": "008aff",
+    "SHp": {
+      "random": "randi_range",
+      "min": 330,
+      "max": 350
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": {
+      "random": "randi_range",
+      "min": 15,
+      "max": 18
+    },
+    "Mdef": {
+      "random": "randi_range",
+      "min": 15,
+      "max": 18
+    },
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 2,
+    "vampirism": 0,
+    "Lucky": {
+      "random": "randi_range",
+      "min": 7,
+      "max": 9
+    },
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "bsyj",
+    "描述": "极寒之地的千年冰魄，锻造的胸甲，散发出无法靠近的寒气。",
+    "售价": 80,
+    "强化属性": {
+      "SHp": 45,
+      "Def": 2,
+      "Mdef": 2,
+      "Lucky": 2
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

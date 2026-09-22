@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "jljs",
+  "legacy": {
+    "名字": "锦镧袈裟",
+    "所属": "唐僧",
+    "品质": "史诗",
+    "类型": "防具",
+    "颜色": "800080",
+    "SHp": {
+      "random": "randi_range",
+      "min": 430,
+      "max": 450
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 30,
+    "Mdef": 30,
+    "Crit": 0,
+    "Miss": {
+      "random": "randi_range",
+      "min": 12,
+      "max": 14
+    },
+    "R_hp": 0,
+    "R_mp": 6,
+    "vampirism": 0.0,
+    "Lucky": {
+      "random": "randi_range",
+      "min": 16,
+      "max": 18
+    },
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "观音菩萨交给取经人的袈裟，镶嵌七宝，水火不侵，蕴藏无尽的法力。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 75,
+      "Lucky": 1,
+      "Miss": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

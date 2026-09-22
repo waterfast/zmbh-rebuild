@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "jingliangttzssz",
+  "legacy": {
+    "名字": "天庭战神时装·精良",
+    "所属": "通用",
+    "品质": "精良",
+    "类型": "时装",
+    "颜色": "008aff",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 90,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 2,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "拥有【战神审判】技能，对附近怪物造成伤害，并施加【破甲】。",
+    "售价": 80,
+    "强化属性": {
+      "power": 30
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

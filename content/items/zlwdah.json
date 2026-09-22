@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "zlwdah",
+  "legacy": {
+    "名字": "转轮王的哀嚎",
+    "所属": "通用",
+    "品质": "邪灵",
+    "类型": "法宝",
+    "成长率": {
+      "random": "randf_range",
+      "min": 2.2,
+      "max": 2.6,
+      "step": 0.1
+    },
+    "五行": [],
+    "颜色": "656565",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 5,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 3,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 15,
+    "描述": "召唤转轮王助战。",
+    "售价": 320,
+    "强化属性": {
+      "SHp": 30,
+      "SMp": 10,
+      "power": 15,
+      "Def": 1,
+      "Mdef": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

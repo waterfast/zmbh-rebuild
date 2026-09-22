@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "tpzy",
+  "legacy": {
+    "名字": "天蓬战衣",
+    "所属": "八戒",
+    "品质": "史诗",
+    "类型": "防具",
+    "颜色": "800080",
+    "SHp": {
+      "random": "randi_range",
+      "min": 700,
+      "max": 750
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 40,
+    "Mdef": 40,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 5,
+    "R_mp": 0,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "泥丸九宫中的天蓬战衣，在妖邪之间散发一股仙气。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 110,
+      "Def": 3,
+      "Mdef": 3
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

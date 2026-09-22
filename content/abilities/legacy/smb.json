@@ -1,0 +1,15 @@
+{
+  "id": "smb",
+  "legacy_id": "smb",
+  "display_name": "水魔爆",
+  "description": "召唤法阵向前移动，再次释放召唤光柱砸向地面，造成巨额伤害。",
+  "character_id": 2,
+  "slot": 5,
+  "passive": false,
+  "mp_cost": 60,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "hqsryx",
+  "legacy": {
+    "名字": "射日英雄",
+    "所属": "通用",
+    "品质": "魂器",
+    "类型": "头衔",
+    "颜色": "00ffff",
+    "SHp": 800,
+    "SMp": 0,
+    "power": 200,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 8,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 8,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 5,
+    "sp": 5,
+    "描述": "",
+    "售价": 640,
+    "强化属性": {},
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "myz",
+  "legacy": {
+    "名字": "明月杖",
+    "所属": "唐僧",
+    "品质": "史诗",
+    "类型": "武器",
+    "颜色": "800080",
+    "SHp": 0,
+    "SMp": 550,
+    "power": {
+      "random": "randi_range",
+      "min": 165,
+      "max": 175
+    },
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 5,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": {
+      "random": "randi_range",
+      "min": 20,
+      "max": 22
+    },
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "兔苑词才去不还,兰亭水石空明月。",
+    "售价": 160,
+    "强化属性": {
+      "power": 22,
+      "SMp": 110,
+      "Htarget": 3
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

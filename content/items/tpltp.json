@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "tpltp",
+  "legacy": {
+    "名字": "天蓬裂天耙",
+    "所属": "八戒",
+    "品质": "史诗",
+    "类型": "武器",
+    "颜色": "800080",
+    "SHp": {
+      "random": "randi_range",
+      "min": 90,
+      "max": 100
+    },
+    "SMp": 0,
+    "power": {
+      "random": "randi_range",
+      "min": 140,
+      "max": 150
+    },
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 4,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 12,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "执志挺身与命抗,浴血奋斗不畏殇。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 20,
+      "power": 25,
+      "Htarget": 2
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

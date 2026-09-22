@@ -1,0 +1,73 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/Art/MainGame/BasicPicCd_1.png" id="1"]
+[ext_resource type="Texture2D" path="res://assets/Art/MainGame/BasicPicCd_2.png" id="2"]
+[ext_resource type="Script" path="res://Script/ui/archive_slot.gd" id="3"]
+[ext_resource type="FontFile" path="res://assets/Font/8_FZCuYuan-M03S.ttf" id="4"]
+[ext_resource type="FontFile" path="res://assets/Font/Aa梦里掏花对月饮_mianfeiziti.com.ttf" id="5"]
+[ext_resource type="FontFile" path="res://assets/Font/Aa文徵明琴赋小楷_mianfeiziti.com.ttf" id="6"]
+
+[node name="BacisArButton" type="TextureButton"]
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = ExtResource( "1" )
+texture_pressed = ExtResource( "1" )
+texture_hover = ExtResource( "2" )
+texture_disabled = ExtResource( "1" )
+script = ExtResource( "3" )
+metadata/_edit_lock_ = true
+
+[node name="MyNum" type="Label" parent="."]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 52.0
+offset_bottom = 76.0
+theme_override_colors/font_color = Color(1, 0.376471, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 0.376471, 0, 1)
+theme_override_constants/outline_size = 1
+theme_override_fonts/font = ExtResource( "4" )
+theme_override_font_sizes/font_size = 26
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="InfoBox" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 52.0
+offset_top = 8.0
+offset_right = 249.0
+offset_bottom = 76.0
+theme_override_constants/separation = -10
+metadata/_edit_lock_ = true
+
+[node name="Name" type="Label" parent="InfoBox"]
+layout_mode = 2
+size_flags_vertical = 6
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 1
+theme_override_fonts/font = ExtResource( "5" )
+theme_override_font_sizes/font_size = 21
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="LevelAndRole" type="Label" parent="InfoBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 1
+theme_override_fonts/font = ExtResource( "5" )
+theme_override_font_sizes/font_size = 20
+metadata/_edit_lock_ = true
+
+[node name="Time" type="Label" parent="InfoBox"]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 1
+theme_override_fonts/font = ExtResource( "6" )
+theme_override_font_sizes/font_size = 18
+
+[connection signal="pressed" from="." to="." method="_on_pressed" flags=2]

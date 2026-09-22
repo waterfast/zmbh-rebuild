@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "lcgy",
+  "legacy": {
+    "名字": "罗刹鬼衣",
+    "所属": "八戒",
+    "品质": "精良",
+    "类型": "防具",
+    "颜色": "008aff",
+    "SHp": {
+      "random": "randi_range",
+      "min": 270,
+      "max": 300
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 12,
+    "Mdef": 12,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 2,
+    "R_mp": 0,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "lsys",
+    "描述": "恶鬼之衣，怨气重重。",
+    "售价": 80,
+    "强化属性": {
+      "SHp": 60,
+      "Def": 1,
+      "Mdef": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

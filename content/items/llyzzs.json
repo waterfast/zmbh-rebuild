@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "llyzzs",
+  "legacy": {
+    "名字": "玲珑玉制作书",
+    "所属": "制作书",
+    "品质": "邪灵",
+    "类型": "道具",
+    "颜色": "656565",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "在炼丹炉中消耗指定材料可以打造邪灵饰品玲珑玉。",
+    "售价": 0,
+    "强化属性": {}
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

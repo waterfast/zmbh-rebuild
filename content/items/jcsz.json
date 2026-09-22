@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "jcsz",
+  "legacy": {
+    "名字": "家传手镯",
+    "所属": "通用",
+    "品质": "优秀",
+    "类型": "饰品",
+    "颜色": "00FF00",
+    "SHp": {
+      "operation": "Add",
+      "left": 90,
+      "right": {
+        "random": "randi_range",
+        "min": 20,
+        "max": 40
+      }
+    },
+    "SMp": {
+      "random": "randi_range",
+      "min": 35,
+      "max": 55
+    },
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 1,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "看似普通的手镯，蕴藏有神秘的力量，只有凑齐家传装备才能释放出这股力量。",
+    "售价": 40,
+    "强化属性": {
+      "SHp": 15,
+      "SMp": 7,
+      "Crit": 0.3
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

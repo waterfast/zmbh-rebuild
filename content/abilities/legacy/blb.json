@@ -1,0 +1,25 @@
+{
+  "id": "blb",
+  "legacy_id": "blb",
+  "display_name": "冰龙波",
+  "description": "短暂延迟后释放一道冰龙冲击，造成击退效果。",
+  "character_id": 2,
+  "slot": 1,
+  "passive": false,
+  "mp_cost": 15,
+  "cooldown": 2.4,
+  "cast_duration": 0.8,
+  "animation": "blb",
+  "release_delay": 0.5001,
+  "migration_status": "prototype",
+  "migration_note": "角色释放时间与法术动画/碰撞轨道已从原 Scene 迁移；击退、技能成长及完整伤害公式仍待等价验收。",
+  "effects": [
+    {
+      "kind": "timeline_attack",
+      "scene_path": "res://Scene/Combat/IceDragonWave.tscn",
+      "offset": [15, -41],
+      "power_scale": 0.55,
+      "damage_type": 1
+    }
+  ]
+}

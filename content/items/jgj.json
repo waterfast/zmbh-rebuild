@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "jgj",
+  "legacy": {
+    "名字": "金刚甲",
+    "所属": "八戒",
+    "品质": "精良",
+    "类型": "防具",
+    "颜色": "008aff",
+    "SHp": {
+      "random": "randi_range",
+      "min": 200,
+      "max": 220
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 16,
+    "Mdef": 16,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "地狱炎岩经三味真火灼烧四十九日而成的战甲，故金刚不灭。",
+    "售价": 80,
+    "强化属性": {
+      "SHp": 50,
+      "Def": 1,
+      "Mdef": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

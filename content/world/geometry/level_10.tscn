@@ -1,0 +1,62 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://content/world/geometry/base_geometry.tscn" id="1"]
+
+[ext_resource type="Texture2D" path="res://assets/Art/Level/Level_10/250.png" id="3"]
+
+[ext_resource type="Texture2D" path="res://assets/Art/Level/Level_10/125.png" id="4"]
+
+[ext_resource type="Texture2D" path="res://assets/Art/Level/Level_10/230.png" id="5"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(3433, 553)
+
+[sub_resource type="RectangleShape2D" id="2"]
+size = Vector2(17, 1786)
+
+[sub_resource type="RectangleShape2D" id="3"]
+size = Vector2(1596.5, 1786)
+
+[sub_resource type="RectangleShape2D" id="4"]
+size = Vector2(781.5, 1420)
+
+[node name="Level_10" instance=ExtResource( "1" )]
+
+[node name="floor" type="CollisionShape2D" parent="wall"]
+position = Vector2(1062.5, 669.5)
+shape = SubResource( "1" )
+
+[node name="stop1" type="CollisionShape2D" parent="wall"]
+position = Vector2(1007.5, -406)
+shape = SubResource( "2" )
+disabled = true
+
+[node name="stop2" type="CollisionShape2D" parent="wall"]
+position = Vector2(2669.75, -408)
+shape = SubResource( "3" )
+disabled = true
+
+[node name="stop5" type="CollisionShape2D" parent="wall"]
+position = Vector2(627, -221)
+shape = SubResource( "4" )
+
+disabled = true
+
+[node name="250" type="Sprite2D" parent="BackGround/End"]
+position = Vector2(716, 248)
+texture = ExtResource( "3" )
+
+[node name="front" type="ParallaxLayer" parent="BackGround"]
+
+[node name="125" type="Sprite2D" parent="BackGround/front"]
+position = Vector2(1013.25, 305.75)
+scale = Vector2(1.07682, 1.03807)
+texture = ExtResource( "4" )
+
+[node name="230" type="Sprite2D" parent="BackGround/floor_2"]
+position = Vector2(1142.25, 547)
+scale = Vector2(1.21007, 1)
+texture = ExtResource( "5" )
+
+[node name="exit" parent="."]
+position = Vector2(1726, 316)

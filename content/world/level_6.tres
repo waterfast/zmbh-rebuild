@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="LevelDefinition" format=3]
+
+[ext_resource type="Script" path="res://Script/world/level_definition.gd" id="definition"]
+
+[resource]
+script = ExtResource("definition")
+id = &"level_6"
+display_name = "迦楼罗之穴"
+geometry_path = "res://Scene/Level/Level_6.tscn"
+spawn_position = Vector2(180, 300)
+camera_bounds = Rect2(0, 0, 4984, 590)
+exit_position = Vector2(4525, 429)
+next_level_id = &"level_7"
+enemy_positions = PackedVector2Array(600, 300, 860, 300, 1080, 280, 1850, 300, 2200, 300, 2800, 300, 3200, 300, 3900, 300)
+waves = Array[Dictionary]([
+{"stage": 1, "monster_ids": PackedInt32Array(13, 13, 13, 13, 9, 9, 9, 9, 9), "positions": PackedVector2Array(750, 302, 750, 302, 750, 302, 750, 302, 750, 302, 1000, 302, 1000, 302, 1000, 302, 1000, 302)},
+{"stage": 2, "monster_ids": PackedInt32Array(13, 13, 13, 9, 9, 9, 10, 10, 10, 10, 10, 13, 13, 13, 10, 10, 13, 13, 13), "positions": PackedVector2Array(1650, 302, 1650, 302, 1650, 302, 1850, 302, 1850, 302, 1850, 302, 2100, 302, 2100, 302, 2100, 302, 2100, 302, 1500, 302, 1500, 302, 1500, 302, 1500, 302, 2100, 302, 1500, 302, 1500, 302, 1500, 302, 1500, 302)},
+{"stage": 3, "monster_ids": PackedInt32Array(13, 13, 9, 9, 9, 10, 10, 10, 13, 13, 10, 10, 10, 10, 10, 13, 13, 13, 13, 13), "positions": PackedVector2Array(3350, 102, 2750, 102, 3350, 102, 2750, 102, 3000, 102, 3000, 302, 3000, 302, 3000, 302, 3400, 302, 3400, 302, 3400, 302, 3100, 302, 3100, 302, 3100, 302, 3200, 302, 3400, 302, 3100, 302, 3100, 302, 3100, 302, 3200, 302)},
+{"stage": 4, "monster_ids": PackedInt32Array(12), "positions": PackedVector2Array(4500, 202)}
+])

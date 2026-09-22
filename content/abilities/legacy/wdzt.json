@@ -1,0 +1,27 @@
+{
+  "id": "wdzt",
+  "legacy_id": "wdzt",
+  "display_name": "万毒加护",
+  "description": "获得毒雾加护，最终伤害减少，免疫部分击退，被攻击时，给攻击者施加一层”巫毒“，并小概率回复减伤部分的生命。",
+  "character_id": 4,
+  "slot": 3,
+  "passive": false,
+  "mp_cost": 15,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "prototype",
+  "migration_note": "名称、描述、槽位和一级消耗来自原版；效果组合为可运行原型，尚未逐帧还原位移/多段/特殊机制；冷却使用原型值。",
+  "effects": [
+    {
+      "kind": "self_buff",
+      "buff": {
+        "id": "poison_ward",
+        "tag": "super_armor",
+        "duration": 4.0,
+        "flat_modifiers": {
+          "damage_reduction": 0.15
+        }
+      }
+    }
+  ]
+}

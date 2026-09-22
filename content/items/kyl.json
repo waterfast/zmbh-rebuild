@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "kyl",
+  "legacy": {
+    "名字": "枯叶灵",
+    "所属": "通用",
+    "品质": "史诗",
+    "类型": "法宝",
+    "成长率": {
+      "random": "randf_range",
+      "min": 1.4,
+      "max": 2,
+      "step": 0.1
+    },
+    "五行": [],
+    "颜色": "800080",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 2,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 2,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "拥有【沐浴回春】技能，每秒为玩家恢复生命,期间免疫击退。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 20,
+      "SMp": 9,
+      "power": 5,
+      "Def": 1,
+      "Mdef": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

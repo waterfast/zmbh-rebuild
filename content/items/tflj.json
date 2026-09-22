@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "tflj",
+  "legacy": {
+    "名字": "通风灵戒",
+    "所属": "通用",
+    "品质": "史诗",
+    "类型": "饰品",
+    "颜色": "800080",
+    "SHp": 300,
+    "SMp": 150,
+    "power": 70,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 8,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 5,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "风过处，百花残，心有意，爱无伤。",
+    "售价": 160,
+    "强化属性": {},
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

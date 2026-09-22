@@ -1,0 +1,15 @@
+{
+  "id": "mds",
+  "legacy_id": "mds",
+  "display_name": "猛毒素",
+  "description": "令部分技能附带”巫毒“效果(每秒扣除生命)，叠加至7层时，将会引爆，造成巨额伤害。",
+  "character_id": 4,
+  "slot": 10,
+  "passive": true,
+  "mp_cost": 0,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

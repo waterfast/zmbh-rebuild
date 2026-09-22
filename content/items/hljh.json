@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "hljh",
+  "legacy": {
+    "名字": "红莲教皇",
+    "所属": "唐僧",
+    "品质": "史诗",
+    "类型": "防具",
+    "颜色": "800080",
+    "SHp": {
+      "random": "randi_range",
+      "min": 700,
+      "max": 740
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 50,
+    "Mdef": 50,
+    "Crit": 0,
+    "Miss": {
+      "random": "randi_range",
+      "min": 15,
+      "max": 18
+    },
+    "R_hp": 0,
+    "R_mp": 6,
+    "vampirism": 0.0,
+    "Lucky": {
+      "random": "randi_range",
+      "min": 18,
+      "max": 20
+    },
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "一种相思，两处闲愁，火焰化红莲，此情自消衍。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 115,
+      "Lucky": 1,
+      "Miss": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

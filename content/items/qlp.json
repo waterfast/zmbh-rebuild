@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "qlp",
+  "legacy": {
+    "名字": "麒麟袍",
+    "所属": "唐僧",
+    "品质": "优秀",
+    "类型": "防具",
+    "颜色": "00FF00",
+    "SHp": {
+      "random": "randi_range",
+      "min": 220,
+      "max": 240
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 16,
+    "Mdef": 16,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 4,
+    "vampirism": 0.0,
+    "Lucky": 7,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "传说由麒麟的绒毛编织的法袍，法力源源不绝，犹如麒麟附体。",
+    "售价": 40,
+    "强化属性": {
+      "SHp": 35,
+      "Lucky": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

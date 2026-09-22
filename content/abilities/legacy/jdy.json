@@ -1,0 +1,15 @@
+{
+  "id": "jdy",
+  "legacy_id": "jdy",
+  "display_name": "筋斗云",
+  "description": "腾云驾雾，快速冲，按W可以向上飞行。",
+  "character_id": 1,
+  "slot": 8,
+  "passive": false,
+  "mp_cost": 10,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

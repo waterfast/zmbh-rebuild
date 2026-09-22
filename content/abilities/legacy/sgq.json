@@ -1,0 +1,15 @@
+{
+  "id": "sgq",
+  "legacy_id": "sgq",
+  "display_name": "饥寒冰魂",
+  "description": "召唤一个法球向前移动，移动过程中不断射出冰刺，对敌人造成魔法伤害和击退（击退方向可以通过玩家方向来控制）。",
+  "character_id": 2,
+  "slot": 6,
+  "passive": false,
+  "mp_cost": 40,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

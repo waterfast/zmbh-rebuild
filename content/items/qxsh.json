@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "qxsh",
+  "legacy": {
+    "名字": "七星守护",
+    "所属": "通用",
+    "品质": "精良",
+    "类型": "饰品",
+    "颜色": "008aff",
+    "SHp": 0,
+    "SMp": 0,
+    "power": {
+      "operation": "Add",
+      "left": 30,
+      "right": {
+        "random": "randi_range",
+        "min": 0,
+        "max": 5
+      }
+    },
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 5,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 3,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "天枢、天璇、天玑、天权、玉衡、开阳、摇光，七星北斗，七星守护。",
+    "售价": 80,
+    "强化属性": {
+      "power": 6,
+      "Crit": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

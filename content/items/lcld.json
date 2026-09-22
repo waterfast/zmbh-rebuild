@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "lcld",
+  "legacy": {
+    "名字": "罗刹镰刀",
+    "所属": "八戒",
+    "品质": "精良",
+    "类型": "武器",
+    "颜色": "008aff",
+    "SHp": {
+      "random": "randi_range",
+      "min": 25,
+      "max": 35
+    },
+    "SMp": 0,
+    "power": {
+      "random": "randi_range",
+      "min": 100,
+      "max": 105
+    },
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 3,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 10,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "lsys",
+    "描述": "死神遗落的镰刀，一但被砍伤，将留下永远无法愈合的伤口。",
+    "售价": 80,
+    "强化属性": {
+      "power": 22
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

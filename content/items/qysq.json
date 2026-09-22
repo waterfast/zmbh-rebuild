@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "qysq",
+  "legacy": {
+    "名字": "青云霜枪",
+    "所属": "白龙",
+    "品质": "史诗",
+    "类型": "武器",
+    "颜色": "800080",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 220,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 15,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 10,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "qyj",
+    "描述": "古枪寒黯黯，铸来几千秋。",
+    "售价": 160,
+    "强化属性": {
+      "power": 50,
+      "Crit": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

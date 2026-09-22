@@ -1,0 +1,75 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://content/world/geometry/base_geometry.tscn" id="1"]
+
+[ext_resource type="Texture2D" path="res://assets/Art/Level/Game3Level/Level_1_3/FristBG.png" id="3"]
+
+[ext_resource type="Texture2D" path="res://assets/Art/Level/Game3Level/Level_1_3/BG7.png" id="4"]
+
+[ext_resource type="Texture2D" path="res://assets/Art/Level/Game3Level/Level_1_3/Floor5.png" id="5"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(5659, 1079)
+
+[sub_resource type="RectangleShape2D" id="2"]
+size = Vector2(1056, 975)
+
+[sub_resource type="RectangleShape2D" id="3"]
+size = Vector2(1057.5, 975)
+
+[sub_resource type="RectangleShape2D" id="4"]
+size = Vector2(89, 975)
+
+[sub_resource type="RectangleShape2D" id="5"]
+size = Vector2(1262.5, 975)
+
+[sub_resource type="RectangleShape2D" id="6"]
+size = Vector2(781.5, 1420)
+
+[node name="Level_24" instance=ExtResource( "1" )]
+
+[node name="floor" type="CollisionShape2D" parent="wall"]
+position = Vector2(2826.5, 933.5)
+shape = SubResource( "1" )
+
+[node name="stop1" type="CollisionShape2D" parent="wall"]
+position = Vector2(1629, -5.5)
+shape = SubResource( "2" )
+disabled = true
+
+[node name="stop2" type="CollisionShape2D" parent="wall"]
+position = Vector2(2778.25, -7)
+shape = SubResource( "3" )
+disabled = true
+
+[node name="stop3" type="CollisionShape2D" parent="wall"]
+position = Vector2(3547, -2)
+shape = SubResource( "4" )
+disabled = true
+
+[node name="stop4" type="CollisionShape2D" parent="wall"]
+position = Vector2(5233.75, -6)
+shape = SubResource( "5" )
+
+[node name="stop5" type="CollisionShape2D" parent="wall"]
+position = Vector2(3208, -211)
+shape = SubResource( "6" )
+
+disabled = true
+
+[node name="FristBg" type="Sprite2D" parent="BackGround/End"]
+position = Vector2(720, 345)
+texture = ExtResource( "3" )
+
+[node name="front" type="ParallaxLayer" parent="BackGround"]
+
+[node name="Bg7" type="Sprite2D" parent="BackGround/front"]
+position = Vector2(2355, 323)
+texture = ExtResource( "4" )
+
+[node name="Floor5" type="Sprite2D" parent="BackGround/floor_2"]
+position = Vector2(2828, 543)
+texture = ExtResource( "5" )
+
+[node name="exit" parent="."]
+position = Vector2(4215, 321)

@@ -1,0 +1,43 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
+[application]
+
+config/name="造梦八荒 · 重构项目"
+run/main_scene="res://Scene/UI/MainMenu.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[autoload]
+
+_mcp_game_helper="*res://addons/godot_ai/runtime/game_helper.gd"
+
+[display]
+
+window/size/viewport_width=940
+window/size/viewport_height=590
+window/stretch/mode="canvas_items"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot_ai/plugin.cfg")
+
+[layer_names]
+
+2d_physics/layer_1="World"
+2d_physics/layer_2="Hurtbox"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.055, 0.075, 0.12, 1)

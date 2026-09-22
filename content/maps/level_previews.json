@@ -1,0 +1,1742 @@
+{
+  "level_1": {
+    "LevelName": "花果山",
+    "MonsterList": [
+      {
+        "Name": "xh",
+        "IsBoss": false,
+        "display_name": "小猴子",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/xh.png"
+      },
+      {
+        "Name": "yh",
+        "IsBoss": false,
+        "display_name": "妖猴",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/yh.png"
+      },
+      {
+        "Name": "dxx",
+        "IsBoss": true,
+        "display_name": "大猩猩",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/dxx.png"
+      }
+    ],
+    "LevelFall": [
+      "ptxzg",
+      "ptxzf",
+      "ptsmz",
+      "ptjs",
+      "ptdp",
+      "ptcs",
+      "ptyyc",
+      "ptcp",
+      "pttq",
+      "ptcf"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 100
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 100
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 100
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 100
+      }
+    },
+    "SelfBg": "hgs",
+    "Level": 5,
+    "background_path": "res://assets/Art/LevelInfoBg/hgs.png"
+  },
+  "level_2": {
+    "LevelName": "水帘洞",
+    "MonsterList": [
+      {
+        "Name": "xh",
+        "IsBoss": false,
+        "display_name": "小猴子",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/xh.png"
+      },
+      {
+        "Name": "yh",
+        "IsBoss": false,
+        "display_name": "妖猴",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/yh.png"
+      },
+      {
+        "Name": "dxx",
+        "IsBoss": false,
+        "display_name": "大猩猩",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/dxx.png"
+      },
+      {
+        "Name": "mhw",
+        "IsBoss": true,
+        "display_name": "猕猴王",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/mhw.png"
+      }
+    ],
+    "LevelFall": [
+      "ptxzg",
+      "ptxzf",
+      "ptsmz",
+      "ptjs",
+      "ptdp",
+      "ptcs",
+      "ptyyc",
+      "ptcp",
+      "pttq",
+      "ptcf",
+      "dslj",
+      "dshp",
+      "dszy",
+      "dslq",
+      "qld",
+      "hdc",
+      "bhz",
+      "zhp",
+      "twq",
+      "ryjgb",
+      "jhcz",
+      "jcdp",
+      "jlxmc",
+      "qthbq",
+      "qxsh"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 150
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 150
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 150
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "hgs",
+    "Level": 10,
+    "background_path": "res://assets/Art/LevelInfoBg/hgs.png"
+  },
+  "level_3": {
+    "LevelName": "桃花源",
+    "MonsterList": [
+      {
+        "Name": "yh",
+        "IsBoss": false,
+        "display_name": "妖猴",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/yh.png"
+      },
+      {
+        "Name": "dxx",
+        "IsBoss": false,
+        "display_name": "大猩猩",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/dxx.png"
+      },
+      {
+        "Name": "yrw",
+        "IsBoss": true,
+        "display_name": "禺狨王",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/yrw.png"
+      }
+    ],
+    "LevelFall": [
+      "ptxzg",
+      "ptxzf",
+      "ptsmz",
+      "ptjs",
+      "ptdp",
+      "ptcs",
+      "ptyyc",
+      "ptcp",
+      "pttq",
+      "ptcf",
+      "dsyj",
+      "jmc",
+      "dsqz",
+      "zhj"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 250
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 300
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 300
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "thy",
+    "Level": 13,
+    "background_path": "res://assets/Art/LevelInfoBg/thy.png"
+  },
+  "level_4": {
+    "LevelName": "蝙蝠窟",
+    "MonsterList": [
+      {
+        "Name": "bf",
+        "IsBoss": false,
+        "display_name": "蝙蝠",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/bf.png"
+      },
+      {
+        "Name": "bfsx",
+        "IsBoss": true,
+        "display_name": "蝙蝠石像",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/bfsx.png"
+      }
+    ],
+    "LevelFall": [
+      "ptxzg",
+      "ptxzf",
+      "ptsmz",
+      "ptjs",
+      "ptdp",
+      "ptcs",
+      "ptyyc",
+      "ptcp",
+      "pttq",
+      "ptcf",
+      "whg",
+      "wtp",
+      "bsp"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 350
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 400
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 350
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "bfk",
+    "Level": 17,
+    "background_path": "res://assets/Art/LevelInfoBg/bfk.png"
+  },
+  "level_5": {
+    "LevelName": "七星洞",
+    "MonsterList": [
+      {
+        "Name": "bf",
+        "IsBoss": false,
+        "display_name": "蝙蝠",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/bf.png"
+      },
+      {
+        "Name": "ys",
+        "IsBoss": false,
+        "display_name": "妖狮",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/ys.png"
+      },
+      {
+        "Name": "dsj",
+        "IsBoss": false,
+        "display_name": "地鼠精",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/dsj.png"
+      },
+      {
+        "Name": "stw",
+        "IsBoss": true,
+        "display_name": "狮驼王",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/stw.png"
+      }
+    ],
+    "LevelFall": [
+      "ptxzg",
+      "ptxzf",
+      "ptsmz",
+      "ptjs",
+      "ptdp",
+      "ptcs",
+      "ptyyc",
+      "ptcp",
+      "pttq",
+      "ptcf",
+      "jcbj",
+      "jcmc",
+      "jcjp"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 450
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 450
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 450
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "bfk",
+    "Level": 18,
+    "background_path": "res://assets/Art/LevelInfoBg/bfk.png"
+  },
+  "level_6": {
+    "LevelName": "迦楼罗之穴",
+    "MonsterList": [
+      {
+        "Name": "jjy",
+        "IsBoss": false,
+        "display_name": "机甲鹰",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/jjy.png"
+      },
+      {
+        "Name": "ys",
+        "IsBoss": false,
+        "display_name": "妖狮",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/ys.png"
+      },
+      {
+        "Name": "dsj",
+        "IsBoss": false,
+        "display_name": "地鼠精",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/dsj.png"
+      },
+      {
+        "Name": "pmw",
+        "IsBoss": true,
+        "display_name": "鹏魔王",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/pmw.png"
+      }
+    ],
+    "LevelFall": [
+      "ptxzg",
+      "ptxzf",
+      "ptsmz",
+      "ptjs",
+      "ptdp",
+      "ptcs",
+      "ptyyc",
+      "ptcp",
+      "pttq",
+      "ptcf",
+      "jcjs",
+      "jcsz",
+      "jclj"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 650
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 700
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 600
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "bfk",
+    "Level": 20,
+    "background_path": "res://assets/Art/LevelInfoBg/bfk.png"
+  },
+  "level_7": {
+    "LevelName": "浅岸",
+    "MonsterList": [
+      {
+        "Name": "xb",
+        "IsBoss": false,
+        "display_name": "虾兵",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/xb.png"
+      },
+      {
+        "Name": "xj",
+        "IsBoss": false,
+        "display_name": "蟹将",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/xj.png"
+      },
+      {
+        "Name": "gcx",
+        "IsBoss": true,
+        "display_name": "龟丞相",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/gcx.png"
+      }
+    ],
+    "LevelFall": [
+      "xqzy"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 700
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 700
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 700
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "qa",
+    "Level": 20,
+    "background_path": "res://assets/Art/LevelInfoBg/qa.png"
+  },
+  "level_8": {
+    "LevelName": "东海",
+    "MonsterList": [
+      {
+        "Name": "xb",
+        "IsBoss": false,
+        "display_name": "虾兵",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/xb.png"
+      },
+      {
+        "Name": "xj",
+        "IsBoss": false,
+        "display_name": "蟹将",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/xj.png"
+      },
+      {
+        "Name": "gcx",
+        "IsBoss": false,
+        "display_name": "龟丞相",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/gcx.png"
+      },
+      {
+        "Name": "yjj",
+        "IsBoss": false,
+        "display_name": "鱼将军",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/yjj.png"
+      },
+      {
+        "Name": "jmw",
+        "IsBoss": true,
+        "display_name": "蛟魔王",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/jmw.png"
+      }
+    ],
+    "LevelFall": [
+      "xwj",
+      "pxk",
+      "bxp"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 1000
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 1000
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 900
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "qa",
+    "Level": 23,
+    "background_path": "res://assets/Art/LevelInfoBg/qa.png"
+  },
+  "level_9": {
+    "LevelName": "鲨之涡流",
+    "MonsterList": [
+      {
+        "Name": "xb",
+        "IsBoss": false,
+        "display_name": "虾兵",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/xb.png"
+      },
+      {
+        "Name": "xj",
+        "IsBoss": false,
+        "display_name": "蟹将",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/xj.png"
+      },
+      {
+        "Name": "gcx",
+        "IsBoss": false,
+        "display_name": "龟丞相",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/gcx.png"
+      },
+      {
+        "Name": "yjj",
+        "IsBoss": false,
+        "display_name": "鱼将军",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/yjj.png"
+      },
+      {
+        "Name": "sy",
+        "IsBoss": true,
+        "display_name": "嗜血狂鲨",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/sy.png"
+      },
+      {
+        "Name": "smw",
+        "IsBoss": true,
+        "display_name": "鲨魔王",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/smw.png"
+      }
+    ],
+    "LevelFall": [
+      "qlp",
+      "zqj",
+      "ttj"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 1200
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 1100
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 1000
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "qa",
+    "Level": 25,
+    "background_path": "res://assets/Art/LevelInfoBg/qa.png"
+  },
+  "level_10": {
+    "LevelName": "牛魔谷",
+    "MonsterList": [
+      {
+        "Name": "nmds",
+        "IsBoss": false,
+        "display_name": "牛魔斗士",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/nmds.png"
+      },
+      {
+        "Name": "nmw1",
+        "IsBoss": true,
+        "display_name": "牛魔王一",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/nmw1.png"
+      },
+      {
+        "Name": "nmw2",
+        "IsBoss": true,
+        "display_name": "牛魔王二",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/nmw2.png"
+      },
+      {
+        "Name": "nmw3",
+        "IsBoss": true,
+        "display_name": "牛魔王三",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/nmw3.png"
+      }
+    ],
+    "LevelFall": [
+      "ttlp1"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 1700
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 1600
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 1400
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "nmg",
+    "Level": 25,
+    "background_path": "res://assets/Art/LevelInfoBg/nmg.png"
+  },
+  "level_11": {
+    "LevelName": "鬼城",
+    "MonsterList": [
+      {
+        "Name": "gd",
+        "IsBoss": false,
+        "display_name": "鬼灯",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/gd.png"
+      },
+      {
+        "Name": "js",
+        "IsBoss": false,
+        "display_name": "僵尸",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/js.png"
+      },
+      {
+        "Name": "syr",
+        "IsBoss": true,
+        "display_name": "守夜人",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/syr.png"
+      }
+    ],
+    "LevelFall": [
+      "lzp",
+      "jmy"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 1700
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 1600
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 1400
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "df",
+    "Level": 25,
+    "background_path": "res://assets/Art/LevelInfoBg/df.png"
+  },
+  "level_12": {
+    "LevelName": "无常巷",
+    "MonsterList": [
+      {
+        "Name": "gd",
+        "IsBoss": false,
+        "display_name": "鬼灯",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/gd.png"
+      },
+      {
+        "Name": "js",
+        "IsBoss": false,
+        "display_name": "僵尸",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/js.png"
+      },
+      {
+        "Name": "syr",
+        "IsBoss": false,
+        "display_name": "守夜人",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/syr.png"
+      },
+      {
+        "Name": "hwc",
+        "IsBoss": true,
+        "display_name": "黑无常",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/hwc.png"
+      },
+      {
+        "Name": "bwc",
+        "IsBoss": true,
+        "display_name": "白无常",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/bwc.png"
+      }
+    ],
+    "LevelFall": [
+      "yhj",
+      "tsgl",
+      "bsyz",
+      "bsxj",
+      "bszj",
+      "bsbc",
+      "bshq",
+      "csgs",
+      "bszy"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 1800
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 1700
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 1500
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "df",
+    "Level": 27,
+    "background_path": "res://assets/Art/LevelInfoBg/df.png"
+  },
+  "level_13": {
+    "LevelName": "鬼门关",
+    "MonsterList": [
+      {
+        "Name": "gd",
+        "IsBoss": false,
+        "display_name": "鬼灯",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/gd.png"
+      },
+      {
+        "Name": "js",
+        "IsBoss": false,
+        "display_name": "僵尸",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/js.png"
+      },
+      {
+        "Name": "syr",
+        "IsBoss": false,
+        "display_name": "守夜人",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/syr.png"
+      },
+      {
+        "Name": "klw",
+        "IsBoss": true,
+        "display_name": "傀儡王",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/klw.png"
+      }
+    ],
+    "LevelFall": [
+      "lcgy",
+      "tsgp"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 2000
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 2000
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 1800
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "df",
+    "Level": 27,
+    "background_path": "res://assets/Art/LevelInfoBg/df.png"
+  },
+  "level_14": {
+    "LevelName": "接引院",
+    "MonsterList": [
+      {
+        "Name": "nt",
+        "IsBoss": false,
+        "display_name": "牛头",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/nt.png"
+      },
+      {
+        "Name": "mm",
+        "IsBoss": false,
+        "display_name": "马面",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/mm.png"
+      },
+      {
+        "Name": "qgw",
+        "IsBoss": true,
+        "display_name": "秦广王",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/qgw.png"
+      }
+    ],
+    "LevelFall": [
+      "gtq",
+      "gtb",
+      "gtc",
+      "tsyj"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 2000
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 2000
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 2500
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "jyy",
+    "Level": 27,
+    "background_path": "res://assets/Art/LevelInfoBg/jyy.png"
+  },
+  "level_15": {
+    "LevelName": "判官府",
+    "MonsterList": [
+      {
+        "Name": "nt",
+        "IsBoss": false,
+        "display_name": "牛头",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/nt.png"
+      },
+      {
+        "Name": "mm",
+        "IsBoss": false,
+        "display_name": "马面",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/mm.png"
+      },
+      {
+        "Name": "hwc",
+        "IsBoss": false,
+        "display_name": "黑无常",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/hwc.png"
+      },
+      {
+        "Name": "bwc",
+        "IsBoss": false,
+        "display_name": "白无常",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/bwc.png"
+      },
+      {
+        "Name": "pg",
+        "IsBoss": true,
+        "display_name": "判官",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/pg.png"
+      }
+    ],
+    "LevelFall": [
+      "gtq",
+      "gtb",
+      "lcld",
+      "tsyp"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 2200
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 2500
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 2700
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "pgf",
+    "Level": 27,
+    "background_path": "res://assets/Art/LevelInfoBg/pgf.png"
+  },
+  "level_16": {
+    "LevelName": "阎罗殿",
+    "MonsterList": [
+      {
+        "Name": "nt",
+        "IsBoss": false,
+        "display_name": "牛头",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/nt.png"
+      },
+      {
+        "Name": "mm",
+        "IsBoss": false,
+        "display_name": "马面",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/mm.png"
+      },
+      {
+        "Name": "hwc",
+        "IsBoss": false,
+        "display_name": "黑无常",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/hwc.png"
+      },
+      {
+        "Name": "bwc",
+        "IsBoss": false,
+        "display_name": "白无常",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/bwc.png"
+      },
+      {
+        "Name": "sdgm",
+        "IsBoss": true,
+        "display_name": "三道鬼门",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/sdgm.png"
+      },
+      {
+        "Name": "ylw",
+        "IsBoss": true,
+        "display_name": "阎罗王",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/ylw.png"
+      }
+    ],
+    "LevelFall": [
+      "gtq",
+      "gtb",
+      "yll",
+      "fygwj",
+      "lchp"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 2400
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 2700
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 2700
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "yld",
+    "Level": 27,
+    "background_path": "res://assets/Art/LevelInfoBg/yld.png"
+  },
+  "level_17": {
+    "LevelName": "忘川河",
+    "MonsterList": [
+      {
+        "Name": "gy",
+        "IsBoss": false,
+        "display_name": "鬼鱼",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/gy.png"
+      },
+      {
+        "Name": "sdw",
+        "IsBoss": true,
+        "display_name": "宋帝王",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/sdw.png"
+      }
+    ],
+    "LevelFall": [],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 2200
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 2700
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 2800
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "wch",
+    "Level": 30,
+    "background_path": "res://assets/Art/LevelInfoBg/wch.png"
+  },
+  "level_18": {
+    "LevelName": "奈何桥",
+    "MonsterList": [
+      {
+        "Name": "mz",
+        "IsBoss": false,
+        "display_name": "曼珠",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/mz.png"
+      },
+      {
+        "Name": "sh",
+        "IsBoss": false,
+        "display_name": "沙华",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/sh.png"
+      },
+      {
+        "Name": "ht",
+        "IsBoss": false,
+        "display_name": "河童",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/ht.png"
+      },
+      {
+        "Name": "yc",
+        "IsBoss": true,
+        "display_name": "夜叉",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/yc.png"
+      }
+    ],
+    "LevelFall": [
+      "yazfw",
+      "yizfw",
+      "hshb",
+      "zshb",
+      "lssp",
+      "qssp",
+      "lczh",
+      "xhmj",
+      "xhxc"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 3000
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 3000
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 3000
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "nhq",
+    "Level": 30,
+    "background_path": "res://assets/Art/LevelInfoBg/nhq.png"
+  },
+  "level_19": {
+    "LevelName": "望乡台",
+    "MonsterList": [
+      {
+        "Name": "mz",
+        "IsBoss": false,
+        "display_name": "曼珠",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/mz.png"
+      },
+      {
+        "Name": "sh",
+        "IsBoss": false,
+        "display_name": "沙华",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/sh.png"
+      },
+      {
+        "Name": "ht",
+        "IsBoss": false,
+        "display_name": "河童",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/ht.png"
+      },
+      {
+        "Name": "qs",
+        "IsBoss": false,
+        "display_name": "青蛇",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/qs.png"
+      },
+      {
+        "Name": "mp",
+        "IsBoss": true,
+        "display_name": "孟婆",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/mp.png"
+      }
+    ],
+    "LevelFall": [
+      "yazfw",
+      "yizfw",
+      "hshb",
+      "zshb",
+      "lshb",
+      "lssp",
+      "qssp",
+      "jssp",
+      "xhgp",
+      "xhxh",
+      "xhyk",
+      "xhymk"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 3500
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 3400
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 3600
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "wxt",
+    "Level": 30,
+    "background_path": "res://assets/Art/LevelInfoBg/wxt.png"
+  },
+  "level_21": {
+    "LevelName": "转轮殿",
+    "MonsterList": [
+      {
+        "Name": "zlsz",
+        "IsBoss": false,
+        "display_name": "转轮使者",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/zlsz.png"
+      },
+      {
+        "Name": "zlw1",
+        "IsBoss": true,
+        "display_name": "转轮王一",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/zlw1.png"
+      },
+      {
+        "Name": "zlw2",
+        "IsBoss": true,
+        "display_name": "转轮王二",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/zlw2.png"
+      },
+      {
+        "Name": "zlw3",
+        "IsBoss": true,
+        "display_name": "转轮王三",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/zlw3.png"
+      }
+    ],
+    "LevelFall": [
+      "ttlp2",
+      "myz",
+      "nyd",
+      "syc",
+      "shyc",
+      "xyq"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 4500
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 4500
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 4500
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "zld",
+    "Level": 30,
+    "background_path": "res://assets/Art/LevelInfoBg/zld.png"
+  },
+  "level_22": {
+    "LevelName": "九重天",
+    "MonsterList": [
+      {
+        "Name": "ey",
+        "IsBoss": false,
+        "display_name": "恶鹰",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/ey.png"
+      },
+      {
+        "Name": "xtq",
+        "IsBoss": true,
+        "display_name": "哮天犬",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/xtq.png"
+      }
+    ],
+    "LevelFall": [],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 5600
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 5600
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 5600
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "jct",
+    "Level": 35,
+    "background_path": "res://assets/Art/LevelInfoBg/jct.png"
+  },
+  "level_23": {
+    "LevelName": "天宫道",
+    "MonsterList": [
+      {
+        "Name": "hg",
+        "IsBoss": false,
+        "display_name": "黑龟",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/hg.png"
+      },
+      {
+        "Name": "hh",
+        "IsBoss": false,
+        "display_name": "黑虎",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/hh.png"
+      },
+      {
+        "Name": "wy",
+        "IsBoss": false,
+        "display_name": "巫鹰",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/wy.png"
+      },
+      {
+        "Name": "qly",
+        "IsBoss": true,
+        "display_name": "千里眼",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/qly.png"
+      },
+      {
+        "Name": "sfe",
+        "IsBoss": true,
+        "display_name": "顺风耳",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/sfe.png"
+      }
+    ],
+    "LevelFall": [
+      "kys",
+      "xhz",
+      "kyz",
+      "kyc",
+      "tfljzzs"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 5800
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 5800
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 5800
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "jct",
+    "Level": 35,
+    "background_path": "res://assets/Art/LevelInfoBg/jct.png"
+  },
+  "level_24": {
+    "LevelName": "南天门",
+    "MonsterList": [
+      {
+        "Name": "hg",
+        "IsBoss": false,
+        "display_name": "黑龟",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/hg.png"
+      },
+      {
+        "Name": "hh",
+        "IsBoss": false,
+        "display_name": "黑虎",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/hh.png"
+      },
+      {
+        "Name": "wy",
+        "IsBoss": false,
+        "display_name": "巫鹰",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/wy.png"
+      },
+      {
+        "Name": "jls",
+        "IsBoss": true,
+        "display_name": "巨灵神",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/jls.png"
+      }
+    ],
+    "LevelFall": [
+      "xhp",
+      "xhc",
+      "xhj"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 6000
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 6000
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 6000
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "jct",
+    "Level": 35,
+    "background_path": "res://assets/Art/LevelInfoBg/jct.png"
+  },
+  "level_25": {
+    "LevelName": "南天王殿",
+    "MonsterList": [
+      {
+        "Name": "tbd",
+        "IsBoss": false,
+        "display_name": "天兵刀",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/tbd.png"
+      },
+      {
+        "Name": "tbq",
+        "IsBoss": false,
+        "display_name": "天兵枪",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/tbq.png"
+      },
+      {
+        "Name": "tbg",
+        "IsBoss": false,
+        "display_name": "天兵弓",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/tbg.png"
+      },
+      {
+        "Name": "zztw",
+        "IsBoss": true,
+        "display_name": "增长天王",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/zztw.png"
+      }
+    ],
+    "LevelFall": [
+      "qyfp",
+      "qybd",
+      "qysq"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 6500
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 6500
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 6500
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "zztw",
+    "Level": 35,
+    "background_path": "res://assets/Art/LevelInfoBg/zztw.png"
+  },
+  "level_26": {
+    "LevelName": "西天王殿",
+    "MonsterList": [
+      {
+        "Name": "tbd",
+        "IsBoss": false,
+        "display_name": "天兵刀",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/tbd.png"
+      },
+      {
+        "Name": "tbq",
+        "IsBoss": false,
+        "display_name": "天兵枪",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/tbq.png"
+      },
+      {
+        "Name": "tbg",
+        "IsBoss": false,
+        "display_name": "天兵弓",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/tbg.png"
+      },
+      {
+        "Name": "gmtw",
+        "IsBoss": true,
+        "display_name": "广目天王",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/gmtw.png"
+      }
+    ],
+    "LevelFall": [
+      "hylk",
+      "qysz"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 6700
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 6700
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 6700
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "gmtw",
+    "Level": 35,
+    "background_path": "res://assets/Art/LevelInfoBg/gmtw.png"
+  },
+  "level_27": {
+    "LevelName": "北天王殿",
+    "MonsterList": [
+      {
+        "Name": "tbd",
+        "IsBoss": false,
+        "display_name": "天兵刀",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/tbd.png"
+      },
+      {
+        "Name": "tbq",
+        "IsBoss": false,
+        "display_name": "天兵枪",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/tbq.png"
+      },
+      {
+        "Name": "tbg",
+        "IsBoss": false,
+        "display_name": "天兵弓",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/tbg.png"
+      },
+      {
+        "Name": "dwtw",
+        "IsBoss": true,
+        "display_name": "多闻天王",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/dwtw.png"
+      }
+    ],
+    "LevelFall": [
+      "hylc",
+      "hylz",
+      "mgzhzzs"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 7000
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 7000
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 7000
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "dwtw",
+    "Level": 35,
+    "background_path": "res://assets/Art/LevelInfoBg/dwtw.png"
+  },
+  "level_28": {
+    "LevelName": "彩虹楼",
+    "MonsterList": [
+      {
+        "Name": "goy",
+        "IsBoss": false,
+        "display_name": "狗妖",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/goy.png"
+      },
+      {
+        "Name": "yy",
+        "IsBoss": false,
+        "display_name": "羊妖",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/yy.png"
+      },
+      {
+        "Name": "ny",
+        "IsBoss": false,
+        "display_name": "牛妖",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/ny.png"
+      },
+      {
+        "Name": "zzz",
+        "IsBoss": true,
+        "display_name": "朱子真",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/zzz.png"
+      }
+    ],
+    "LevelFall": [
+      "zjqj",
+      "zjksf",
+      "zjgp",
+      "zjxmczzs",
+      "hljhzzs",
+      "tdlzjzzs"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 7000
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 7000
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 7000
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "chl",
+    "Level": 35,
+    "background_path": "res://assets/Art/LevelInfoBg/chl.png"
+  },
+  "level_29": {
+    "LevelName": "朝会殿",
+    "MonsterList": [
+      {
+        "Name": "goy",
+        "IsBoss": false,
+        "display_name": "狗妖",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/goy.png"
+      },
+      {
+        "Name": "yy",
+        "IsBoss": false,
+        "display_name": "羊妖",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/yy.png"
+      },
+      {
+        "Name": "ny",
+        "IsBoss": false,
+        "display_name": "牛妖",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/ny.png"
+      },
+      {
+        "Name": "sey",
+        "IsBoss": false,
+        "display_name": "蛇妖",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/sey.png"
+      },
+      {
+        "Name": "yuh",
+        "IsBoss": true,
+        "display_name": "袁洪",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/yuh.png"
+      }
+    ],
+    "LevelFall": [
+      "zjbtgzzs",
+      "wsjgzzs",
+      "blmqzzs",
+      "jllm",
+      "smz"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 7000
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 7000
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 7000
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "zhd",
+    "Level": 35,
+    "background_path": "res://assets/Art/LevelInfoBg/zhd.png"
+  },
+  "level_30": {
+    "LevelName": "凌霄宝殿",
+    "MonsterList": [
+      {
+        "Name": "yy",
+        "IsBoss": false,
+        "display_name": "羊妖",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/yy.png"
+      },
+      {
+        "Name": "ny",
+        "IsBoss": false,
+        "display_name": "牛妖",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/ny.png"
+      },
+      {
+        "Name": "wgj",
+        "IsBoss": false,
+        "display_name": "蜈蚣精",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/wgj.png"
+      },
+      {
+        "Name": "xtq",
+        "IsBoss": true,
+        "display_name": "哮天犬",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/xtq.png"
+      },
+      {
+        "Name": "els",
+        "IsBoss": true,
+        "display_name": "二郎神",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/els.png"
+      }
+    ],
+    "LevelFall": [
+      "shsjt"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 7000
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 7000
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 7000
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 80
+      }
+    },
+    "SelfBg": "lxbd",
+    "Level": 35,
+    "background_path": "res://assets/Art/LevelInfoBg/lxbd.png"
+  },
+  "level_31": {
+    "LevelName": "火龙岛",
+    "MonsterList": [
+      {
+        "Name": "hlhw",
+        "IsBoss": false,
+        "display_name": "火龙护卫",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/hlhw.png"
+      },
+      {
+        "Name": "fyj",
+        "IsBoss": true,
+        "display_name": "飞烟剑",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/fyj.png"
+      },
+      {
+        "Name": "wll",
+        "IsBoss": true,
+        "display_name": "五龙轮",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/wll.png"
+      },
+      {
+        "Name": "yzx",
+        "IsBoss": true,
+        "display_name": "焰中仙",
+        "icon_path": "res://assets/Art/Monster/MonsterHead/yzx.png"
+      }
+    ],
+    "LevelFall": [
+      "qszzs",
+      "rczzs",
+      "ytzzs",
+      "llzzs",
+      "ldzzs"
+    ],
+    "NeedZDL": {
+      "1": {
+        "角色": "悟空",
+        "战斗力": 0
+      },
+      "2": {
+        "角色": "唐僧",
+        "战斗力": 0
+      },
+      "3": {
+        "角色": "八戒",
+        "战斗力": 0
+      },
+      "4": {
+        "角色": "沙僧",
+        "战斗力": 0
+      }
+    },
+    "SelfBg": "hld",
+    "Level": 55,
+    "background_path": "res://assets/Art/LevelInfoBg/hld.png"
+  }
+}

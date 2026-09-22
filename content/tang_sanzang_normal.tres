@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="AbilityDefinition" load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://Script/core/ability/ability_definition.gd" id="definition"]
+[ext_resource type="Script" path="res://Script/core/effects/timeline_attack_effect.gd" id="effect"]
+
+[sub_resource type="Resource" id="wave"]
+script = ExtResource("effect")
+scene_path = "res://Scene/Combat/TangSanzangNormal.tscn"
+offset = Vector2(10, -26)
+
+[resource]
+script = ExtResource("definition")
+id = &"tang_sanzang_normal"
+display_name = "唐僧普攻"
+effects = Array[ExtResource("effect")]([SubResource("wave")])
+mp_cost = 0.0
+cooldown = 0.55
+cast_duration = 0.55
+animation = &"hit1"
+release_delay = 0.2

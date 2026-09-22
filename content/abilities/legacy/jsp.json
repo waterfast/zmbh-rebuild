@@ -1,0 +1,15 @@
+{
+  "id": "jsp",
+  "legacy_id": "jsp",
+  "display_name": "巨石破",
+  "description": "在身旁召唤爆裂巨石，造成多段伤害（配合刃甲概率将敌人震晕一段时间）",
+  "character_id": 3,
+  "slot": 7,
+  "passive": false,
+  "mp_cost": 20,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

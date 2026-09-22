@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "ll",
+  "legacy": {
+    "名字": "琉璃",
+    "所属": "沙僧",
+    "品质": "传说",
+    "类型": "武器",
+    "颜色": "FFA500",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 500,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 30,
+    "Toughness": 0,
+    "Htarget": 15,
+    "CritReduce": 0,
+    "ar": 15,
+    "sp": 15,
+    "描述": "琉璃光可照三界之暗。",
+    "售价": 1280,
+    "强化属性": {
+      "power": 50,
+      "Htarget": 2,
+      "Lucky": 2,
+      "ar": 5,
+      "sp": 5
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "jgz",
+  "legacy_id": "jgz",
+  "display_name": "紧箍咒",
+  "description": "向前方召唤紧箍咒，将一定范围内的某些怪物聚集在中央，并且提高对其下次攻击的伤害。",
+  "character_id": 2,
+  "slot": 8,
+  "passive": false,
+  "mp_cost": 40,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "tsgp",
+  "legacy": {
+    "名字": "天煞骨袍",
+    "所属": "白龙",
+    "品质": "精良",
+    "类型": "防具",
+    "颜色": "008aff",
+    "SHp": {
+      "random": "randi_range",
+      "min": 350,
+      "max": 370
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 10,
+    "Mdef": 10,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "tsgj",
+    "描述": "且镇寒魂意，掩尽透骨伤。",
+    "售价": 80,
+    "强化属性": {
+      "SHp": 80,
+      "Def": 1,
+      "Mdef": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

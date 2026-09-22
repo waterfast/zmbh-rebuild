@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "plz",
+  "legacy": {
+    "名字": "蟠龙杖",
+    "所属": "唐僧",
+    "品质": "魂器",
+    "类型": "武器",
+    "颜色": "00ffff",
+    "SHp": 0,
+    "SMp": 1200,
+    "power": 350,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 10,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": {
+      "random": "randi_range",
+      "min": 20,
+      "max": 24
+    },
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "",
+    "售价": 640,
+    "强化属性": {
+      "power": 30,
+      "SMp": 110,
+      "Htarget": 3
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

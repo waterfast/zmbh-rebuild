@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "ylk",
+  "legacy": {
+    "名字": "应龙铠",
+    "所属": "八戒",
+    "品质": "魂器",
+    "类型": "防具",
+    "颜色": "00ffff",
+    "SHp": {
+      "random": "randi_range",
+      "min": 1500,
+      "max": 1600
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 50,
+    "Mdef": 50,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 10,
+    "R_mp": 5,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 22,
+    "Htarget": 0,
+    "CritReduce": 22,
+    "ar": 0,
+    "sp": 0,
+    "描述": "",
+    "售价": 640,
+    "强化属性": {
+      "SHp": 160,
+      "Def": 5,
+      "Mdef": 5
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

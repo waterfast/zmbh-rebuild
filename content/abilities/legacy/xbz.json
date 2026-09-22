@@ -1,0 +1,15 @@
+{
+  "id": "xbz",
+  "legacy_id": "xbz",
+  "display_name": "玄冰阵",
+  "description": "短暂引导后在前方召唤玄冰刺，（三段，每段都比上一段体积增大一部分），并击退敌人。",
+  "character_id": 2,
+  "slot": 2,
+  "passive": false,
+  "mp_cost": 25,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

@@ -1,0 +1,600 @@
+{
+  "Scene/Level/Role_information.tscn": [
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/712.png",
+      "width": 169,
+      "height": 133,
+      "legacy_resource_id": "70"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/718.png",
+      "width": 260,
+      "height": 22,
+      "legacy_resource_id": "71"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/720.png",
+      "width": 221,
+      "height": 28,
+      "legacy_resource_id": "72"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/724.png",
+      "width": 221,
+      "height": 13,
+      "legacy_resource_id": "73"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/WSGrey.png",
+      "width": 72,
+      "height": 71,
+      "legacy_resource_id": "74"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/WSBar.png",
+      "width": 890,
+      "height": 89,
+      "legacy_resource_id": "75"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/757.png",
+      "width": 47,
+      "height": 37,
+      "legacy_resource_id": "79"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/759.png",
+      "width": 47,
+      "height": 37,
+      "legacy_resource_id": "80"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/756.png",
+      "width": 30,
+      "height": 17,
+      "legacy_resource_id": "81"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/751.png",
+      "width": 47,
+      "height": 37,
+      "legacy_resource_id": "82"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/753.png",
+      "width": 47,
+      "height": 37,
+      "legacy_resource_id": "83"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/750.png",
+      "width": 30,
+      "height": 17,
+      "legacy_resource_id": "84"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/763.png",
+      "width": 47,
+      "height": 37,
+      "legacy_resource_id": "85"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/765.png",
+      "width": 47,
+      "height": 37,
+      "legacy_resource_id": "86"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/762.png",
+      "width": 30,
+      "height": 17,
+      "legacy_resource_id": "87"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/769.png",
+      "width": 47,
+      "height": 37,
+      "legacy_resource_id": "88"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/771.png",
+      "width": 47,
+      "height": 37,
+      "legacy_resource_id": "89"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/768.png",
+      "width": 30,
+      "height": 17,
+      "legacy_resource_id": "90"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/775.png",
+      "width": 47,
+      "height": 37,
+      "legacy_resource_id": "91"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/777.png",
+      "width": 47,
+      "height": 37,
+      "legacy_resource_id": "92"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/774.png",
+      "width": 30,
+      "height": 17,
+      "legacy_resource_id": "93"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/408.png",
+      "width": 227,
+      "height": 87,
+      "legacy_resource_id": "94"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/345.png",
+      "width": 144,
+      "height": 12,
+      "legacy_resource_id": "95"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/742.png",
+      "width": 144,
+      "height": 12,
+      "legacy_resource_id": "96"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/739.png",
+      "width": 144,
+      "height": 12,
+      "legacy_resource_id": "100"
+    },
+    {
+      "path": "res://assets/Art/HeroPicture/RoleProperiesBox/748.png",
+      "width": 17,
+      "height": 46,
+      "legacy_resource_id": "131"
+    }
+  ],
+  "Scene/Main_menu/Map_1.tscn": [
+    {
+      "path": "res://assets/Art/game_pic/183.png",
+      "width": 940,
+      "height": 590,
+      "legacy_resource_id": "2"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/185.png",
+      "width": 68,
+      "height": 78,
+      "legacy_resource_id": "3"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/188.png",
+      "width": 160,
+      "height": 174,
+      "legacy_resource_id": "4"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/192.png",
+      "width": 60,
+      "height": 58,
+      "legacy_resource_id": "5"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/195.png",
+      "width": 177,
+      "height": 138,
+      "legacy_resource_id": "6"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/199.png",
+      "width": 64,
+      "height": 65,
+      "legacy_resource_id": "7"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/202.png",
+      "width": 162,
+      "height": 163,
+      "legacy_resource_id": "8"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/206.png",
+      "width": 57,
+      "height": 30,
+      "legacy_resource_id": "9"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/209.png",
+      "width": 150,
+      "height": 95,
+      "legacy_resource_id": "10"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/220.png",
+      "width": 86,
+      "height": 64,
+      "legacy_resource_id": "11"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/223.png",
+      "width": 153,
+      "height": 108,
+      "legacy_resource_id": "12"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/213.png",
+      "width": 125,
+      "height": 52,
+      "legacy_resource_id": "13"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/216.png",
+      "width": 222,
+      "height": 119,
+      "legacy_resource_id": "14"
+    },
+    {
+      "path": "res://assets/Art/game_pic/qa.png",
+      "width": 290,
+      "height": 267,
+      "legacy_resource_id": "15"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/ShallowShore.png",
+      "width": 290,
+      "height": 267,
+      "legacy_resource_id": "16"
+    },
+    {
+      "path": "res://assets/Art/game_pic/dh.png",
+      "width": 691,
+      "height": 222,
+      "legacy_resource_id": "17"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/EastSea.png",
+      "width": 691,
+      "height": 222,
+      "legacy_resource_id": "18"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/267.png",
+      "width": 215,
+      "height": 208,
+      "legacy_resource_id": "19"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/SharkVortex.png",
+      "width": 376,
+      "height": 261,
+      "legacy_resource_id": "20"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/234.png",
+      "width": 57,
+      "height": 56,
+      "legacy_resource_id": "21"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/237.png",
+      "width": 152,
+      "height": 101,
+      "legacy_resource_id": "22"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/241.png",
+      "width": 73,
+      "height": 61,
+      "legacy_resource_id": "23"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/244.png",
+      "width": 153,
+      "height": 116,
+      "legacy_resource_id": "24"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/227.png",
+      "width": 82,
+      "height": 59,
+      "legacy_resource_id": "25"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/230.png",
+      "width": 152,
+      "height": 109,
+      "legacy_resource_id": "26"
+    },
+    {
+      "path": "res://assets/Art/Game_2/Button/445.png",
+      "width": 60,
+      "height": 62,
+      "legacy_resource_id": "27"
+    },
+    {
+      "path": "res://assets/Art/Game_2/Button/447.png",
+      "width": 60,
+      "height": 62,
+      "legacy_resource_id": "28"
+    },
+    {
+      "path": "res://assets/Art/game_pic/level_choose/294.png",
+      "width": 138,
+      "height": 93,
+      "legacy_resource_id": "29"
+    },
+    {
+      "path": "res://assets/Art/game_pic/487.png",
+      "width": 59,
+      "height": 38,
+      "legacy_resource_id": "30"
+    },
+    {
+      "path": "res://assets/Art/game_pic/481.png",
+      "width": 61,
+      "height": 37,
+      "legacy_resource_id": "31"
+    },
+    {
+      "path": "res://assets/Art/game_pic/480.png",
+      "width": 60,
+      "height": 34,
+      "legacy_resource_id": "32"
+    },
+    {
+      "path": "res://assets/Art/game_pic/492.png",
+      "width": 138,
+      "height": 29,
+      "legacy_resource_id": "33"
+    },
+    {
+      "path": "res://assets/Art/Game_3/OtherMapButton/gg_1.png",
+      "width": 69,
+      "height": 71,
+      "legacy_resource_id": "34"
+    },
+    {
+      "path": "res://assets/Art/Game_3/OtherMapButton/gg_2.png",
+      "width": 69,
+      "height": 71,
+      "legacy_resource_id": "35"
+    },
+    {
+      "path": "res://assets/Art/Level/Level_9/80.png",
+      "width": 126,
+      "height": 137,
+      "legacy_resource_id": "36"
+    },
+    {
+      "path": "res://assets/Art/MainGame/463.png",
+      "width": 137,
+      "height": 28,
+      "legacy_resource_id": "37"
+    },
+    {
+      "path": "res://assets/Art/MainGame/49.png",
+      "width": 960,
+      "height": 384,
+      "legacy_resource_id": "39"
+    },
+    {
+      "path": "res://assets/Art/Game_2/Button/ButtonReturnMainMenu.png",
+      "width": 112,
+      "height": 114,
+      "legacy_resource_id": "40"
+    },
+    {
+      "path": "res://assets/Art/Game_3/OtherMapButton/hj2.png",
+      "width": 210,
+      "height": 120,
+      "legacy_resource_id": "43"
+    },
+    {
+      "path": "res://assets/Art/Game_3/OtherMapButton/hj1.png",
+      "width": 210,
+      "height": 120,
+      "legacy_resource_id": "44"
+    }
+  ],
+  "Scene/Main_menu/Main_Menu.tscn": [
+    {
+      "path": "res://assets/Art/MainGame/Bg1.png",
+      "width": 941,
+      "height": 591,
+      "legacy_resource_id": "2"
+    },
+    {
+      "path": "res://assets/Art/game_pic/679.PNG",
+      "width": 241,
+      "height": 21,
+      "legacy_resource_id": "6"
+    }
+  ],
+  "Scene/BackPack/BackPack.tscn": [
+    {
+      "path": "res://assets/Art/BackPack/207.png",
+      "width": 941,
+      "height": 591,
+      "legacy_resource_id": "2"
+    },
+    {
+      "path": "res://assets/Art/BackPack/BackPackLight.png",
+      "width": 960,
+      "height": 1152,
+      "legacy_resource_id": "3"
+    },
+    {
+      "path": "res://assets/Art/BackPack/zdlnc.png",
+      "width": 213,
+      "height": 51,
+      "legacy_resource_id": "12"
+    },
+    {
+      "path": "res://assets/Art/BackPack/AllItems/wq.png",
+      "width": 50,
+      "height": 50,
+      "legacy_resource_id": "16"
+    },
+    {
+      "path": "res://assets/Art/BackPack/AllItems/fj.png",
+      "width": 50,
+      "height": 50,
+      "legacy_resource_id": "17"
+    },
+    {
+      "path": "res://assets/Art/BackPack/AllItems/sp.png",
+      "width": 50,
+      "height": 50,
+      "legacy_resource_id": "18"
+    },
+    {
+      "path": "res://assets/Art/BackPack/AllItems/fb.png",
+      "width": 50,
+      "height": 50,
+      "legacy_resource_id": "19"
+    },
+    {
+      "path": "res://assets/Art/BackPack/AllItems/tx.png",
+      "width": 50,
+      "height": 50,
+      "legacy_resource_id": "20"
+    },
+    {
+      "path": "res://assets/Art/BackPack/AllItems/sz.png",
+      "width": 50,
+      "height": 50,
+      "legacy_resource_id": "21"
+    },
+    {
+      "path": "res://assets/Art/BackPack/AllItems/cb.png",
+      "width": 50,
+      "height": 50,
+      "legacy_resource_id": "22"
+    },
+    {
+      "path": "res://assets/Art/BackPack/219.png",
+      "width": 83,
+      "height": 59,
+      "legacy_resource_id": "23"
+    },
+    {
+      "path": "res://assets/Art/BackPack/244.png",
+      "width": 325,
+      "height": 170,
+      "legacy_resource_id": "24"
+    },
+    {
+      "path": "res://assets/Art/BackPack/page_1.png",
+      "width": 40,
+      "height": 30,
+      "legacy_resource_id": "27"
+    },
+    {
+      "path": "res://assets/Art/BackPack/123.png",
+      "width": 40,
+      "height": 30,
+      "legacy_resource_id": "28"
+    },
+    {
+      "path": "res://assets/Art/BackPack/116.png",
+      "width": 40,
+      "height": 30,
+      "legacy_resource_id": "29"
+    },
+    {
+      "path": "res://assets/Art/BackPack/118.png",
+      "width": 40,
+      "height": 30,
+      "legacy_resource_id": "30"
+    },
+    {
+      "path": "res://assets/Art/BackPack/208.png",
+      "width": 210,
+      "height": 17,
+      "legacy_resource_id": "31"
+    },
+    {
+      "path": "res://assets/Art/BackPack/211.png",
+      "width": 213,
+      "height": 20,
+      "legacy_resource_id": "32"
+    },
+    {
+      "path": "res://assets/Art/BackPack/209.png",
+      "width": 241,
+      "height": 18,
+      "legacy_resource_id": "33"
+    },
+    {
+      "path": "res://assets/Art/BackPack/218.png",
+      "width": 36,
+      "height": 24,
+      "legacy_resource_id": "34"
+    },
+    {
+      "path": "res://assets/Art/BackPack/IsChoose.png",
+      "width": 18,
+      "height": 18,
+      "legacy_resource_id": "36"
+    },
+    {
+      "path": "res://assets/Art/BackPack/49.png",
+      "width": 41,
+      "height": 41,
+      "legacy_resource_id": "38"
+    },
+    {
+      "path": "res://assets/Art/MagicWeapon/222.png",
+      "width": 41,
+      "height": 41,
+      "legacy_resource_id": "39"
+    }
+  ],
+  "Scene/BackPack/Main_Backpack.tscn": [
+    {
+      "path": "res://assets/Art/BackPack/zb_button_choose.png",
+      "width": 71,
+      "height": 25,
+      "legacy_resource_id": "3"
+    },
+    {
+      "path": "res://assets/Art/BackPack/zb_button.png",
+      "width": 71,
+      "height": 25,
+      "legacy_resource_id": "4"
+    },
+    {
+      "path": "res://assets/Art/BackPack/LastPageN.png",
+      "width": 87,
+      "height": 33,
+      "legacy_resource_id": "7"
+    },
+    {
+      "path": "res://assets/Art/BackPack/LastPageY.png",
+      "width": 87,
+      "height": 33,
+      "legacy_resource_id": "8"
+    },
+    {
+      "path": "res://assets/Art/BackPack/NextPageN.png",
+      "width": 87,
+      "height": 33,
+      "legacy_resource_id": "9"
+    },
+    {
+      "path": "res://assets/Art/BackPack/NextPageY.png",
+      "width": 87,
+      "height": 33,
+      "legacy_resource_id": "10"
+    },
+    {
+      "path": "res://assets/Art/BackPack/lh_wk.png",
+      "width": 129,
+      "height": 28,
+      "legacy_resource_id": "11"
+    }
+  ]
+}

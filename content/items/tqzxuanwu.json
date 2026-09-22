@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "tqzxuanwu",
+  "legacy": {
+    "名字": "太清阵·玄武",
+    "所属": "阵眼材料",
+    "品质": "普通",
+    "颜色": "FFFFFF",
+    "类型": "道具",
+    "描述": "",
+    "售价": 0
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

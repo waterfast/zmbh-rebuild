@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/Art/BackPack/AllItems/empty.png" id="1"]
+
+[sub_resource type="StyleBoxEmpty" id="1"]
+script = null
+
+[sub_resource type="StyleBoxEmpty" id="2"]
+script = null
+
+[sub_resource type="StyleBoxEmpty" id="3"]
+script = null
+
+[sub_resource type="StyleBoxEmpty" id="4"]
+script = null
+
+[sub_resource type="StyleBoxEmpty" id="5"]
+script = null
+
+[node name="wq" type="Button"]
+size_flags_vertical = 4
+theme_override_styles/normal = SubResource( "1" )
+theme_override_styles/hover = SubResource( "2" )
+theme_override_styles/pressed = SubResource( "3" )
+theme_override_styles/disabled = SubResource( "4" )
+theme_override_styles/focus = SubResource( "5" )
+icon = ExtResource( "1" )

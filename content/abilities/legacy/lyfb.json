@@ -1,0 +1,15 @@
+{
+  "id": "lyfb",
+  "legacy_id": "lyfb",
+  "display_name": "烈焰风暴",
+  "description": "快速旋转，震开或吸引周边敌人，造成多段魔法伤害",
+  "character_id": 1,
+  "slot": 4,
+  "passive": false,
+  "mp_cost": 35,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

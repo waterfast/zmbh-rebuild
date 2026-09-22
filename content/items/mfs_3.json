@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "mfs_3",
+  "legacy": {
+    "名字": "3级魔防石",
+    "所属": "宝石",
+    "品质": "精良",
+    "类型": "道具",
+    "颜色": "008aff",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 0,
+    "Def": 0,
+    "Mdef": 5,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "镶嵌后提供5魔防，也合成为4级魔防石。",
+    "售价": 0,
+    "强化属性": {}
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="BuffDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://Script/core/buff/buff_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"poison"
+duration = 5.0
+tick_interval = 1.0
+tick_damage = 4.0

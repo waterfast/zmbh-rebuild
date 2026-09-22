@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "cz",
+  "legacy": {
+    "名字": "残昼",
+    "所属": "唐僧",
+    "品质": "邪灵",
+    "类型": "防具",
+    "颜色": "656565",
+    "SHp": -200,
+    "SMp": 0,
+    "power": {
+      "random": "randi_range",
+      "min": 260,
+      "max": 270
+    },
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": {
+      "random": "randi_range",
+      "min": 24,
+      "max": 30
+    },
+    "R_hp": 0,
+    "R_mp": 6,
+    "vampirism": 0.0,
+    "Lucky": {
+      "random": "randi_range",
+      "min": 24,
+      "max": 30
+    },
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "",
+    "售价": 320,
+    "强化属性": {
+      "power": 30,
+      "Lucky": 2,
+      "Miss": 2
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

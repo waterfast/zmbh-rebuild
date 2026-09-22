@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "ylf",
+  "legacy": {
+    "名字": "应龙斧",
+    "所属": "八戒",
+    "品质": "魂器",
+    "类型": "武器",
+    "颜色": "00ffff",
+    "SHp": {
+      "random": "randi_range",
+      "min": 350,
+      "max": 375
+    },
+    "SMp": 0,
+    "power": 350,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 10,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 20,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "",
+    "售价": 640,
+    "强化属性": {
+      "SHp": 30,
+      "power": 30,
+      "Htarget": 2
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "bap",
+  "legacy": {
+    "名字": "彼岸袍",
+    "所属": "沙僧",
+    "品质": "精良",
+    "类型": "防具",
+    "颜色": "008aff",
+    "SHp": {
+      "random": "randi_range",
+      "min": 465,
+      "max": 485
+    },
+    "SMp": {
+      "random": "randi_range",
+      "min": 185,
+      "max": 205
+    },
+    "power": 0,
+    "Def": 25,
+    "Mdef": 25,
+    "Crit": 0,
+    "Miss": 12,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "困骥犹在辕，沉珠尚隐精。",
+    "售价": 80,
+    "强化属性": {
+      "SHp": 45,
+      "SMp": 25,
+      "Miss": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

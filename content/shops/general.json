@@ -1,0 +1,248 @@
+{
+  "common": [
+    {
+      "id": "qhs_1",
+      "price": 4000
+    },
+    {
+      "id": "qhs_2",
+      "price": 10000
+    },
+    {
+      "id": "qhs_3",
+      "price": 27000
+    },
+    {
+      "id": "qhs_4",
+      "price": 60000
+    },
+    {
+      "id": "yll",
+      "price": 5000
+    },
+    {
+      "id": "mpyj",
+      "price": 5000
+    },
+    {
+      "id": "wxxls",
+      "price": 30000
+    },
+    {
+      "id": "czlxls",
+      "price": 20000
+    },
+    {
+      "id": "xydxq",
+      "price": 10000
+    },
+    {
+      "id": "ttzy",
+      "price": 80000
+    }
+  ],
+  "characters": {
+    "1": [
+      {
+        "id": "wkbsz",
+        "price": 100000
+      },
+      {
+        "id": "wkmrz",
+        "price": 100000
+      },
+      {
+        "id": "wkwdg",
+        "price": 100000
+      },
+      {
+        "id": "wkhwdg",
+        "price": 100000
+      },
+      {
+        "id": "wkjdyhwq",
+        "price": 100
+      },
+      {
+        "id": "wkjdyhyf",
+        "price": 100
+      },
+      {
+        "id": "lemhg",
+        "price": 100
+      },
+      {
+        "id": "lemhz",
+        "price": 100
+      }
+    ],
+    "2": [
+      {
+        "id": "tsbsz",
+        "price": 100000
+      },
+      {
+        "id": "tsmrz",
+        "price": 100000
+      },
+      {
+        "id": "tshwdg",
+        "price": 100000
+      },
+      {
+        "id": "tshowdg",
+        "price": 100000
+      },
+      {
+        "id": "tsjdyhwq",
+        "price": 100
+      },
+      {
+        "id": "tsjdyhyf",
+        "price": 100
+      },
+      {
+        "id": "dmysz",
+        "price": 100
+      },
+      {
+        "id": "dmyszh",
+        "price": 100
+      }
+    ],
+    "3": [
+      {
+        "id": "bjbsz",
+        "price": 100000
+      },
+      {
+        "id": "bjmrz",
+        "price": 100000
+      },
+      {
+        "id": "bjhwdg",
+        "price": 100000
+      },
+      {
+        "id": "bjhowdg",
+        "price": 100000
+      },
+      {
+        "id": "bjjdyhwq",
+        "price": 100
+      },
+      {
+        "id": "bjjdyhyf",
+        "price": 100
+      },
+      {
+        "id": "lgdwc",
+        "price": 100
+      },
+      {
+        "id": "lgdwz",
+        "price": 100
+      }
+    ],
+    "4": [
+      {
+        "id": "ssbsz",
+        "price": 100000
+      },
+      {
+        "id": "ssmrz",
+        "price": 100000
+      },
+      {
+        "id": "sshwdg",
+        "price": 100000
+      },
+      {
+        "id": "sshowdg",
+        "price": 100000
+      },
+      {
+        "id": "ssjdyhwq",
+        "price": 100
+      },
+      {
+        "id": "ssjdyhyf",
+        "price": 100
+      },
+      {
+        "id": "mlhfg",
+        "price": 100
+      },
+      {
+        "id": "mlhfz",
+        "price": 100
+      }
+    ],
+    "5": [
+      {
+        "id": "blbsz",
+        "price": 100000
+      },
+      {
+        "id": "blmrz",
+        "price": 100000
+      },
+      {
+        "id": "blhwdg",
+        "price": 100000
+      },
+      {
+        "id": "blhowdg",
+        "price": 100000
+      },
+      {
+        "id": "bljdyhwq",
+        "price": 100
+      },
+      {
+        "id": "bljdyhyf",
+        "price": 100
+      },
+      {
+        "id": "lxhjq",
+        "price": 100
+      },
+      {
+        "id": "hhez",
+        "price": 100
+      }
+    ]
+  },
+  "level_50": {
+    "1": {
+      "id": "qtds",
+      "price": 200000
+    },
+    "2": {
+      "id": "jcz",
+      "price": 200000
+    },
+    "3": {
+      "id": "tpys",
+      "price": 200000
+    },
+    "4": {
+      "id": "jldj",
+      "price": 200000
+    },
+    "5": {
+      "id": "lwstz",
+      "price": 200000
+    }
+  },
+  "free": [
+    {
+      "id": "xczg",
+      "price": 0
+    },
+    {
+      "id": "sxyr",
+      "price": 0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "xyq",
+  "legacy_id": "xyq",
+  "display_name": "心眼枪",
+  "description": "举起长枪不断挥舞，造成伤害，之后奋力一击击退目标。（期间无视击退）",
+  "character_id": 5,
+  "slot": 1,
+  "passive": false,
+  "mp_cost": 15,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

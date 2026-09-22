@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "cssryx",
+  "legacy": {
+    "名字": "射日英雄",
+    "所属": "通用",
+    "品质": "传说",
+    "类型": "头衔",
+    "颜色": "FFA500",
+    "SHp": 1000,
+    "SMp": 0,
+    "power": 250,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 10,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 10,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 10,
+    "sp": 10,
+    "描述": "",
+    "售价": 1280,
+    "强化属性": {},
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

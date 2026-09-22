@@ -1,0 +1,15 @@
+{
+  "id": "ssp",
+  "legacy_id": "ssp",
+  "display_name": "碎石破",
+  "description": "八戒用钉耙猛砸地面，从地面刺出多段突刺，对敌人造成伤害。",
+  "character_id": 3,
+  "slot": 1,
+  "passive": false,
+  "mp_cost": 10,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

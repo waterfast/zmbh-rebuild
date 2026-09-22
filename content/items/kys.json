@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "kys",
+  "legacy": {
+    "名字": "枯叶衫",
+    "所属": "悟空",
+    "品质": "史诗",
+    "类型": "防具",
+    "颜色": "800080",
+    "SHp": {
+      "random": "randi_range",
+      "min": 650,
+      "max": 700
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 35,
+    "Mdef": 35,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 2,
+    "vampirism": 0,
+    "Lucky": 15,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "落黄昏，三更雨，临行密密缝，离愁丝丝苦。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 100,
+      "Def": 3,
+      "Mdef": 3,
+      "Lucky": 2
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

@@ -1,0 +1,14 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/Art/Level/Level_11/BaiGu.png" id="2"]
+
+[ext_resource type="Texture2D" path="res://assets/Art/Level/Level_11/88.png" id="3"]
+
+[node name="BaiGuLevel" type="Node2D"]
+
+[node name="BaiGu" type="Sprite2D" parent="."]
+texture = ExtResource( "2" )
+
+[node name="Hide" type="Sprite2D" parent="."]
+position = Vector2(-57, 10)
+texture = ExtResource( "3" )

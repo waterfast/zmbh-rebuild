@@ -1,0 +1,19 @@
+[gd_scene load_steps=7 format=3]
+[ext_resource type="PackedScene" path="res://actors/actor.tscn" id="1"]
+[ext_resource type="Resource" path="res://content/player_stats.tres" id="2"]
+[ext_resource type="Resource" path="res://content/ice_dragon_wave.tres" id="3"]
+[ext_resource type="Script" path="res://Script/actors/player_input.gd" id="4"]
+[ext_resource type="Script" path="res://Script/presentation/actor_view.gd" id="5"]
+[ext_resource type="Resource" path="res://content/tang_sanzang_normal.tres" id="6"]
+[node name="Player" instance=ExtResource("1")]
+definition = ExtResource("2")
+starting_ability = ExtResource("3")
+normal_attack = ExtResource("6")
+debug_draw = false
+[node name="ActorView" type="Node2D" parent="." node_paths=PackedStringArray("actor")]
+script = ExtResource("5")
+skin_id = &"tang_sanzang"
+actor = NodePath("..")
+[node name="PlayerInput" type="Node" parent="." node_paths=PackedStringArray("actor")]
+script = ExtResource("4")
+actor = NodePath("..")

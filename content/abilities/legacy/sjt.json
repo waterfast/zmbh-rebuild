@@ -1,0 +1,15 @@
+{
+  "id": "sjt",
+  "legacy_id": "sjt",
+  "display_name": "水精通",
+  "description": "学习后，玄冰阵和水魔爆获得概率冰冻效果，升级提高冰冻时长和冰冻概率。",
+  "character_id": 2,
+  "slot": 10,
+  "passive": true,
+  "mp_cost": 0,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "wdww",
+  "legacy_id": "wdww",
+  "display_name": "巫毒娃娃",
+  "description": "释放一个傀儡娃娃向目标(当前生命最高单位)移动，打击娃娃目标也会受到伤害，升级提升传递比率及娃娃生命。",
+  "character_id": 4,
+  "slot": 9,
+  "passive": false,
+  "mp_cost": 10,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

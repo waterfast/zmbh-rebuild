@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "tsgl",
+  "legacy": {
+    "名字": "天煞骨链",
+    "所属": "通用",
+    "品质": "精良",
+    "类型": "饰品",
+    "颜色": "008aff",
+    "SHp": {
+      "operation": "Add",
+      "left": 350,
+      "right": {
+        "random": "randi_range",
+        "min": 0,
+        "max": 50
+      }
+    },
+    "SMp": {
+      "operation": "Add",
+      "left": 95,
+      "right": {
+        "random": "randi_range",
+        "min": 0,
+        "max": 15
+      }
+    },
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 3,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 3,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "tsgj",
+    "描述": "用无数妖怪的骸骨熔炼的项链，月圆时会发出百兽的悲鸣。",
+    "售价": 80,
+    "强化属性": {
+      "SHp": 60,
+      "SMp": 6,
+      "Crit": 0.3
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

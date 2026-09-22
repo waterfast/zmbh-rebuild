@@ -1,0 +1,15 @@
+{
+  "id": "lhsq",
+  "legacy_id": "lhsq",
+  "display_name": "灵魂摄取",
+  "description": "伸出魔爪对前方怪物造成伤害，命中后恢复自身生命,根据已损失生命治疗效率至多提升30%。",
+  "character_id": 4,
+  "slot": 7,
+  "passive": false,
+  "mp_cost": 20,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

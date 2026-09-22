@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "zxstg",
+  "legacy": {
+    "名字": "诛邪弑天棍",
+    "所属": "悟空",
+    "品质": "神器",
+    "类型": "武器",
+    "颜色": "ff2d00",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 1200,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 75,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 60,
+    "CritReduce": 0,
+    "ar": 100,
+    "sp": 0,
+    "描述": "骁勇斩奸邪，浩荡弑天惊。",
+    "售价": 2560,
+    "强化属性": {
+      "power": 80,
+      "Crit": 2,
+      "Htarget": 2,
+      "ar": 3
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

@@ -1,0 +1,419 @@
+{
+  "1": {
+    "level_1": {
+      "kind": "level",
+      "id": "level_1",
+      "name": "花果山"
+    },
+    "level_2": {
+      "kind": "level",
+      "id": "level_2",
+      "name": "水帘洞"
+    },
+    "level_3": {
+      "kind": "level",
+      "id": "level_3",
+      "name": "桃花源"
+    },
+    "level_4": {
+      "kind": "level",
+      "id": "level_4",
+      "name": "蝙蝠窟"
+    },
+    "level_5": {
+      "kind": "level",
+      "id": "level_5",
+      "name": "七星洞"
+    },
+    "level_6": {
+      "kind": "level",
+      "id": "level_6",
+      "name": "迦楼罗之穴"
+    },
+    "level_7": {
+      "kind": "level",
+      "id": "level_7",
+      "name": "浅岸"
+    },
+    "level_8": {
+      "kind": "level",
+      "id": "level_8",
+      "name": "东海"
+    },
+    "Node2D2/Node2D/level_9": {
+      "kind": "level",
+      "id": "level_9",
+      "name": "鲨之涡流"
+    },
+    "level_10": {
+      "kind": "level",
+      "id": "level_10",
+      "name": "牛魔谷"
+    },
+    "ldl": {
+      "kind": "unavailable"
+    },
+    "Shop": {
+      "kind": "shop"
+    },
+    "bc_game": {
+      "kind": "save"
+    },
+    "Skill_learn": {
+      "kind": "unavailable"
+    },
+    "GameAn": {
+      "kind": "unavailable"
+    },
+    "Task": {
+      "kind": "quest"
+    },
+    "next": {
+      "kind": "map",
+      "page": 2
+    },
+    "turn_mainmenu": {
+      "kind": "menu"
+    },
+    "level_lhhj": {
+      "kind": "unavailable"
+    }
+  },
+  "2": {
+    "Level_11": {
+      "kind": "level",
+      "id": "level_11",
+      "name": "鬼城"
+    },
+    "Level_12": {
+      "kind": "level",
+      "id": "level_12",
+      "name": "无常巷"
+    },
+    "Level_13": {
+      "kind": "level",
+      "id": "level_13",
+      "name": "鬼门关"
+    },
+    "Level_14": {
+      "kind": "level",
+      "id": "level_14",
+      "name": "接引院"
+    },
+    "Level_15": {
+      "kind": "level",
+      "id": "level_15",
+      "name": "判官府"
+    },
+    "Level_16": {
+      "kind": "level",
+      "id": "level_16",
+      "name": "阎罗殿"
+    },
+    "Level_17": {
+      "kind": "level",
+      "id": "level_17",
+      "name": "忘川河"
+    },
+    "Level_18": {
+      "kind": "level",
+      "id": "level_18",
+      "name": "奈何桥"
+    },
+    "Level_19": {
+      "kind": "level",
+      "id": "level_19",
+      "name": "望乡台"
+    },
+    "Level_20": {
+      "kind": "level",
+      "id": "level_21",
+      "name": "转轮殿"
+    },
+    "Level_nmg": {
+      "kind": "unavailable"
+    },
+    "Level_lxdy": {
+      "kind": "unavailable"
+    },
+    "changetomain": {
+      "kind": "menu"
+    },
+    "Activity": {
+      "kind": "quest"
+    },
+    "Learn_skill": {
+      "kind": "unavailable"
+    },
+    "LdL": {
+      "kind": "unavailable"
+    },
+    "MemoryGame": {
+      "kind": "save"
+    },
+    "shop": {
+      "kind": "shop"
+    },
+    "GameAn": {
+      "kind": "unavailable"
+    },
+    "next": {
+      "kind": "map",
+      "page": 1
+    },
+    "Tianting/Changetott": {
+      "kind": "map",
+      "page": 3
+    },
+    "level_lhhj": {
+      "kind": "unavailable"
+    }
+  },
+  "3": {
+    "Level_21": {
+      "kind": "level",
+      "id": "level_22",
+      "name": "九重天"
+    },
+    "Level_22": {
+      "kind": "level",
+      "id": "level_23",
+      "name": "天宫道"
+    },
+    "Level_23": {
+      "kind": "level",
+      "id": "level_24",
+      "name": "南天门"
+    },
+    "Level_24": {
+      "kind": "level",
+      "id": "level_25",
+      "name": "南天王殿"
+    },
+    "Level_25": {
+      "kind": "level",
+      "id": "level_26",
+      "name": "西天王殿"
+    },
+    "Level_26": {
+      "kind": "level",
+      "id": "level_27",
+      "name": "北天王殿"
+    },
+    "Level_27": {
+      "kind": "level",
+      "id": "level_28",
+      "name": "彩虹楼"
+    },
+    "Level_28": {
+      "kind": "level",
+      "id": "level_29",
+      "name": "朝会殿"
+    },
+    "Level_29": {
+      "kind": "level",
+      "id": "level_30",
+      "name": "凌霄宝殿"
+    },
+    "Level_30": {
+      "kind": "unavailable"
+    },
+    "Level_stz": {
+      "kind": "unavailable"
+    },
+    "Level_dsg": {
+      "kind": "unavailable"
+    },
+    "Level_hdzm": {
+      "kind": "unavailable"
+    },
+    "Level_sssl": {
+      "kind": "unavailable"
+    },
+    "smdp": {
+      "kind": "unavailable"
+    },
+    "lsh": {
+      "kind": "unavailable"
+    },
+    "kls": {
+      "kind": "unavailable"
+    },
+    "ghg": {
+      "kind": "unavailable"
+    },
+    "tzhy": {
+      "kind": "unavailable"
+    },
+    "MemoryGame": {
+      "kind": "save"
+    },
+    "Shop": {
+      "kind": "shop"
+    },
+    "ldl": {
+      "kind": "unavailable"
+    },
+    "LearnSkill": {
+      "kind": "unavailable"
+    },
+    "Actity": {
+      "kind": "unavailable"
+    },
+    "Task": {
+      "kind": "quest"
+    },
+    "ReturnToMainMenu": {
+      "kind": "menu"
+    },
+    "GameSet": {
+      "kind": "unavailable"
+    },
+    "GameAn": {
+      "kind": "unavailable"
+    },
+    "Pellet": {
+      "kind": "unavailable"
+    },
+    "next": {
+      "kind": "map",
+      "page": 1
+    },
+    "Button": {
+      "kind": "map",
+      "page": 2
+    },
+    "level_lhhj": {
+      "kind": "unavailable"
+    }
+  },
+  "4": {
+    "Level_31": {
+      "kind": "level",
+      "id": "level_31",
+      "name": "火龙岛"
+    },
+    "Level_32": {
+      "kind": "unavailable"
+    },
+    "Level_33": {
+      "kind": "unavailable"
+    },
+    "Level_34": {
+      "kind": "unavailable"
+    },
+    "Level_35": {
+      "kind": "unavailable"
+    },
+    "Level_36": {
+      "kind": "unavailable"
+    },
+    "Level_37": {
+      "kind": "unavailable"
+    },
+    "Level_38": {
+      "kind": "unavailable"
+    },
+    "Level_39": {
+      "kind": "unavailable"
+    },
+    "Level_byg": {
+      "kind": "unavailable"
+    },
+    "Level_esbxx": {
+      "kind": "unavailable"
+    },
+    "Level_znyy": {
+      "kind": "unavailable"
+    },
+    "hdzm": {
+      "kind": "unavailable"
+    },
+    "MemoryClass": {
+      "kind": "save"
+    },
+    "Shop": {
+      "kind": "shop"
+    },
+    "LDL2": {
+      "kind": "unavailable"
+    },
+    "Skill": {
+      "kind": "unavailable"
+    },
+    "Activity": {
+      "kind": "unavailable"
+    },
+    "Task": {
+      "kind": "quest"
+    },
+    "Return": {
+      "kind": "menu"
+    },
+    "GameSet": {
+      "kind": "unavailable"
+    },
+    "GameAn": {
+      "kind": "unavailable"
+    },
+    "Pellet": {
+      "kind": "unavailable"
+    },
+    "level_lhhj": {
+      "kind": "unavailable"
+    }
+  },
+  "5": {
+    "Level_40": {
+      "kind": "unavailable"
+    },
+    "Level_41": {
+      "kind": "unavailable"
+    },
+    "Level_42": {
+      "kind": "unavailable"
+    },
+    "Level_43": {
+      "kind": "unavailable"
+    },
+    "Level_44": {
+      "kind": "unavailable"
+    },
+    "Level_45": {
+      "kind": "unavailable"
+    },
+    "Level_46": {
+      "kind": "unavailable"
+    },
+    "MemoryClass": {
+      "kind": "save"
+    },
+    "Shop": {
+      "kind": "shop"
+    },
+    "LDL2": {
+      "kind": "unavailable"
+    },
+    "Skill": {
+      "kind": "unavailable"
+    },
+    "Activity": {
+      "kind": "unavailable"
+    },
+    "Task": {
+      "kind": "quest"
+    },
+    "Return": {
+      "kind": "menu"
+    },
+    "GameSet": {
+      "kind": "unavailable"
+    },
+    "GameAn": {
+      "kind": "unavailable"
+    },
+    "Pellet": {
+      "kind": "unavailable"
+    }
+  }
+}

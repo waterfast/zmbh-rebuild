@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "zjhl",
+  "legacy": {
+    "名字": "紫金葫芦",
+    "所属": "通用",
+    "品质": "邪灵",
+    "类型": "法宝",
+    "成长率": {
+      "random": "randf_range",
+      "min": 2,
+      "max": 2.5,
+      "step": 0.1
+    },
+    "五行": [],
+    "颜色": "656565",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 5,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 3,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "拥有【伏妖神火】技能，朝前方喷出火焰，造成物理伤害,并有10%概率施加一层（灼烧）。",
+    "售价": 320,
+    "强化属性": {
+      "SHp": 25,
+      "SMp": 12,
+      "power": 10,
+      "Def": 1,
+      "Mdef": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

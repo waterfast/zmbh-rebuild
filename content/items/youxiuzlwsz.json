@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "youxiuzlwsz",
+  "legacy": {
+    "名字": "转轮王时装·优秀",
+    "所属": "通用",
+    "品质": "优秀",
+    "类型": "时装",
+    "颜色": "00FF00",
+    "SHp": 0,
+    "SMp": 100,
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 2,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "拥有【锁轮无双】技能，在身旁召唤魔轮锁链对附近怪物造成伤害，并施加【眩晕】。",
+    "售价": 40,
+    "强化属性": {
+      "SMp": 20
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

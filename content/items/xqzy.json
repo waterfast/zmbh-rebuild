@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "id": "xqzy",
+  "legacy": {
+    "名字": "喜鹊之翼",
+    "所属": "通用",
+    "品质": "优秀",
+    "类型": "翅膀",
+    "颜色": "00FF00",
+    "SHp": 100,
+    "SMp": 100,
+    "power": 20,
+    "Def": 10,
+    "Mdef": 10,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "喜鹊声唶唶，俗云报喜鸣。",
+    "售价": 100,
+    "强化属性": {
+      "SHp": 20,
+      "SMp": 10
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

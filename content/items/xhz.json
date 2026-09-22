@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "xhz",
+  "legacy": {
+    "名字": "萱花坠",
+    "所属": "通用",
+    "品质": "史诗",
+    "类型": "饰品",
+    "颜色": "800080",
+    "SHp": 0,
+    "SMp": 0,
+    "power": {
+      "random": "randi_range",
+      "min": 120,
+      "max": 140
+    },
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 18,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 5,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "xhhl",
+    "描述": "花映红，春风笑，佳人佩美坠，不知与谁同。",
+    "售价": 160,
+    "强化属性": {
+      "power": 10,
+      "Crit": 2
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

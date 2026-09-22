@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "xwj",
+  "legacy": {
+    "名字": "玄武甲",
+    "所属": "悟空",
+    "品质": "优秀",
+    "类型": "防具",
+    "颜色": "00FF00",
+    "SHp": {
+      "random": "randi_range",
+      "min": 120,
+      "max": 135
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": {
+      "random": "randi_range",
+      "min": 8,
+      "max": 10
+    },
+    "Mdef": {
+      "random": "randi_range",
+      "min": 8,
+      "max": 10
+    },
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": {
+      "random": "randi_range",
+      "min": 3,
+      "max": 5
+    },
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "传说由玄武的鳞片打造的战甲，装备后坚不可摧，呈现玄武防御之势。",
+    "售价": 40,
+    "强化属性": {
+      "SHp": 20,
+      "Lucky": 1,
+      "Def": 2,
+      "Mdef": 2
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

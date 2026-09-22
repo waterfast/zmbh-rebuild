@@ -1,0 +1,1552 @@
+{
+  "schema_version": 1,
+  "recipes": [
+    {
+      "id": "legacy_000",
+      "inputs": [
+        "ttlp1",
+        "ttlp2",
+        "ttlp3"
+      ],
+      "output": "ttlp",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_001",
+      "inputs": [
+        "qhs_1",
+        "qhs_1",
+        "qhs_1"
+      ],
+      "output": "qhs_2",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_002",
+      "inputs": [
+        "qhs_2",
+        "qhs_2",
+        "qhs_2"
+      ],
+      "output": "qhs_3",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_003",
+      "inputs": [
+        "qhs_3",
+        "qhs_3",
+        "qhs_3"
+      ],
+      "output": "qhs_4",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_004",
+      "inputs": [
+        "rls",
+        "rls",
+        "th"
+      ],
+      "output": "tss",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_005",
+      "inputs": [
+        "rls",
+        "rls",
+        "tc"
+      ],
+      "output": "tss",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_006",
+      "inputs": [
+        "rls",
+        "rls",
+        "tz"
+      ],
+      "output": "tss",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_007",
+      "inputs": [
+        "rls",
+        "rls",
+        "ts"
+      ],
+      "output": "tss",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_008",
+      "inputs": [
+        "rls",
+        "rls",
+        "tq"
+      ],
+      "output": "tss",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_009",
+      "inputs": [
+        "ey",
+        "rls",
+        "rls"
+      ],
+      "output": "yhs",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_010",
+      "inputs": [
+        "cz",
+        "rls",
+        "rls"
+      ],
+      "output": "yhs",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_011",
+      "inputs": [
+        "rls",
+        "rls",
+        "ry"
+      ],
+      "output": "yhs",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_012",
+      "inputs": [
+        "rls",
+        "rls",
+        "yj"
+      ],
+      "output": "yhs",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_013",
+      "inputs": [
+        "rls",
+        "rls",
+        "ze"
+      ],
+      "output": "yhs",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_014",
+      "inputs": [
+        "putongnmwsz",
+        "putongnmwsz",
+        "putongnmwsz"
+      ],
+      "output": "youxiunmwsz",
+      "cost": 1000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_015",
+      "inputs": [
+        "youxiunmwsz",
+        "youxiunmwsz",
+        "youxiunmwsz"
+      ],
+      "output": "jingliangnmwsz",
+      "cost": 5000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_016",
+      "inputs": [
+        "jingliangnmwsz",
+        "jingliangnmwsz",
+        "jingliangnmwsz"
+      ],
+      "output": "shishinmwsz",
+      "cost": 10000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_017",
+      "inputs": [
+        "putongzlwsz",
+        "putongzlwsz",
+        "putongzlwsz"
+      ],
+      "output": "youxiuzlwsz",
+      "cost": 1000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_018",
+      "inputs": [
+        "youxiuzlwsz",
+        "youxiuzlwsz",
+        "youxiuzlwsz"
+      ],
+      "output": "jingliangzlwsz",
+      "cost": 5000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_019",
+      "inputs": [
+        "jingliangzlwsz",
+        "jingliangzlwsz",
+        "jingliangzlwsz"
+      ],
+      "output": "shishizlwsz",
+      "cost": 10000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_020",
+      "inputs": [
+        "sms_1",
+        "sms_1",
+        "sms_1"
+      ],
+      "output": "sms_2",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_021",
+      "inputs": [
+        "sms_2",
+        "sms_2",
+        "sms_2"
+      ],
+      "output": "sms_3",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_022",
+      "inputs": [
+        "sms_3",
+        "sms_3",
+        "sms_3"
+      ],
+      "output": "sms_4",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_023",
+      "inputs": [
+        "sms_4",
+        "sms_4",
+        "sms_4"
+      ],
+      "output": "sms_5",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_024",
+      "inputs": [
+        "fls_1",
+        "fls_1",
+        "fls_1"
+      ],
+      "output": "fls_2",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_025",
+      "inputs": [
+        "fls_2",
+        "fls_2",
+        "fls_2"
+      ],
+      "output": "fls_3",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_026",
+      "inputs": [
+        "fls_3",
+        "fls_3",
+        "fls_3"
+      ],
+      "output": "fls_4",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_027",
+      "inputs": [
+        "fls_4",
+        "fls_4",
+        "fls_4"
+      ],
+      "output": "fls_5",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_028",
+      "inputs": [
+        "gjs_1",
+        "gjs_1",
+        "gjs_1"
+      ],
+      "output": "gjs_2",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_029",
+      "inputs": [
+        "gjs_2",
+        "gjs_2",
+        "gjs_2"
+      ],
+      "output": "gjs_3",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_030",
+      "inputs": [
+        "gjs_3",
+        "gjs_3",
+        "gjs_3"
+      ],
+      "output": "gjs_4",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_031",
+      "inputs": [
+        "gjs_4",
+        "gjs_4",
+        "gjs_4"
+      ],
+      "output": "gjs_5",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_032",
+      "inputs": [
+        "wfs_1",
+        "wfs_1",
+        "wfs_1"
+      ],
+      "output": "wfs_2",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_033",
+      "inputs": [
+        "wfs_2",
+        "wfs_2",
+        "wfs_2"
+      ],
+      "output": "wfs_3",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_034",
+      "inputs": [
+        "wfs_3",
+        "wfs_3",
+        "wfs_3"
+      ],
+      "output": "wfs_4",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_035",
+      "inputs": [
+        "wfs_4",
+        "wfs_4",
+        "wfs_4"
+      ],
+      "output": "wfs_5",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_036",
+      "inputs": [
+        "mfs_1",
+        "mfs_1",
+        "mfs_1"
+      ],
+      "output": "mfs_2",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_037",
+      "inputs": [
+        "mfs_2",
+        "mfs_2",
+        "mfs_2"
+      ],
+      "output": "mfs_3",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_038",
+      "inputs": [
+        "mfs_3",
+        "mfs_3",
+        "mfs_3"
+      ],
+      "output": "mfs_4",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_039",
+      "inputs": [
+        "mfs_4",
+        "mfs_4",
+        "mfs_4"
+      ],
+      "output": "mfs_5",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_040",
+      "inputs": [
+        "bjs_1",
+        "bjs_1",
+        "bjs_1"
+      ],
+      "output": "bjs_2",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_041",
+      "inputs": [
+        "bjs_2",
+        "bjs_2",
+        "bjs_2"
+      ],
+      "output": "bjs_3",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_042",
+      "inputs": [
+        "bjs_3",
+        "bjs_3",
+        "bjs_3"
+      ],
+      "output": "bjs_4",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_043",
+      "inputs": [
+        "bjs_4",
+        "bjs_4",
+        "bjs_4"
+      ],
+      "output": "bjs_5",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_044",
+      "inputs": [
+        "sbs_1",
+        "sbs_1",
+        "sbs_1"
+      ],
+      "output": "sbs_2",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_045",
+      "inputs": [
+        "sbs_2",
+        "sbs_2",
+        "sbs_2"
+      ],
+      "output": "sbs_3",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_046",
+      "inputs": [
+        "sbs_3",
+        "sbs_3",
+        "sbs_3"
+      ],
+      "output": "sbs_4",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_047",
+      "inputs": [
+        "sbs_4",
+        "sbs_4",
+        "sbs_4"
+      ],
+      "output": "sbs_5",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_048",
+      "inputs": [
+        "hxs_1",
+        "hxs_1",
+        "hxs_1"
+      ],
+      "output": "hxs_2",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_049",
+      "inputs": [
+        "hxs_2",
+        "hxs_2",
+        "hxs_2"
+      ],
+      "output": "hxs_3",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_050",
+      "inputs": [
+        "hxs_3",
+        "hxs_3",
+        "hxs_3"
+      ],
+      "output": "hxs_4",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_051",
+      "inputs": [
+        "hxs_4",
+        "hxs_4",
+        "hxs_4"
+      ],
+      "output": "hxs_5",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_052",
+      "inputs": [
+        "hms_1",
+        "hms_1",
+        "hms_1"
+      ],
+      "output": "hms_2",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_053",
+      "inputs": [
+        "hms_2",
+        "hms_2",
+        "hms_2"
+      ],
+      "output": "hms_3",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_054",
+      "inputs": [
+        "hms_3",
+        "hms_3",
+        "hms_3"
+      ],
+      "output": "hms_4",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_055",
+      "inputs": [
+        "hms_4",
+        "hms_4",
+        "hms_4"
+      ],
+      "output": "hms_5",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_056",
+      "inputs": [
+        "xys_1",
+        "xys_1",
+        "xys_1"
+      ],
+      "output": "xys_2",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_057",
+      "inputs": [
+        "xys_2",
+        "xys_2",
+        "xys_2"
+      ],
+      "output": "xys_3",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_058",
+      "inputs": [
+        "xys_3",
+        "xys_3",
+        "xys_3"
+      ],
+      "output": "xys_4",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_059",
+      "inputs": [
+        "xys_4",
+        "xys_4",
+        "xys_4"
+      ],
+      "output": "xys_5",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_060",
+      "inputs": [
+        "mzs_1",
+        "mzs_1",
+        "mzs_1"
+      ],
+      "output": "mzs_2",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_061",
+      "inputs": [
+        "mzs_2",
+        "mzs_2",
+        "mzs_2"
+      ],
+      "output": "mzs_3",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_062",
+      "inputs": [
+        "mzs_3",
+        "mzs_3",
+        "mzs_3"
+      ],
+      "output": "mzs_4",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_063",
+      "inputs": [
+        "mzs_4",
+        "mzs_4",
+        "mzs_4"
+      ],
+      "output": "mzs_5",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_064",
+      "inputs": [
+        "bms_1",
+        "bms_1",
+        "bms_1"
+      ],
+      "output": "bms_2",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_065",
+      "inputs": [
+        "bms_2",
+        "bms_2",
+        "bms_2"
+      ],
+      "output": "bms_3",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_066",
+      "inputs": [
+        "bms_3",
+        "bms_3",
+        "bms_3"
+      ],
+      "output": "bms_4",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_067",
+      "inputs": [
+        "bms_4",
+        "bms_4",
+        "bms_4"
+      ],
+      "output": "bms_5",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_068",
+      "inputs": [
+        "pjs_1",
+        "pjs_1",
+        "pjs_1"
+      ],
+      "output": "pjs_2",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_069",
+      "inputs": [
+        "pjs_2",
+        "pjs_2",
+        "pjs_2"
+      ],
+      "output": "pjs_3",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_070",
+      "inputs": [
+        "pjs_3",
+        "pjs_3",
+        "pjs_3"
+      ],
+      "output": "pjs_4",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_071",
+      "inputs": [
+        "pjs_4",
+        "pjs_4",
+        "pjs_4"
+      ],
+      "output": "pjs_5",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_072",
+      "inputs": [
+        "pms_1",
+        "pms_1",
+        "pms_1"
+      ],
+      "output": "pms_2",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_073",
+      "inputs": [
+        "pms_2",
+        "pms_2",
+        "pms_2"
+      ],
+      "output": "pms_3",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_074",
+      "inputs": [
+        "pms_3",
+        "pms_3",
+        "pms_3"
+      ],
+      "output": "pms_4",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_075",
+      "inputs": [
+        "pms_4",
+        "pms_4",
+        "pms_4"
+      ],
+      "output": "pms_5",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_076",
+      "inputs": [
+        "rxs_1",
+        "rxs_1",
+        "rxs_1"
+      ],
+      "output": "rxs_2",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_077",
+      "inputs": [
+        "rxs_2",
+        "rxs_2",
+        "rxs_2"
+      ],
+      "output": "rxs_3",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_078",
+      "inputs": [
+        "rxs_3",
+        "rxs_3",
+        "rxs_3"
+      ],
+      "output": "rxs_4",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_079",
+      "inputs": [
+        "rxs_4",
+        "rxs_4",
+        "rxs_4"
+      ],
+      "output": "rxs_5",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_080",
+      "inputs": [
+        "llzsp",
+        "llzsp",
+        "llzsp"
+      ],
+      "output": "llz",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_081",
+      "inputs": [
+        "hlzsp",
+        "hlzsp",
+        "hlzsp"
+      ],
+      "output": "hlz",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_082",
+      "inputs": [
+        "slzsp",
+        "slzsp",
+        "slzsp"
+      ],
+      "output": "slz",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_083",
+      "inputs": [
+        "tlzsp",
+        "tlzsp",
+        "tlzsp"
+      ],
+      "output": "tlz",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_084",
+      "inputs": [
+        "flzsp",
+        "flzsp",
+        "flzsp"
+      ],
+      "output": "flz",
+      "cost": 100,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_085",
+      "inputs": [
+        "kyc",
+        "kys",
+        "kyz"
+      ],
+      "output": "kyl",
+      "cost": 1000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_086",
+      "inputs": [
+        "hylc",
+        "hylk",
+        "hylz"
+      ],
+      "output": "zjfyd",
+      "cost": 1000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_087",
+      "inputs": [
+        "c",
+        "c",
+        "dzj"
+      ],
+      "output": "dzjj",
+      "cost": 10000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_088",
+      "inputs": [
+        "ch",
+        "ch",
+        "dzj"
+      ],
+      "output": "dzjj",
+      "cost": 10000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_089",
+      "inputs": [
+        "dzj",
+        "t",
+        "t"
+      ],
+      "output": "dzjj",
+      "cost": 10000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_090",
+      "inputs": [
+        "jssp",
+        "lssp",
+        "qssp"
+      ],
+      "output": "ssc",
+      "cost": 15000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_091",
+      "inputs": [
+        "fygwj",
+        "yazfw",
+        "yizfw"
+      ],
+      "output": "gwj",
+      "cost": 15000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_092",
+      "inputs": [
+        "hshb",
+        "lshb",
+        "zshb"
+      ],
+      "output": "qcp",
+      "cost": 180,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_093",
+      "inputs": [
+        "lssp",
+        "yizfw",
+        "zshb"
+      ],
+      "output": "bap",
+      "cost": 180,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_094",
+      "inputs": [
+        "hshb",
+        "qssp",
+        "yazfw"
+      ],
+      "output": "mwq",
+      "cost": 180,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_095",
+      "inputs": [
+        "xianzhilu",
+        "yjpyasp",
+        "yjpysp"
+      ],
+      "output": "yjp",
+      "cost": 180,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_096",
+      "inputs": [
+        "bsxj",
+        "bsxj",
+        "bsxj"
+      ],
+      "output": "bszj",
+      "cost": 3000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_097",
+      "inputs": [
+        "bsyz",
+        "bsyz",
+        "bsyz"
+      ],
+      "output": "bsxj",
+      "cost": 3000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_098",
+      "inputs": [
+        "bszj",
+        "bszj",
+        "bszj"
+      ],
+      "output": "bsyz",
+      "cost": 3000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_099",
+      "inputs": [
+        "mgzh",
+        "tdlzj",
+        "tflj"
+      ],
+      "output": "fybz",
+      "cost": 3000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_100",
+      "inputs": [
+        "renshen",
+        "renshen",
+        "renshen"
+      ],
+      "output": "smd_1",
+      "cost": 1000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_101",
+      "inputs": [
+        "xianmao",
+        "xianmao",
+        "xianmao"
+      ],
+      "output": "fld_1",
+      "cost": 1000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_102",
+      "inputs": [
+        "lingli",
+        "lingli",
+        "lingli"
+      ],
+      "output": "gjd_1",
+      "cost": 1000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_103",
+      "inputs": [
+        "leizong",
+        "leizong",
+        "leizong"
+      ],
+      "output": "bjd_1",
+      "cost": 1000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_104",
+      "inputs": [
+        "liuhuang",
+        "liuhuang",
+        "liuhuang"
+      ],
+      "output": "xyd_1",
+      "cost": 1000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_105",
+      "inputs": [
+        "shougong",
+        "shougong",
+        "shougong"
+      ],
+      "output": "hmd_1",
+      "cost": 1000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_106",
+      "inputs": [
+        "dudan",
+        "renshen",
+        "smd_1"
+      ],
+      "output": "smd_2",
+      "cost": 3000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_107",
+      "inputs": [
+        "dudan",
+        "fld_1",
+        "xianmao"
+      ],
+      "output": "fld_2",
+      "cost": 3000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_108",
+      "inputs": [
+        "dudan",
+        "gjd_1",
+        "lingli"
+      ],
+      "output": "gjd_2",
+      "cost": 3000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_109",
+      "inputs": [
+        "bjd_1",
+        "dudan",
+        "leizong"
+      ],
+      "output": "bjd_2",
+      "cost": 3000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_110",
+      "inputs": [
+        "dudan",
+        "liuhuang",
+        "xyd_1"
+      ],
+      "output": "xyd_2",
+      "cost": 3000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_111",
+      "inputs": [
+        "dudan",
+        "hmd_1",
+        "shougong"
+      ],
+      "output": "hmd_2",
+      "cost": 3000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_112",
+      "inputs": [
+        "dudan",
+        "renshen",
+        "smd_2"
+      ],
+      "output": "smd_3",
+      "cost": 7000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_113",
+      "inputs": [
+        "dudan",
+        "fld_2",
+        "xianmao"
+      ],
+      "output": "fld_3",
+      "cost": 7000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_114",
+      "inputs": [
+        "dudan",
+        "gjd_2",
+        "lingli"
+      ],
+      "output": "gjd_3",
+      "cost": 7000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_115",
+      "inputs": [
+        "bjd_2",
+        "dudan",
+        "leizong"
+      ],
+      "output": "bjd_3",
+      "cost": 7000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_116",
+      "inputs": [
+        "dudan",
+        "liuhuang",
+        "xyd_2"
+      ],
+      "output": "xyd_3",
+      "cost": 7000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_117",
+      "inputs": [
+        "dudan",
+        "hmd_2",
+        "shougong"
+      ],
+      "output": "hmd_3",
+      "cost": 7000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_118",
+      "inputs": [
+        "dudan",
+        "renshen",
+        "smd_3"
+      ],
+      "output": "smd_4",
+      "cost": 15000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_119",
+      "inputs": [
+        "dudan",
+        "fld_3",
+        "xianmao"
+      ],
+      "output": "fld_4",
+      "cost": 15000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_120",
+      "inputs": [
+        "dudan",
+        "gjd_3",
+        "lingli"
+      ],
+      "output": "gjd_4",
+      "cost": 15000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_121",
+      "inputs": [
+        "bjd_3",
+        "dudan",
+        "leizong"
+      ],
+      "output": "bjd_4",
+      "cost": 15000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_122",
+      "inputs": [
+        "dudan",
+        "liuhuang",
+        "xyd_3"
+      ],
+      "output": "xyd_4",
+      "cost": 15000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_123",
+      "inputs": [
+        "dudan",
+        "hmd_3",
+        "shougong"
+      ],
+      "output": "hmd_4",
+      "cost": 15000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_124",
+      "inputs": [
+        "dudan",
+        "renshen",
+        "smd_4"
+      ],
+      "output": "smd_5",
+      "cost": 25000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_125",
+      "inputs": [
+        "dudan",
+        "fld_4",
+        "xianmao"
+      ],
+      "output": "fld_5",
+      "cost": 25000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_126",
+      "inputs": [
+        "dudan",
+        "gjd_4",
+        "lingli"
+      ],
+      "output": "gjd_5",
+      "cost": 25000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_127",
+      "inputs": [
+        "bjd_4",
+        "dudan",
+        "leizong"
+      ],
+      "output": "bjd_5",
+      "cost": 25000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_128",
+      "inputs": [
+        "dudan",
+        "liuhuang",
+        "xyd_4"
+      ],
+      "output": "xyd_5",
+      "cost": 25000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_129",
+      "inputs": [
+        "dudan",
+        "hmd_4",
+        "shougong"
+      ],
+      "output": "hmd_5",
+      "cost": 25000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_130",
+      "inputs": [
+        "ptsryx",
+        "ptsryx",
+        "ptsryx"
+      ],
+      "output": "yxsryx",
+      "cost": 3000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_131",
+      "inputs": [
+        "yxsryx",
+        "yxsryx",
+        "yxsryx"
+      ],
+      "output": "jlsryx",
+      "cost": 3000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_132",
+      "inputs": [
+        "jlsryx",
+        "jlsryx",
+        "jlsryx"
+      ],
+      "output": "sssryx",
+      "cost": 3000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_133",
+      "inputs": [
+        "sssryx",
+        "sssryx",
+        "sssryx"
+      ],
+      "output": "xlsryx",
+      "cost": 3000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_134",
+      "criteria": {
+        "fbtype_sequence": "dshldshldshl"
+      },
+      "output": "dshl",
+      "cost": 500,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_135",
+      "criteria": {
+        "fbtype_sequence": "tsgjtsgjtsgj"
+      },
+      "output": "tsgj",
+      "cost": 1000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_136",
+      "criteria": {
+        "fbtype_sequence": "bsyjbsyjbsyj"
+      },
+      "output": "bsyj",
+      "cost": 1000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_137",
+      "criteria": {
+        "fbtype_sequence": "xhmtxhmtxhmt"
+      },
+      "output": "xhmt",
+      "cost": 1000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_138",
+      "criteria": {
+        "fbtype_sequence": "lsyslsyslsys"
+      },
+      "output": "lsys",
+      "cost": 1000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_139",
+      "criteria": {
+        "fbtype_sequence": "xhhlxhhlxhhl"
+      },
+      "output": "xhhl",
+      "cost": 1000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_140",
+      "criteria": {
+        "fbtype_sequence": "qyjqyjqyj"
+      },
+      "output": "qyj",
+      "cost": 1000,
+      "source": "legacy"
+    },
+    {
+      "id": "legacy_141",
+      "criteria": {
+        "fbtype_sequence": "zjhlzjhlzjhl"
+      },
+      "output": "zjhl",
+      "cost": 1000,
+      "source": "legacy"
+    }
+  ]
+}
+

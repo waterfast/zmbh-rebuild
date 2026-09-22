@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "xhmj",
+  "legacy": {
+    "名字": "血海魔甲",
+    "所属": "悟空",
+    "品质": "精良",
+    "类型": "防具",
+    "颜色": "008aff",
+    "SHp": 0,
+    "SMp": 0,
+    "power": {
+      "random": "randi_range",
+      "min": 70,
+      "max": 80
+    },
+    "Def": -10,
+    "Mdef": -10,
+    "Crit": 10,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 2,
+    "vampirism": 0,
+    "Lucky": {
+      "random": "randi_range",
+      "min": 12,
+      "max": 15
+    },
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "xhmt",
+    "描述": "聚集了无数怨魂的怨气，闪烁着胆寒的光芒，给人撕心裂肺的绝望。",
+    "售价": 80,
+    "强化属性": {
+      "power": 10,
+      "Crit": 3,
+      "Def": -5,
+      "Mdef": -5,
+      "Lucky": 2
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "c",
+  "legacy": {
+    "名字": "愤怒·嗔",
+    "所属": "地藏印",
+    "品质": "普通",
+    "颜色": "FFFFFF",
+    "类型": "道具",
+    "SHp": 0,
+    "SMp": 0,
+    "power": {
+      "random": "randi_range",
+      "min": 10,
+      "max": 30
+    },
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": {
+      "random": "randi_range",
+      "min": 2,
+      "max": 6
+    },
+    "Miss": {
+      "random": "randi_range",
+      "min": 2,
+      "max": 6
+    },
+    "R_hp": 0,
+    "R_mp": {
+      "random": "randi_range",
+      "min": 2,
+      "max": 3
+    },
+    "vampirism": 0,
+    "Lucky": {
+      "random": "randi_range",
+      "min": 2,
+      "max": 6
+    },
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "贪嗔痴,妄念起,便是万丈红尘。（只留两个可以刷属性。）",
+    "售价": 0,
+    "强化属性": {
+      "SHp": 0
+    }
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="LevelDefinition" format=3]
+
+[ext_resource type="Script" path="res://Script/world/level_definition.gd" id="definition"]
+
+[resource]
+script = ExtResource("definition")
+id = &"level_20"
+display_name = "关卡 20"
+geometry_path = "res://Scene/Level/Level_20.tscn"
+spawn_position = Vector2(180, 300)
+camera_bounds = Rect2(0, 0, 4908, 590)
+exit_position = Vector2(4449, 429)
+next_level_id = &"level_21"
+enemy_positions = PackedVector2Array(600, 300, 860, 300, 1080, 280, 1850, 300, 2200, 300, 2800, 300, 3200, 300, 3900, 300)
+waves = Array[Dictionary]([
+{"stage": 1, "monster_ids": PackedInt32Array(), "positions": PackedVector2Array()},
+{"stage": 2, "monster_ids": PackedInt32Array(), "positions": PackedVector2Array()},
+{"stage": 3, "monster_ids": PackedInt32Array(), "positions": PackedVector2Array()},
+{"stage": 4, "monster_ids": PackedInt32Array(49), "positions": PackedVector2Array(4550, 252)}
+])

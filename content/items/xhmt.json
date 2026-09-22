@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "xhmt",
+  "legacy": {
+    "名字": "血海魔童",
+    "所属": "通用",
+    "品质": "史诗",
+    "类型": "法宝",
+    "成长率": {
+      "random": "randf_range",
+      "min": 1.2,
+      "max": 1.8,
+      "step": 0.1
+    },
+    "五行": [],
+    "颜色": "800080",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "拥有【魔童连击,邪灵净化】技能，清除低级负面效果，之后对目标进行多次打击，造成魔法伤害。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 18,
+      "SMp": 9,
+      "power": 5,
+      "Def": 1,
+      "Mdef": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

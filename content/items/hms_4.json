@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "hms_4",
+  "legacy": {
+    "名字": "4级回魔石",
+    "所属": "宝石",
+    "品质": "史诗",
+    "类型": "道具",
+    "颜色": "800080",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 4,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "镶嵌后提供4回魔，也合成为5级回魔石。",
+    "售价": 0,
+    "强化属性": {}
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

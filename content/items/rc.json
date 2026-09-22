@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "rc",
+  "legacy": {
+    "名字": "若禅",
+    "所属": "唐僧",
+    "品质": "传说",
+    "类型": "武器",
+    "颜色": "FFA500",
+    "SHp": 0,
+    "SMp": 1500,
+    "power": 500,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 10,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 25,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 30,
+    "描述": "达摩驾一叶扁舟，东来传佛法，招嫉妒，七遭毒，手携只履，翩翩独逝。",
+    "售价": 1280,
+    "强化属性": {
+      "power": 50,
+      "SMp": 110,
+      "Htarget": 2,
+      "sp": 3
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

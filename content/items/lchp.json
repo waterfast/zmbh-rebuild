@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "lchp",
+  "legacy": {
+    "名字": "罗刹魂袍",
+    "所属": "沙僧",
+    "品质": "精良",
+    "类型": "防具",
+    "颜色": "008aff",
+    "SHp": {
+      "random": "randi_range",
+      "min": 365,
+      "max": 385
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 16,
+    "Mdef": 16,
+    "Crit": 0,
+    "Miss": 9,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "lsys",
+    "描述": "人朴情虑肃，境闲视听空。",
+    "售价": 80,
+    "强化属性": {
+      "SHp": 55,
+      "Miss": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

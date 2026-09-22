@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "zjfyd",
+  "legacy": {
+    "名字": "混元伏妖盾",
+    "所属": "通用",
+    "品质": "史诗",
+    "类型": "法宝",
+    "成长率": {
+      "random": "randf_range",
+      "min": 2,
+      "max": 2.5,
+      "step": 0.1
+    },
+    "五行": [],
+    "颜色": "800080",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 5,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 2,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "拥有【不灭神盾】技能，使用后获得【不灭】效果，一段时间内免疫高于当前生命的伤害。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 25,
+      "SMp": 10,
+      "power": 7,
+      "Def": 1,
+      "Mdef": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

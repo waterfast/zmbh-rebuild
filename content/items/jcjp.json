@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "jcjp",
+  "legacy": {
+    "名字": "家传金耙",
+    "所属": "八戒",
+    "品质": "优秀",
+    "类型": "武器",
+    "颜色": "00FF00",
+    "SHp": 0,
+    "SMp": 0,
+    "power": {
+      "random": "randi_range",
+      "min": 20,
+      "max": 25
+    },
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "\t一点浩然气，千里快哉风。",
+    "售价": 40,
+    "强化属性": {
+      "power": 4
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

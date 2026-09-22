@@ -1,0 +1,29 @@
+{
+  "id": "lys",
+  "legacy_id": "lys",
+  "display_name": "烈焰闪",
+  "description": "以无法捕捉的速度快速冲刺，进入无法被命中状态并且造成多段伤害。",
+  "character_id": 1,
+  "slot": 3,
+  "passive": false,
+  "mp_cost": 12,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "prototype",
+  "migration_note": "名称、描述、槽位和一级消耗来自原版；效果组合为可运行原型，尚未逐帧还原位移/多段/特殊机制；冷却使用原型值。",
+  "effects": [
+    {
+      "kind": "self_buff",
+      "buff": {
+        "id": "dash_invulnerable",
+        "tag": "invulnerable",
+        "duration": 0.18
+      }
+    },
+    {
+      "kind": "dash",
+      "speed": 650.0,
+      "duration": 0.18
+    }
+  ]
+}

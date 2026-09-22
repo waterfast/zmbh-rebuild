@@ -1,0 +1,194 @@
+[
+  {
+    "id": "level_1",
+    "display_name": "花果山",
+    "source": "Scene/Level/Level_1.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_2",
+    "display_name": "水帘洞",
+    "source": "Scene/Level/Level_2.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_3",
+    "display_name": "桃花源",
+    "source": "Scene/Level/Level_3.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_4",
+    "display_name": "蝙蝠窟",
+    "source": "Scene/Level/Level_4.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_5",
+    "display_name": "七星洞",
+    "source": "Scene/Level/Level_5.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_6",
+    "display_name": "迦楼罗之穴",
+    "source": "Scene/Level/Level_6.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_7",
+    "display_name": "浅岸",
+    "source": "Scene/Level/Level_7.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_8",
+    "display_name": "东海",
+    "source": "Scene/Level/Level_8.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_9",
+    "display_name": "鲨之涡流",
+    "source": "Scene/Level/Level_9.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_10",
+    "display_name": "牛魔谷",
+    "source": "Scene/Level/Level_10.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_11",
+    "display_name": "鬼城",
+    "source": "Scene/Level/Level_11.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_12",
+    "display_name": "无常巷",
+    "source": "Scene/Level/Level_12.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_13",
+    "display_name": "鬼门关",
+    "source": "Scene/Level/Level_13.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_14",
+    "display_name": "接引院",
+    "source": "Scene/Level/Level_14.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_15",
+    "display_name": "判官府",
+    "source": "Scene/Level/Level_15.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_16",
+    "display_name": "阎罗殿",
+    "source": "Scene/Level/Level_16.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_17",
+    "display_name": "忘川河",
+    "source": "Scene/Level/Level_17.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_18",
+    "display_name": "奈何桥",
+    "source": "Scene/Level/Level_18.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_19",
+    "display_name": "望乡台",
+    "source": "Scene/Level/Level_19.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_20",
+    "display_name": "关卡 20",
+    "source": "Scene/Level/Level_20.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_21",
+    "display_name": "转轮殿",
+    "source": "Scene/Level/Level_21.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_22",
+    "display_name": "九重天",
+    "source": "Scene/Level/Level_22.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_23",
+    "display_name": "天宫道",
+    "source": "Scene/Level/Level_23.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_24",
+    "display_name": "南天门",
+    "source": "Scene/Level/Level_24.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_25",
+    "display_name": "南天王殿",
+    "source": "Scene/Level/Level_25.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_26",
+    "display_name": "西天王殿",
+    "source": "Scene/Level/Level_26.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_27",
+    "display_name": "北天王殿",
+    "source": "Scene/Level/Level_27.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_28",
+    "display_name": "彩虹楼",
+    "source": "Scene/Level/Level_28.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_29",
+    "display_name": "朝会殿",
+    "source": "Scene/Level/Level_29.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_30",
+    "display_name": "凌霄宝殿",
+    "source": "Scene/Level/Level_30.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_31",
+    "display_name": "火龙岛",
+    "source": "Scene/Level/Level_31.tscn",
+    "geometry_only": true
+  },
+  {
+    "id": "level_32",
+    "display_name": "九龙岛",
+    "source": "Scene/Level/Level_32.tscn",
+    "geometry_only": true
+  }
+]

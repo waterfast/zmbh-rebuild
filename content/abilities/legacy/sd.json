@@ -1,0 +1,26 @@
+{
+  "id": "sd",
+  "legacy_id": "sd",
+  "display_name": "圣盾",
+  "description": "昂扬斗志，召唤圣盾加护，自身不会被击退，且每秒回复一定量的生命，持续一段时间。",
+  "character_id": 3,
+  "slot": 6,
+  "passive": false,
+  "mp_cost": 10,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "prototype",
+  "migration_note": "名称、描述、槽位和一级消耗来自原版；效果组合为可运行原型，尚未逐帧还原位移/多段/特殊机制；冷却使用原型值。",
+  "effects": [
+    {
+      "kind": "self_buff",
+      "buff": {
+        "id": "holy_shield",
+        "tag": "super_armor",
+        "duration": 4.0,
+        "tick_interval": 1.0,
+        "tick_heal_maximum_ratio": 0.03
+      }
+    }
+  ]
+}

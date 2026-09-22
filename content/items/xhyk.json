@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "xhyk",
+  "legacy": {
+    "名字": "血海妖壳",
+    "所属": "通用",
+    "品质": "精良",
+    "类型": "饰品",
+    "颜色": "008aff",
+    "SHp": {
+      "operation": "Add",
+      "left": 580,
+      "right": {
+        "random": "randi_range",
+        "min": 0,
+        "max": 100
+      }
+    },
+    "SMp": {
+      "operation": "Add",
+      "left": 135,
+      "right": {
+        "random": "randi_range",
+        "min": 0,
+        "max": 15
+      }
+    },
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 4,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 3,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "xhmt",
+    "描述": "在血池里浸泡数载而出，坚如磐石，固若金汤。",
+    "售价": 80,
+    "强化属性": {
+      "SHp": 90,
+      "SMp": 6,
+      "Crit": 0.3
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

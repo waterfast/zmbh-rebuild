@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "ryjgb",
+  "legacy": {
+    "名字": "如意金箍棒",
+    "所属": "悟空",
+    "品质": "精良",
+    "类型": "武器",
+    "颜色": "008aff",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 75,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 6,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 6,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "东海龙宫之定海神针，一万三千五百斤，浩劫之际，元归齐天。",
+    "售价": 80,
+    "强化属性": {
+      "power": 15,
+      "Crit": 1,
+      "Htarget": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

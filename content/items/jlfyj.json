@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "jlfyj",
+  "legacy": {
+    "名字": "卷帘伏妖甲",
+    "所属": "沙僧",
+    "品质": "史诗",
+    "类型": "防具",
+    "颜色": "800080",
+    "SHp": {
+      "random": "randi_range",
+      "min": 565,
+      "max": 585
+    },
+    "SMp": {
+      "random": "randi_range",
+      "min": 245,
+      "max": 285
+    },
+    "power": 0,
+    "Def": 35,
+    "Mdef": 35,
+    "Crit": 0,
+    "Miss": 15,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "浮生速流电，倏忽变光彩。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 50,
+      "SMp": 25,
+      "Miss": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

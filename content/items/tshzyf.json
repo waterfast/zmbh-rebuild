@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "tshzyf",
+  "legacy": {
+    "名字": "绝·唐僧状元服",
+    "所属": "唐僧",
+    "品质": "神器",
+    "类型": "时装",
+    "颜色": "ff2d00",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "金榜题名时，独占鳌头。（最终掉宝率增加8%）",
+    "售价": 3000,
+    "强化属性": {
+      "SHp": 0
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

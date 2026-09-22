@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "zxttp",
+  "legacy": {
+    "名字": "诛邪托天袍",
+    "所属": "白龙",
+    "品质": "神器",
+    "类型": "防具",
+    "颜色": "ff2d00",
+    "SHp": 4250,
+    "SMp": 0,
+    "power": 225,
+    "Def": 105,
+    "Mdef": 105,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 10,
+    "vampirism": 0,
+    "Lucky": 30,
+    "Toughness": 28,
+    "Htarget": 0,
+    "CritReduce": 28,
+    "ar": 0,
+    "sp": 0,
+    "描述": "黄沙百战穿金甲,不破楼兰终不还。",
+    "售价": 2500,
+    "强化属性": {
+      "SHp": 580,
+      "Def": 4,
+      "Mdef": 4,
+      "Lucky": 2
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

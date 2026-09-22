@@ -1,0 +1,29 @@
+{
+  "id": "fhf",
+  "legacy_id": "fhf",
+  "display_name": "翔龙闪",
+  "description": "向前方瞬移一小段距离（期间不会被命中）。",
+  "character_id": 5,
+  "slot": 4,
+  "passive": false,
+  "mp_cost": 20,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "prototype",
+  "migration_note": "名称、描述、槽位和一级消耗来自原版；效果组合为可运行原型，尚未逐帧还原位移/多段/特殊机制；冷却使用原型值。",
+  "effects": [
+    {
+      "kind": "self_buff",
+      "buff": {
+        "id": "dash_invulnerable",
+        "tag": "invulnerable",
+        "duration": 0.18
+      }
+    },
+    {
+      "kind": "dash",
+      "speed": 650.0,
+      "duration": 0.18
+    }
+  ]
+}

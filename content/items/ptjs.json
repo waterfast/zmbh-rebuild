@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "ptjs",
+  "legacy": {
+    "名字": "普通的袈裟",
+    "所属": "唐僧",
+    "品质": "普通",
+    "类型": "防具",
+    "颜色": "FFFFFF",
+    "SHp": {
+      "random": "randi_range",
+      "min": 10,
+      "max": 35
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "粗布缝制成的袈裟。",
+    "售价": 20,
+    "强化属性": {
+      "SHp": 7
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

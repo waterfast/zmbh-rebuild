@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "xhj",
+  "legacy": {
+    "名字": "萱花甲",
+    "所属": "白龙",
+    "品质": "史诗",
+    "类型": "防具",
+    "颜色": "800080",
+    "SHp": {
+      "random": "randi_range",
+      "min": 650,
+      "max": 670
+    },
+    "SMp": {
+      "random": "randi_range",
+      "min": 300,
+      "max": 335
+    },
+    "power": 0,
+    "Def": 20,
+    "Mdef": 20,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "xhhl",
+    "描述": "群叶以覆，片片杀生。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 100,
+      "Def": 1,
+      "Mdef": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

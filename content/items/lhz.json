@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "lhz",
+  "legacy": {
+    "名字": "轮回杖",
+    "所属": "唐僧",
+    "品质": "史诗",
+    "类型": "武器",
+    "颜色": "800080",
+    "SHp": 0,
+    "SMp": 450,
+    "power": {
+      "random": "randi_range",
+      "min": 145,
+      "max": 155
+    },
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 5,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": {
+      "random": "randi_range",
+      "min": 16,
+      "max": 18
+    },
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "禁锢刑天于十八层地狱之中，六道轮回，生生世世，永无止境。",
+    "售价": 160,
+    "强化属性": {
+      "power": 20,
+      "SMp": 68,
+      "Htarget": 2
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

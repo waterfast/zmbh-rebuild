@@ -1,0 +1,15 @@
+{
+  "id": "dj",
+  "legacy_id": "dj",
+  "display_name": "盾击",
+  "description": "幻化出盾牌，之后蓄力一击，造成显著的击退效果（可搭配刃甲的眩晕）",
+  "character_id": 3,
+  "slot": 2,
+  "passive": false,
+  "mp_cost": 10,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

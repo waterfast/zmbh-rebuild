@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "qcp",
+  "legacy": {
+    "名字": "七彩袍",
+    "所属": "唐僧",
+    "品质": "精良",
+    "类型": "防具",
+    "颜色": "008aff",
+    "SHp": {
+      "random": "randi_range",
+      "min": 370,
+      "max": 400
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 24,
+    "Mdef": 24,
+    "Crit": 0,
+    "Miss": {
+      "random": "randi_range",
+      "min": 8,
+      "max": 10
+    },
+    "R_hp": 0,
+    "R_mp": 5,
+    "vampirism": 0.0,
+    "Lucky": {
+      "random": "randi_range",
+      "min": 10,
+      "max": 14
+    },
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "彼岸花，有花无叶，生生世世，永不相见。幻七彩，无生无死，无苦无悲，无欲无求。",
+    "售价": 80,
+    "强化属性": {
+      "SHp": 70,
+      "Lucky": 1,
+      "Miss": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

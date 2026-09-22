@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "xmzy",
+  "legacy": {
+    "名字": "刑魔之翼",
+    "所属": "通用",
+    "品质": "神器",
+    "类型": "翅膀",
+    "颜色": "ff2d00",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 240,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 15,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0.0,
+    "Lucky": 10,
+    "Toughness": 0,
+    "Htarget": 12,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "断首不泯傲长空。 干戚犹锋, 心火犹熊。 丹心碧血尽余忠。",
+    "售价": 3000,
+    "强化属性": {
+      "Crit": 1,
+      "power": 10,
+      "Lucky": 1,
+      "target": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

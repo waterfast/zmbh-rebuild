@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "lzp",
+  "legacy": {
+    "名字": "老者袍",
+    "所属": "唐僧",
+    "品质": "精良",
+    "类型": "防具",
+    "颜色": "008aff",
+    "SHp": {
+      "random": "randi_range",
+      "min": 260,
+      "max": 280
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 20,
+    "Mdef": 20,
+    "Crit": 0,
+    "Miss": {
+      "random": "randi_range",
+      "min": 6,
+      "max": 8
+    },
+    "R_hp": 0,
+    "R_mp": 5,
+    "vampirism": 0.0,
+    "Lucky": {
+      "random": "randi_range",
+      "min": 10,
+      "max": 12
+    },
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "窃以暮景残光，步履蹒跚，能余几日，魂聚长袍，方今生不朽。",
+    "售价": 80,
+    "强化属性": {
+      "SHp": 55,
+      "Lucky": 1,
+      "Miss": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

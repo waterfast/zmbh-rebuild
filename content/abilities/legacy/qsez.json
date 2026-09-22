@@ -1,0 +1,15 @@
+{
+  "id": "qsez",
+  "legacy_id": "qsez",
+  "display_name": "七十二斩",
+  "description": "向前短距离冲刺，触碰到敌人后进行多次打击，概率打出残影，残影可以模仿角色部分技能（残影数量上限和伤害继承百分比取决于本技能等级）。",
+  "character_id": 1,
+  "slot": 7,
+  "passive": false,
+  "mp_cost": 10,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

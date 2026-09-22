@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "smz",
+  "legacy": {
+    "名字": "嗜魔杖",
+    "所属": "唐僧",
+    "品质": "史诗",
+    "类型": "武器",
+    "颜色": "800080",
+    "SHp": 0,
+    "SMp": 850,
+    "power": {
+      "random": "randi_range",
+      "min": 260,
+      "max": 270
+    },
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 5,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": {
+      "random": "randi_range",
+      "min": 20,
+      "max": 24
+    },
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "魔非魔，念人间，怎知情愁滋味。",
+    "售价": 160,
+    "强化属性": {
+      "power": 30,
+      "SMp": 110,
+      "Htarget": 3
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

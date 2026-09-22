@@ -1,0 +1,15 @@
+{
+  "id": "rj",
+  "legacy_id": "rj",
+  "display_name": "刃甲",
+  "description": "八戒获得刃甲加护，受到攻击有概率无视伤害并回复一定生命值，令部分技能获得眩晕效果，（回复概率，数值，眩晕概率，时间与该技能等级有关）",
+  "character_id": 3,
+  "slot": 10,
+  "passive": true,
+  "mp_cost": 0,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

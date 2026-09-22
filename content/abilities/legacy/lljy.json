@@ -1,0 +1,15 @@
+{
+  "id": "lljy",
+  "legacy_id": "lljy",
+  "display_name": "雷龙极影",
+  "description": "极速向前冲刺，对触碰到的所有敌人点穴（1.2s僵直），然后残影跟随，造成多段伤害，冲刺期间不会被击中。",
+  "character_id": 5,
+  "slot": 7,
+  "passive": false,
+  "mp_cost": 40,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

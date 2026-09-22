@@ -1,0 +1,31 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://content/world/geometry/base_geometry.tscn" id="1"]
+
+[ext_resource type="Texture2D" path="res://assets/Art/Level/Level_11/1.png" id="3"]
+
+[ext_resource type="Texture2D" path="res://assets/Art/Level/Level_11/wch.png" id="4"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(120, 846)
+
+[node name="Level_17" instance=ExtResource( "1" )]
+
+[node name="floor" type="CollisionPolygon2D" parent="wall"]
+position = Vector2(4379, 357)
+polygon = PackedVector2Array(4, 1, -24, 30, -24, 169, 338, 173, 338, 2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wall"]
+position = Vector2(4660, 100)
+shape = SubResource( "1" )
+
+[node name="1FloorBg3" type="Sprite2D" parent="BackGround/End"]
+position = Vector2(726, 248)
+texture = ExtResource( "3" )
+
+[node name="Wch" type="Sprite2D" parent="BackGround/floor_2"]
+position = Vector2(2463, 343)
+texture = ExtResource( "4" )
+
+[node name="exit" parent="."]
+position = Vector2(4491, 276)

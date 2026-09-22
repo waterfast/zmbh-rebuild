@@ -1,0 +1,34 @@
+{
+  "id": "blq",
+  "legacy_id": "blq",
+  "display_name": "奔雷枪",
+  "description": "向前方冲刺，并击退敌人。（期间无视击退）",
+  "character_id": 5,
+  "slot": 3,
+  "passive": false,
+  "mp_cost": 20,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "prototype",
+  "migration_note": "名称、描述、槽位和一级消耗来自原版；效果组合为可运行原型，尚未逐帧还原位移/多段/特殊机制；冷却使用原型值。",
+  "effects": [
+    {
+      "kind": "self_buff",
+      "buff": {
+        "id": "dash_armor",
+        "tag": "super_armor",
+        "duration": 0.22
+      }
+    },
+    {
+      "kind": "dash",
+      "speed": 560.0,
+      "duration": 0.22
+    },
+    {
+      "kind": "melee",
+      "power_scale": 1.2,
+      "lifetime": 0.22
+    }
+  ]
+}

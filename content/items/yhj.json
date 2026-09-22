@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "yhj",
+  "legacy": {
+    "名字": "翼火甲",
+    "所属": "悟空",
+    "品质": "精良",
+    "类型": "防具",
+    "颜色": "008aff",
+    "SHp": {
+      "random": "randi_range",
+      "min": 220,
+      "max": 240
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": {
+      "random": "randi_range",
+      "min": 10,
+      "max": 12
+    },
+    "Mdef": {
+      "random": "randi_range",
+      "min": 10,
+      "max": 12
+    },
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 2,
+    "vampirism": 0,
+    "Lucky": {
+      "random": "randi_range",
+      "min": 5,
+      "max": 7
+    },
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "汝修三昧，本出尘劳。淫心不除，尘不可出。",
+    "售价": 40,
+    "强化属性": {
+      "SHp": 22,
+      "Lucky": 1,
+      "Def": 2,
+      "Mdef": 2
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

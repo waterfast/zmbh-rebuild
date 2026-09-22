@@ -1,0 +1,8 @@
+{
+  "id": "first_steps",
+  "name": "花果山历练",
+  "description": "击败五名妖怪，领取历练奖励。",
+  "event": "enemy_defeated",
+  "goal": 5,
+  "reward": {"gold": 100, "experience": 40}
+}

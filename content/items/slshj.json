@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "slshj",
+  "legacy": {
+    "名字": "释罗四海甲",
+    "所属": "悟空",
+    "品质": "传说",
+    "类型": "防具",
+    "颜色": "FFA50",
+    "SHp": 2280,
+    "SMp": 0,
+    "power": 0,
+    "Def": 40,
+    "Mdef": 40,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 16,
+    "Toughness": 11,
+    "Htarget": 0,
+    "CritReduce": 12,
+    "ar": 0,
+    "sp": 0,
+    "描述": "战无不胜。",
+    "售价": 2500,
+    "强化属性": {
+      "SHp": 100,
+      "Def": 4,
+      "Mdef": 4,
+      "Lucky": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

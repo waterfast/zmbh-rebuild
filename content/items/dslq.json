@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "id": "dslq",
+  "legacy": {
+    "名字": "地煞龙枪",
+    "所属": "白龙",
+    "品质": "优秀",
+    "类型": "武器",
+    "颜色": "00FF00",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 18,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "dshl",
+    "描述": "刑天舞干戚，猛志固常在。",
+    "售价": 40,
+    "强化属性": {
+      "power": 5
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

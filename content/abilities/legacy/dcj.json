@@ -1,0 +1,15 @@
+{
+  "id": "dcj",
+  "legacy_id": "dcj",
+  "display_name": "多重击",
+  "description": "对前方怪物造成多次打击",
+  "character_id": 4,
+  "slot": 2,
+  "passive": false,
+  "mp_cost": 15,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

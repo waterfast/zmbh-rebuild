@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "xhp",
+  "legacy": {
+    "名字": "萱花袍",
+    "所属": "沙僧",
+    "品质": "史诗",
+    "类型": "防具",
+    "颜色": "800080",
+    "SHp": {
+      "random": "randi_range",
+      "min": 650,
+      "max": 670
+    },
+    "SMp": {
+      "random": "randi_range",
+      "min": 300,
+      "max": 335
+    },
+    "power": 0,
+    "Def": {
+      "random": "randi_range",
+      "min": 30,
+      "max": 35
+    },
+    "Mdef": {
+      "random": "randi_range",
+      "min": 30,
+      "max": 35
+    },
+    "Crit": 0,
+    "Miss": 18,
+    "R_hp": 2,
+    "R_mp": 2,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "xhhl",
+    "描述": "人离合，月圆缺，花开又花谢，不愿再相逢。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 50,
+      "SMp": 30,
+      "Def": 3,
+      "Mdef": 3
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

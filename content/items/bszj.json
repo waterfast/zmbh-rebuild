@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "bszj",
+  "legacy": {
+    "名字": "白霜重甲",
+    "所属": "八戒",
+    "品质": "精良",
+    "类型": "防具",
+    "颜色": "008aff",
+    "SHp": {
+      "random": "randi_range",
+      "min": 400,
+      "max": 420
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 20,
+    "Mdef": 20,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 4,
+    "R_mp": 0,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "bsyj",
+    "描述": "极寒之地的千年冰魄，锻造的重铠，犹如千年寒冰那般坚固。",
+    "售价": 80,
+    "强化属性": {
+      "SHp": 70,
+      "Def": 3,
+      "Mdef": 3
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

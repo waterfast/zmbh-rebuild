@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "qyfp",
+  "legacy": {
+    "名字": "青云法袍",
+    "所属": "唐僧",
+    "品质": "史诗",
+    "类型": "防具",
+    "颜色": "800080",
+    "SHp": {
+      "random": "randi_range",
+      "min": 555,
+      "max": 600
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 30,
+    "Mdef": 30,
+    "Crit": 0,
+    "Miss": {
+      "random": "randi_range",
+      "min": 12,
+      "max": 14
+    },
+    "R_hp": 0,
+    "R_mp": 6,
+    "vampirism": 0.0,
+    "Lucky": {
+      "random": "randi_range",
+      "min": 18,
+      "max": 20
+    },
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "qyj",
+    "描述": "碧天阔，白云散，百万里无硝烟，大雁向南飞去。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 105,
+      "Lucky": 1,
+      "Miss": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

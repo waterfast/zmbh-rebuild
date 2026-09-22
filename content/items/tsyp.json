@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "tsyp",
+  "legacy": {
+    "名字": "天煞羽袍",
+    "所属": "唐僧",
+    "品质": "精良",
+    "类型": "防具",
+    "颜色": "008aff",
+    "SHp": {
+      "random": "randi_range",
+      "min": 310,
+      "max": 340
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 22,
+    "Mdef": 22,
+    "Crit": 0,
+    "Miss": {
+      "random": "randi_range",
+      "min": 6,
+      "max": 8
+    },
+    "R_hp": 0,
+    "R_mp": 5,
+    "vampirism": 0.0,
+    "Lucky": {
+      "random": "randi_range",
+      "min": 10,
+      "max": 12
+    },
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "tsgj",
+    "描述": "传说由鲲鹏羽毛编织成的法袍，藏有无限的法力，穿上后腾云驾雾，翱翔云端。",
+    "售价": 80,
+    "强化属性": {
+      "SHp": 68,
+      "Lucky": 1,
+      "Miss": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

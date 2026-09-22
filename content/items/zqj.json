@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "zqj",
+  "legacy": {
+    "名字": "朱雀戒",
+    "所属": "通用",
+    "品质": "优秀",
+    "类型": "饰品",
+    "颜色": "00FF00",
+    "SHp": {
+      "operation": "Add",
+      "left": 180,
+      "right": {
+        "random": "randi_range",
+        "min": 20,
+        "max": 40
+      }
+    },
+    "SMp": {
+      "random": "randi_range",
+      "min": 45,
+      "max": 65
+    },
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 4,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 3,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "传说由朱雀的内丹熔炼的戒指，佩戴完如朱雀般华丽。",
+    "售价": 40,
+    "强化属性": {
+      "SHp": 35,
+      "SMp": 9,
+      "Crit": 0.3
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

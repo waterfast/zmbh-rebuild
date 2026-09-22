@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "yj",
+  "legacy": {
+    "名字": "犹绝",
+    "所属": "沙僧",
+    "品质": "邪灵",
+    "类型": "防具",
+    "颜色": "656565",
+    "SHp": {
+      "random": "randi_range",
+      "min": 850,
+      "max": 900
+    },
+    "SMp": {
+      "random": "randi_range",
+      "min": 400,
+      "max": 435
+    },
+    "power": 0,
+    "Def": -40,
+    "Mdef": -40,
+    "Crit": 25,
+    "Miss": 28,
+    "R_hp": 6,
+    "R_mp": 6,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "",
+    "售价": 320,
+    "强化属性": {
+      "SHp": 90,
+      "SMp": 40,
+      "Def": -4,
+      "Mdef": -4
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

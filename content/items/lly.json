@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "lly",
+  "legacy": {
+    "名字": "玲珑玉",
+    "所属": "通用",
+    "品质": "邪灵",
+    "类型": "饰品",
+    "颜色": "656565",
+    "SHp": 800,
+    "SMp": 400,
+    "power": 260,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 25,
+    "Miss": 15,
+    "R_hp": 6,
+    "R_mp": 6,
+    "vampirism": 0,
+    "Lucky": 20,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "",
+    "售价": 320,
+    "强化属性": {
+      "SHp": 70,
+      "SMp": 50,
+      "power": 25
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

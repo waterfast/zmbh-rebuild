@@ -1,0 +1,15 @@
+{
+  "id": "tkj",
+  "legacy_id": "tkj",
+  "display_name": "腾空击",
+  "description": "冲向空中造成伤害。",
+  "character_id": 4,
+  "slot": 4,
+  "passive": false,
+  "mp_cost": 15,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "qlj",
+  "legacy_id": "qlj",
+  "display_name": "强力击",
+  "description": "强力打飞前方怪物。",
+  "character_id": 4,
+  "slot": 1,
+  "passive": false,
+  "mp_cost": 15,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "prototype",
+  "migration_note": "名称、描述、槽位和一级消耗来自原版；效果组合为可运行原型，尚未逐帧还原位移/多段/特殊机制；冷却使用原型值。",
+  "effects": [
+    {
+      "kind": "melee",
+      "power_scale": 1.35,
+      "size_scale": [
+        1.35,
+        1.1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "jdz",
+  "legacy_id": "jdz",
+  "display_name": "剧毒阵",
+  "description": "原地释放一个毒阵，怪物进入毒阵会受到伤害，并被减速。",
+  "character_id": 4,
+  "slot": 6,
+  "passive": false,
+  "mp_cost": 20,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

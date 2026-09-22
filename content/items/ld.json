@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "ld",
+  "legacy": {
+    "名字": "龙渊",
+    "所属": "白龙",
+    "品质": "传说",
+    "类型": "武器",
+    "颜色": "FFA500",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 500,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 30,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 20,
+    "CritReduce": 0,
+    "ar": 20,
+    "sp": 10,
+    "描述": "龙跃云津风浩荡，渊潜碧海浪无垠。",
+    "售价": 1280,
+    "强化属性": {
+      "power": 50,
+      "Crit": 2,
+      "ar": 3,
+      "sp": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

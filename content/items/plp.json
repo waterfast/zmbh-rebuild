@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "plp",
+  "legacy": {
+    "名字": "蟠龙袍",
+    "所属": "唐僧",
+    "品质": "魂器",
+    "类型": "防具",
+    "颜色": "00ffff",
+    "SHp": 900,
+    "SMp": 0,
+    "power": 120,
+    "Def": 40,
+    "Mdef": 40,
+    "Crit": 20,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 8,
+    "vampirism": 0.0,
+    "Lucky": 25,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "",
+    "售价": 640,
+    "强化属性": {
+      "SHp": 90,
+      "Lucky": 2,
+      "power": 30
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

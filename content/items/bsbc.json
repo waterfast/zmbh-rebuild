@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "bsbc",
+  "legacy": {
+    "名字": "白霜冰铲",
+    "所属": "沙僧",
+    "品质": "精良",
+    "类型": "武器",
+    "颜色": "008aff",
+    "SHp": 0,
+    "SMp": 0,
+    "power": {
+      "random": "randi_range",
+      "min": 95,
+      "max": 105
+    },
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 12,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "bsyj",
+    "描述": "阵解星芒尽，营空海雾消。",
+    "售价": 80,
+    "强化属性": {
+      "power": 22,
+      "Lucky": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

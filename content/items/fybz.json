@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "fybz",
+  "legacy": {
+    "名字": "伏妖宝珠",
+    "所属": "通用",
+    "品质": "史诗",
+    "类型": "饰品",
+    "颜色": "800080",
+    "SHp": 500,
+    "SMp": 200,
+    "power": 200,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 20,
+    "Miss": 10,
+    "R_hp": 0,
+    "R_mp": 6,
+    "vampirism": 0,
+    "Lucky": 15,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "降妖伏魔不畏殇，虎胆豪杰是枭雄。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 70,
+      "SMp": 30,
+      "power": 30
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

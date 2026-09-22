@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "xhymk",
+  "legacy": {
+    "名字": "血海幽冥铠",
+    "所属": "八戒",
+    "品质": "精良",
+    "类型": "防具",
+    "颜色": "008aff",
+    "SHp": {
+      "random": "randi_range",
+      "min": 500,
+      "max": 520
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 30,
+    "Mdef": 30,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 5,
+    "R_mp": 0,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "xhmt",
+    "描述": "传闻遗失在血海中的铠甲，历经千载，弥漫着死亡的气息。",
+    "售价": 80,
+    "强化属性": {
+      "SHp": 90,
+      "Def": 3,
+      "Mdef": 3
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "zjqj",
+  "legacy": {
+    "名字": "紫金轻甲",
+    "所属": "悟空",
+    "品质": "史诗",
+    "类型": "防具",
+    "颜色": "800080",
+    "SHp": {
+      "random": "randi_range",
+      "min": 800,
+      "max": 850
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 35,
+    "Mdef": 35,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 4,
+    "vampirism": 0,
+    "Lucky": 18,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "zjhl",
+    "描述": "恨悠悠，几时休。爱轻轻，随风行。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 140,
+      "Def": 3,
+      "Mdef": 3,
+      "Lucky": 1
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

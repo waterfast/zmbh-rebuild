@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "hylk",
+  "legacy": {
+    "名字": "混元龙凯",
+    "所属": "八戒",
+    "品质": "史诗",
+    "类型": "防具",
+    "颜色": "800080",
+    "SHp": {
+      "random": "randi_range",
+      "min": 850,
+      "max": 900
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 45,
+    "Mdef": 45,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 5,
+    "R_mp": 2,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "龙吟恨，且回首，却在灯火阑珊。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 150,
+      "Def": 4,
+      "Mdef": 4
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

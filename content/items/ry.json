@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "ry",
+  "legacy": {
+    "名字": "如狱",
+    "所属": "八戒",
+    "品质": "邪灵",
+    "类型": "防具",
+    "颜色": "656565",
+    "SHp": {
+      "random": "randi_range",
+      "min": 1200,
+      "max": 1300
+    },
+    "SMp": -150,
+    "power": 0,
+    "Def": 40,
+    "Mdef": 40,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 6,
+    "R_mp": 3,
+    "vampirism": 0.0,
+    "Lucky": 0,
+    "Toughness": 15,
+    "Htarget": 0,
+    "CritReduce": 15,
+    "ar": 0,
+    "sp": 0,
+    "描述": "",
+    "售价": 320,
+    "强化属性": {
+      "SHp": 140,
+      "Def": 4,
+      "Mdef": 4
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

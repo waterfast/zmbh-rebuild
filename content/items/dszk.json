@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "dszk",
+  "legacy": {
+    "名字": "大圣战铠",
+    "所属": "悟空",
+    "品质": "史诗",
+    "类型": "防具",
+    "颜色": "800080",
+    "SHp": {
+      "random": "randi_range",
+      "min": 500,
+      "max": 550
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 35,
+    "Mdef": 35,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 2,
+    "vampirism": 0,
+    "Lucky": 15,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "龙王为齐天大圣定制的战铠，斩妖除魔所向披靡。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 80,
+      "Def": 3,
+      "Mdef": 3,
+      "Lucky": 2
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

@@ -1,0 +1,17 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://assets/Art/Level/level_2/220.png" id="2"]
+
+[ext_resource type="Texture2D" path="res://assets/Art/Level/level_2/River.png" id="3"]
+
+[node name="River" type="Node2D"]
+
+[node name="BG" type="Sprite2D" parent="."]
+position = Vector2(-287, 0)
+scale = Vector2(4, 1)
+texture = ExtResource( "2" )
+
+[node name="River" type="Sprite2D" parent="BG"]
+position = Vector2(317.5, -15)
+scale = Vector2(0.75, 1)
+texture = ExtResource( "3" )

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "ey",
+  "legacy": {
+    "名字": "厄夜",
+    "所属": "悟空",
+    "品质": "邪灵",
+    "类型": "防具",
+    "颜色": "656565",
+    "SHp": 0,
+    "SMp": 0,
+    "power": {
+      "random": "randi_range",
+      "min": 110,
+      "max": 125
+    },
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 15,
+    "Miss": 0,
+    "R_hp": -2,
+    "R_mp": 4,
+    "vampirism": 0,
+    "Lucky": {
+      "random": "randi_range",
+      "min": 20,
+      "max": 24
+    },
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "",
+    "售价": 320,
+    "强化属性": {
+      "power": 17,
+      "Crit": 2,
+      "R_hp": -1,
+      "Lucky": 2
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

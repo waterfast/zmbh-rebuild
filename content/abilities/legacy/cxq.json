@@ -1,0 +1,15 @@
+{
+  "id": "cxq",
+  "legacy_id": "cxq",
+  "display_name": "穿心枪",
+  "description": "向前方快速刺击，期间可以左右移动，最后将敌人击退。（期间无视击退）",
+  "character_id": 5,
+  "slot": 5,
+  "passive": false,
+  "mp_cost": 25,
+  "cooldown": 2.4,
+  "cast_duration": 0.3,
+  "migration_status": "metadata_only",
+  "migration_note": "已迁移原版元数据；此技能独有行为尚未实现，不能施放。",
+  "effects": []
+}

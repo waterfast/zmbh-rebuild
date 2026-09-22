@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "jcmc",
+  "legacy": {
+    "名字": "家传明铲",
+    "所属": "沙僧",
+    "品质": "优秀",
+    "类型": "武器",
+    "颜色": "00FF00",
+    "SHp": 0,
+    "SMp": 0,
+    "power": 26,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 3,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "恶湮于野，魔隐于暗，天道恢恢。",
+    "售价": 40,
+    "强化属性": {
+      "power": 5
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

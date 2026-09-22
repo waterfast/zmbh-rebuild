@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "zjksf",
+  "legacy": {
+    "名字": "紫金开山斧",
+    "所属": "八戒",
+    "品质": "史诗",
+    "类型": "武器",
+    "颜色": "800080",
+    "SHp": {
+      "random": "randi_range",
+      "min": 200,
+      "max": 215
+    },
+    "SMp": 0,
+    "power": {
+      "random": "randi_range",
+      "min": 230,
+      "max": 235
+    },
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 5,
+    "R_mp": 0,
+    "vampirism": 0,
+    "Lucky": 0,
+    "Toughness": 0,
+    "Htarget": 15,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "FBTYPE": "zjhl",
+    "描述": "人间如梦，红尘万丈，劈不断相思情。",
+    "售价": 160,
+    "强化属性": {
+      "SHp": 30,
+      "power": 32,
+      "Htarget": 2
+    },
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

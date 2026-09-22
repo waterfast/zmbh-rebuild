@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "tdlzj",
+  "legacy": {
+    "名字": "提多罗吒之戒",
+    "所属": "通用",
+    "品质": "史诗",
+    "类型": "饰品",
+    "颜色": "800080",
+    "SHp": {
+      "random": "randi_range",
+      "min": 500,
+      "max": 600
+    },
+    "SMp": 0,
+    "power": 0,
+    "Def": 0,
+    "Mdef": 0,
+    "Crit": 0,
+    "Miss": 0,
+    "R_hp": 0,
+    "R_mp": 5,
+    "vampirism": 0,
+    "Lucky": 15,
+    "Toughness": 0,
+    "Htarget": 0,
+    "CritReduce": 0,
+    "ar": 0,
+    "sp": 0,
+    "描述": "殿可毁，人可亡，恨犹在，何时还。",
+    "售价": 160,
+    "强化属性": {},
+    "宝石": []
+  },
+  "ability_ids": [],
+  "passive_ids": []
+}

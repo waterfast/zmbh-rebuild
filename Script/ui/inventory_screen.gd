@@ -1,5 +1,5 @@
 class_name InventoryScreen
-extends Node2D
+extends Control
 
 signal closed
 

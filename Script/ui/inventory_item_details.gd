@@ -1,5 +1,5 @@
 class_name InventoryItemDetails
-extends Node2D
+extends Control
 
 const FIELDS := {
 	"eq_hp": [&"max_hp", "生命"], "eq_mp": [&"max_mp", "魔法"], "eq_power": [&"attack", "攻击"],

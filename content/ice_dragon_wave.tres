@@ -1,19 +1,21 @@
-[gd_resource type="Resource" script_class="AbilityDefinition" load_steps=4 format=3]
-[ext_resource type="Script" path="res://Script/core/ability/ability_definition.gd" id="1"]
-[ext_resource type="Script" path="res://Script/core/effects/timeline_attack_effect.gd" id="effect"]
+[gd_resource type="Resource" script_class="AbilityDefinition" format=3 uid="uid://8baaj3r4bu3v"]
+
+[ext_resource type="Script" uid="uid://dcdte3jtxucc6" path="res://Script/core/ability/ability_definition.gd" id="1"]
+[ext_resource type="Script" uid="uid://bs5kwgjhcp72h" path="res://Script/core/effects/ability_effect.gd" id="1_ko8d0"]
+[ext_resource type="Script" uid="uid://1tsu8dit635v" path="res://Script/core/effects/timeline_attack_effect.gd" id="effect"]
+
 [sub_resource type="Resource" id="wave"]
 script = ExtResource("effect")
 scene_path = "res://Scene/Combat/IceDragonWave.tscn"
 offset = Vector2(15, -41)
 power_scale = 0.55
+
 [resource]
 script = ExtResource("1")
 id = &"ice_dragon_wave"
 display_name = "冰龙波"
 legacy_id = &"blb"
-mp_cost = 25.0
-cooldown = 2.4
-effects = Array[ExtResource("effect")]([SubResource("wave")])
+effects = Array[ExtResource("1_ko8d0")]([SubResource("wave")])
 cast_duration = 0.8
 animation = &"blb"
 release_delay = 0.5001

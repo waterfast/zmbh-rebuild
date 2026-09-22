@@ -1,7 +1,8 @@
-[gd_resource type="Resource" script_class="AbilityDefinition" load_steps=4 format=3]
+[gd_resource type="Resource" script_class="AbilityDefinition" format=3 uid="uid://iq42tojhs7bn"]
 
-[ext_resource type="Script" path="res://Script/core/ability/ability_definition.gd" id="definition"]
-[ext_resource type="Script" path="res://Script/core/effects/timeline_attack_effect.gd" id="effect"]
+[ext_resource type="Script" uid="uid://bs5kwgjhcp72h" path="res://Script/core/effects/ability_effect.gd" id="1_fhbsb"]
+[ext_resource type="Script" uid="uid://dcdte3jtxucc6" path="res://Script/core/ability/ability_definition.gd" id="definition"]
+[ext_resource type="Script" uid="uid://1tsu8dit635v" path="res://Script/core/effects/timeline_attack_effect.gd" id="effect"]
 
 [sub_resource type="Resource" id="wave"]
 script = ExtResource("effect")
@@ -12,7 +13,7 @@ offset = Vector2(10, -26)
 script = ExtResource("definition")
 id = &"tang_sanzang_normal"
 display_name = "唐僧普攻"
-effects = Array[ExtResource("effect")]([SubResource("wave")])
+effects = Array[ExtResource("1_fhbsb")]([SubResource("wave")])
 mp_cost = 0.0
 cooldown = 0.55
 cast_duration = 0.55

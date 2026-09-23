@@ -1,0 +1,925 @@
+[gd_scene load_steps=54 format=3]
+
+[ext_resource type="Script" path="res://Script/presentation/monster_hit_effect.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/Art/StrikeSpecialEffects/MonsterBeHurt_1.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/Art/StrikeSpecialEffects/MonsterBeHurt_2.png" id="3"]
+
+[sub_resource type="AtlasTexture" id="1"]
+atlas = ExtResource( "2" )
+region = Rect2(0, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="2"]
+atlas = ExtResource( "2" )
+region = Rect2(0, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource( "2" )
+region = Rect2(188, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource( "2" )
+region = Rect2(188, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="5"]
+atlas = ExtResource( "2" )
+region = Rect2(376, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource( "2" )
+region = Rect2(376, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="7"]
+atlas = ExtResource( "2" )
+region = Rect2(564, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource( "2" )
+region = Rect2(564, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="9"]
+atlas = ExtResource( "3" )
+region = Rect2(0, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="10"]
+atlas = ExtResource( "3" )
+region = Rect2(0, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="11"]
+atlas = ExtResource( "3" )
+region = Rect2(146, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="12"]
+atlas = ExtResource( "3" )
+region = Rect2(146, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="13"]
+atlas = ExtResource( "3" )
+region = Rect2(292, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="14"]
+atlas = ExtResource( "3" )
+region = Rect2(292, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="15"]
+atlas = ExtResource( "3" )
+region = Rect2(438, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="16"]
+atlas = ExtResource( "3" )
+region = Rect2(438, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="17"]
+atlas = ExtResource( "2" )
+region = Rect2(0, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="18"]
+atlas = ExtResource( "2" )
+region = Rect2(188, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="19"]
+atlas = ExtResource( "2" )
+region = Rect2(376, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="20"]
+atlas = ExtResource( "2" )
+region = Rect2(564, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="21"]
+atlas = ExtResource( "3" )
+region = Rect2(0, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="22"]
+atlas = ExtResource( "3" )
+region = Rect2(146, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="23"]
+atlas = ExtResource( "3" )
+region = Rect2(292, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="24"]
+atlas = ExtResource( "3" )
+region = Rect2(438, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="25"]
+atlas = ExtResource( "2" )
+region = Rect2(0, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="26"]
+atlas = ExtResource( "2" )
+region = Rect2(188, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="27"]
+atlas = ExtResource( "2" )
+region = Rect2(376, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="28"]
+atlas = ExtResource( "2" )
+region = Rect2(564, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="29"]
+atlas = ExtResource( "3" )
+region = Rect2(0, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="30"]
+atlas = ExtResource( "3" )
+region = Rect2(146, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="31"]
+atlas = ExtResource( "3" )
+region = Rect2(292, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="32"]
+atlas = ExtResource( "3" )
+region = Rect2(438, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="33"]
+atlas = ExtResource( "2" )
+region = Rect2(0, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="34"]
+atlas = ExtResource( "2" )
+region = Rect2(188, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="35"]
+atlas = ExtResource( "2" )
+region = Rect2(376, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="36"]
+atlas = ExtResource( "2" )
+region = Rect2(564, 0, 188, 127)
+script = null
+
+[sub_resource type="AtlasTexture" id="37"]
+atlas = ExtResource( "3" )
+region = Rect2(0, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="38"]
+atlas = ExtResource( "3" )
+region = Rect2(146, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="39"]
+atlas = ExtResource( "3" )
+region = Rect2(292, 0, 146, 109)
+script = null
+
+[sub_resource type="AtlasTexture" id="40"]
+atlas = ExtResource( "3" )
+region = Rect2(438, 0, 146, 109)
+script = null
+
+[sub_resource type="SpriteFrames" id="41"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource( "1" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "2" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "3" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "4" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "5" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "6" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "7" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "8" )
+}],
+"loop": false,
+"name": &"hurt_1",
+"speed": 25.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource( "9" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "10" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "11" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "12" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "13" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "14" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "15" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "16" )
+}],
+"loop": false,
+"name": &"hurt_2",
+"speed": 25.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource( "17" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "17" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "18" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "18" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "19" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "19" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "20" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "20" )
+}],
+"loop": false,
+"name": &"hurt_3",
+"speed": 25.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource( "21" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "21" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "22" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "22" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "23" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "23" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "24" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "24" )
+}],
+"loop": false,
+"name": &"hurt_4",
+"speed": 25.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource( "25" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "25" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "26" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "26" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "27" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "27" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "28" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "28" )
+}],
+"loop": false,
+"name": &"hurt_5",
+"speed": 25.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource( "29" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "29" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "30" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "30" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "31" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "31" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "32" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "32" )
+}],
+"loop": false,
+"name": &"hurt_6",
+"speed": 25.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource( "33" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "33" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "34" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "34" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "35" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "35" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "36" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "36" )
+}],
+"loop": false,
+"name": &"hurt_7",
+"speed": 25.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource( "37" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "37" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "38" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "38" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "39" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "39" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "40" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "40" )
+}],
+"loop": false,
+"name": &"hurt_8",
+"speed": 25.0
+}]
+script = null
+
+[sub_resource type="Animation" id="42"]
+length = 0.32
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("behitplayer:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.04, 0.08, 0.12, 0.16, 0.2, 0.24, 0.28),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("behitplayer:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["hurt_1"]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("behitplayer:offset")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -15)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("behitplayer:self_modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+script = null
+
+[sub_resource type="Animation" id="43"]
+length = 0.32
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("behitplayer:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.04, 0.08, 0.12, 0.16, 0.2, 0.24, 0.28),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("behitplayer:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["hurt_2"]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("behitplayer:offset")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -20)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("behitplayer:self_modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+script = null
+
+[sub_resource type="Animation" id="44"]
+length = 0.32
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("behitplayer:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.04, 0.08, 0.12, 0.16, 0.2, 0.24, 0.28),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("behitplayer:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["hurt_3"]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("behitplayer:self_modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0.4, 1, 1)]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+script = null
+
+[sub_resource type="Animation" id="45"]
+length = 0.32
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("behitplayer:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.04, 0.08, 0.12, 0.16, 0.2, 0.24, 0.28),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("behitplayer:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["hurt_4"]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("behitplayer:self_modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+script = null
+
+[sub_resource type="Animation" id="46"]
+length = 0.32
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("behitplayer:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.04, 0.08, 0.12, 0.16, 0.2, 0.24, 0.28),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("behitplayer:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["hurt_5"]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("behitplayer:self_modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 0, 1)]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+script = null
+
+[sub_resource type="Animation" id="47"]
+length = 0.32
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("behitplayer:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.04, 0.08, 0.12, 0.16, 0.2, 0.24, 0.28),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("behitplayer:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["hurt_6"]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("behitplayer:self_modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 0, 1)]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+script = null
+
+[sub_resource type="Animation" id="48"]
+length = 0.32
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("behitplayer:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.04, 0.08, 0.12, 0.16, 0.2, 0.24, 0.28),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("behitplayer:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["hurt_7"]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("behitplayer:self_modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 1, 0, 1)]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+script = null
+
+[sub_resource type="Animation" id="49"]
+length = 0.32
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("behitplayer:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.04, 0.08, 0.12, 0.16, 0.2, 0.24, 0.28),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("behitplayer:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": ["hurt_8"]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("behitplayer:self_modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 1, 0, 1)]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+script = null
+
+[sub_resource type="AnimationLibrary" id="50"]
+_data = {
+"hurt_1": SubResource( "42" ),
+"hurt_2": SubResource( "43" ),
+"hurt_3": SubResource( "44" ),
+"hurt_4": SubResource( "45" ),
+"hurt_5": SubResource( "46" ),
+"hurt_6": SubResource( "47" ),
+"hurt_7": SubResource( "48" ),
+"hurt_8": SubResource( "49" )
+}
+script = null
+
+[node name="monster_be_hit" type="Node2D"]
+script = ExtResource( "1" )
+
+[node name="behitplayer" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource( "41" )
+animation = &"hurt_2"
+frame = 7
+frame_progress = 1.0
+offset = Vector2(0, -15)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource( "50" )
+}

@@ -2315,6 +2315,56 @@ tracks/9/type = "method"
 tracks/9/path = NodePath("base_damagebox/HitBox")
 tracks/9/keys = {"times": PackedFloat32Array(0.2,0.3,0.5,0.6,0.8,0.9), "transitions": PackedFloat32Array(1,1,1,1,1,1), "values": [{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"}]}
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1.2, 1.2)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Action/SpecialEffect:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-53, 6)]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Action/SpecialEffect")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.2),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"Hit6", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Action/SpecialEffect2:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 [sub_resource type="Animation" id="action_1"]
 resource_name = "cxq"
 length = 2.1
@@ -2444,6 +2494,59 @@ tracks/9/type = "method"
 tracks/9/path = NodePath("base_damagebox/HitBox")
 tracks/9/keys = {"times": PackedFloat32Array(0.0,0.2,0.4,0.6,0.8,1.0,1.2,1.4,1.8), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1,1), "values": [{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"}]}
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(1.3, 1.3)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Action/SpecialEffect:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1.8),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Vector2(-163, 10), Vector2(-115, 8)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Action/SpecialEffect2:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Action/SpecialEffect")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1.8),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [&"Hit8", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"Hit9", 1.0, false],
+"method": &"play"
+}]
+}
 [sub_resource type="Animation" id="action_2"]
 resource_name = "death"
 length = 3.0
@@ -2541,6 +2644,56 @@ tracks/6/keys = {
 }
 
 
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"death", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Action/SpecialEffect2:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Action/SpecialEffect:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-1, -116)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Action/SpecialEffect:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-1, 1)]
+}
 [sub_resource type="Animation" id="action_3"]
 resource_name = "drop"
 length = 0.45
@@ -2597,6 +2750,18 @@ tracks/3/keys = {
 }
 
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect2:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 [sub_resource type="Animation" id="action_4"]
 resource_name = "fhf"
 length = 1.0
@@ -2726,6 +2891,62 @@ tracks/8/keys = {
 }
 
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Action/SpecialEffect2:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Action/SpecialEffect")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.7),
+"transitions": PackedFloat32Array(1, 1, 1),
+"values": [{
+"args": [&"Hit16", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"Hit17", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"Hit18", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Action/SpecialEffect:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.5, 0.7),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [Vector2(15, -66), Vector2(3, -26), Vector2(11, 30)]
+}
 [sub_resource type="Animation" id="action_5"]
 resource_name = "hit1"
 length = 0.45
@@ -2852,6 +3073,56 @@ tracks/9/type = "method"
 tracks/9/path = NodePath("base_damagebox/HitBox")
 tracks/9/keys = {"times": PackedFloat32Array(0.2), "transitions": PackedFloat32Array(1), "values": [{"args": [], "method": &"begin_hit_window"}]}
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-24, -21)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Action/SpecialEffect:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Action/SpecialEffect")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.2),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"Hit1", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Action/SpecialEffect2:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 [sub_resource type="Animation" id="action_6"]
 resource_name = "hit2"
 length = 0.45
@@ -2978,6 +3249,56 @@ tracks/9/type = "method"
 tracks/9/path = NodePath("base_damagebox/HitBox")
 tracks/9/keys = {"times": PackedFloat32Array(0.2), "transitions": PackedFloat32Array(1), "values": [{"args": [], "method": &"begin_hit_window"}]}
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-22, 9)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Action/SpecialEffect:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Action/SpecialEffect")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.2),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"Hit2", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Action/SpecialEffect2:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 [sub_resource type="Animation" id="action_7"]
 resource_name = "hit3"
 length = 0.5
@@ -3104,6 +3425,56 @@ tracks/9/type = "method"
 tracks/9/path = NodePath("base_damagebox/HitBox")
 tracks/9/keys = {"times": PackedFloat32Array(0.2), "transitions": PackedFloat32Array(1), "values": [{"args": [], "method": &"begin_hit_window"}]}
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1.3, 1.3)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Action/SpecialEffect:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-41, -16)]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Action/SpecialEffect")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.2),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"Hit3", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Action/SpecialEffect2:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 [sub_resource type="Animation" id="action_8"]
 resource_name = "hit4"
 length = 0.75
@@ -3230,6 +3601,56 @@ tracks/9/type = "method"
 tracks/9/path = NodePath("base_damagebox/HitBox")
 tracks/9/keys = {"times": PackedFloat32Array(0.0,0.1,0.3,0.4), "transitions": PackedFloat32Array(1,1,1,1), "values": [{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"}]}
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1.1, 1.1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Action/SpecialEffect:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(2, 2)]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Action/SpecialEffect")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"Hit4", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Action/SpecialEffect2:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 [sub_resource type="Animation" id="action_9"]
 resource_name = "hit5"
 length = 0.45
@@ -3356,6 +3777,56 @@ tracks/9/type = "method"
 tracks/9/path = NodePath("base_damagebox/HitBox")
 tracks/9/keys = {"times": PackedFloat32Array(0.2), "transitions": PackedFloat32Array(1), "values": [{"args": [], "method": &"begin_hit_window"}]}
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1.6, 1.6)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Action/SpecialEffect:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-40, -19)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Action/SpecialEffect2:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Action/SpecialEffect")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.2),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"Hit5", 1.0, false],
+"method": &"play"
+}]
+}
 [sub_resource type="Animation" id="action_10"]
 resource_name = "hurt"
 length = 0.45
@@ -3427,6 +3898,32 @@ tracks/4/keys = {
 }
 
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect2:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Action/SpecialEffect")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"Empty", 1.0, false],
+"method": &"play"
+}]
+}
 [sub_resource type="Animation" id="action_11"]
 resource_name = "jump1"
 length = 0.55
@@ -3483,6 +3980,18 @@ tracks/3/keys = {
 }
 
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect2:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 [sub_resource type="Animation" id="action_12"]
 resource_name = "jump2"
 length = 0.45
@@ -3539,6 +4048,18 @@ tracks/3/keys = {
 }
 
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect2:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 [sub_resource type="Animation" id="action_13"]
 resource_name = "lljy"
 length = 0.6
@@ -3652,6 +4173,44 @@ tracks/8/type = "method"
 tracks/8/path = NodePath("base_damagebox/HitBox")
 tracks/8/keys = {"times": PackedFloat32Array(0.1), "transitions": PackedFloat32Array(1), "values": [{"args": [], "method": &"begin_hit_window"}]}
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-53, 6), Vector2(-53, 6)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Action/SpecialEffect:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(1.8, 0.8)]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Action/SpecialEffect")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.1),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"Hit7", 1.0, false],
+"method": &"play"
+}]
+}
 [sub_resource type="Animation" id="action_14"]
 resource_name = "llrd"
 length = 0.6
@@ -3749,6 +4308,56 @@ tracks/6/keys = {
 }
 
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect2:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Action/SpecialEffect:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Action/SpecialEffect:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-212, 105)]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Action/SpecialEffect")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.3),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"Hit10", 1.0, false],
+"method": &"play"
+}]
+}
 [sub_resource type="Animation" id="action_15"]
 resource_name = "run"
 length = 0.4
@@ -3805,6 +4414,18 @@ tracks/3/keys = {
 }
 
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect2:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 [sub_resource type="Animation" id="action_16"]
 resource_name = "slq"
 length = 0.9
@@ -3861,6 +4482,18 @@ tracks/3/keys = {
 }
 
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect2:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 [sub_resource type="Animation" id="action_17"]
 resource_name = "tllz"
 length = 1.2
@@ -3977,6 +4610,47 @@ tracks/8/type = "method"
 tracks/8/path = NodePath("base_damagebox/HitBox")
 tracks/8/keys = {"times": PackedFloat32Array(0.0), "transitions": PackedFloat32Array(1), "values": [{"args": [], "method": &"begin_hit_window"}]}
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.8),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Vector2(-11, -288), Vector2(-14, -358)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Action/SpecialEffect:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.8),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Vector2(1.5, 1.5), Vector2(1.5, 1.5)]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Action/SpecialEffect")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.8),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [&"Hit12", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"Hit11", 1.0, false],
+"method": &"play"
+}]
+}
 [sub_resource type="Animation" id="action_18"]
 resource_name = "wait"
 length = 4.2
@@ -4033,6 +4707,18 @@ tracks/3/keys = {
 }
 
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect2:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 [sub_resource type="Animation" id="action_19"]
 resource_name = "xyq"
 length = 1.5
@@ -4162,6 +4848,59 @@ tracks/9/type = "method"
 tracks/9/path = NodePath("base_damagebox/HitBox")
 tracks/9/keys = {"times": PackedFloat32Array(0.0,0.2,0.4,0.6,0.8,1.0,1.3), "transitions": PackedFloat32Array(1,1,1,1,1,1,1), "values": [{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"}]}
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Vector2(7, -71), Vector2(7, -3)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Action/SpecialEffect:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1.3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Vector2(1.5, 1.5), Vector2(1.5, 1.5)]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Action/SpecialEffect")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.3),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [&"Hit13", 1.0, false],
+"method": &"play"
+}, {
+"args": [&"Hit14", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Action/SpecialEffect2:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
 [sub_resource type="Animation" id="action_20"]
 resource_name = "ygth"
 length = 3.0
@@ -4275,6 +5014,44 @@ tracks/8/type = "method"
 tracks/8/path = NodePath("base_damagebox/HitBox")
 tracks/8/keys = {"times": PackedFloat32Array(0.0,0.2,0.4,0.6,0.8,1.0,1.2,1.4,1.6,1.8,2.0), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1,1,1,1), "values": [{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"},{"args": [], "method": &"begin_hit_window"}]}
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/SpecialEffect:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1.5, 2)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Action/SpecialEffect:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(9, -31)]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Action/SpecialEffect")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"Hit15", 1.0, false],
+"method": &"play"
+}]
+}
 [sub_resource type="AnimationLibrary" id="actions"]
 _data = {"blq": SubResource("action_0"),
 "cxq": SubResource("action_1"),

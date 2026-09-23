@@ -4,6 +4,32 @@
 
 [ext_resource type="Script" path="res://Script/actors/animated_attack_hitbox.gd" id="hitbox"]
 
+[ext_resource type="Texture2D" path="res://assets/Art/HeroPicture/Role5/SpecialEffect_14.png" id="25"]
+
+[sub_resource type="AtlasTexture" id="582"]
+atlas = ExtResource( "25" )
+region = Rect2(0, 0, 885, 294)
+
+[sub_resource type="AtlasTexture" id="583"]
+atlas = ExtResource( "25" )
+region = Rect2(885, 0, 885, 294)
+
+[sub_resource type="AtlasTexture" id="584"]
+atlas = ExtResource( "25" )
+region = Rect2(0, 294, 885, 294)
+
+[sub_resource type="AtlasTexture" id="585"]
+atlas = ExtResource( "25" )
+region = Rect2(885, 294, 885, 294)
+
+[sub_resource type="AtlasTexture" id="586"]
+atlas = ExtResource( "25" )
+region = Rect2(0, 588, 885, 294)
+
+[sub_resource type="AtlasTexture" id="587"]
+atlas = ExtResource( "25" )
+region = Rect2(885, 588, 885, 294)
+
 [sub_resource type="RectangleShape2D" id="1024"]
 size = Vector2(678, 168.25)
 
@@ -11,14 +37,56 @@ size = Vector2(678, 168.25)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": null
+"texture": SubResource( "582" )
 }, {
 "duration": 1.0,
-"texture": null
+"texture": SubResource( "583" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "584" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "585" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "586" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "587" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "587" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "587" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "587" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "587" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "587" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "587" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "587" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "587" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "587" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "587" )
 }],
-"loop": true,
-"name": &"Empty",
-"speed": 5.0
+"loop": false,
+"name": &"Role5Bullet3",
+"speed": 16.0
 }]
 
 [sub_resource type="SpriteFrames" id="frames_SpecialEffect"]

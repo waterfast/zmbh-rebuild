@@ -41,3 +41,11 @@ static func present(actor: CombatActor, definition: AbilityDefinition) -> Charac
 	timeline.use_hitbox = bool(data.hitbox)
 	actor.add_child(timeline)
 	return timeline
+
+static func present_status(actor: CombatActor, character: int, animation: StringName) -> CharacterActionTimeline:
+	if metadata(character, animation).is_empty():
+		return null
+	var definition := AbilityDefinition.new()
+	definition.character_id = character
+	definition.animation = animation
+	return present(actor, definition)

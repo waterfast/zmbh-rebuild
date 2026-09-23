@@ -2,11 +2,18 @@ class_name StageEncounter
 extends Node
 ## 波次保留数据顺序，限制同时存活数；不预生成未到达区域的怪物。
 
+signal enemy_landed_hit
 signal enemy_defeated(monster_id: int, position: Vector2)
 signal stage_cleared(stage: int)
 signal completed
 
 var received_hits := 0
+var total_damage_received: float = 0.0
+var total_damage_dealt: float = 0.0
+var landed_hits: int = 0
+## 关卡结算用到的连击统计：玩家连续命中不被打断的最多次数。
+var maximum_combo := 0
+var current_combo := 0
 var world: WorldSession
 var player: CombatActor
 var stage_index: int = 0
@@ -78,6 +85,7 @@ func _spawn_one() -> void:
 		view.set_skin(skin_id)
 	enemy.get_node("EnemyAI").target = player
 	enemy.combatant.health.died.connect(_on_enemy_died.bind(enemy, monster_id), CONNECT_ONE_SHOT)
+	enemy.combatant.damaged.connect(_count_landed_hit)
 	_living += 1
 	_enemies.append(enemy)
 
@@ -92,15 +100,36 @@ func _on_enemy_died(enemy: CombatActor, monster_id: int) -> void:
 		stage_cleared.emit(int(wave.stage))
 		stage_index += 1
 		if stage_index >= world.definition.waves.size():
-			finished = true
-			completed.emit()
+			# 留出最后一只怪的死亡动画和粒子播放时间，再显示结算。
+			if enemy.despawn_on_death:
+				enemy.despawning.connect(_on_final_enemy_despawning, CONNECT_ONE_SHOT)
+			else:
+				_complete_level()
 		else:
 			_next_wave = true
+
+func _on_final_enemy_despawning() -> void:
+	get_tree().create_timer(0.5, false).timeout.connect(_complete_level, CONNECT_ONE_SHOT)
+
+func _complete_level() -> void:
+	if finished:
+		return
+	finished = true
+	completed.emit()
 
 func remaining_enemies() -> int:
 	if finished or stage_index >= world.definition.waves.size():
 		return 0
 	return _living + world.definition.waves[stage_index].monster_ids.size() - _next_spawn
 
-func _count_received_hit(_amount: float, _stun: float) -> void:
+func _count_received_hit(amount: float, _stun: float) -> void:
 	received_hits += 1
+	total_damage_received += amount
+	current_combo = 0
+
+func _count_landed_hit(amount: float, _stun: float) -> void:
+	landed_hits += 1
+	current_combo += 1
+	total_damage_dealt += amount
+	maximum_combo = maxi(maximum_combo, current_combo)
+	enemy_landed_hit.emit()

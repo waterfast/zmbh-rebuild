@@ -4,6 +4,152 @@
 
 [ext_resource type="Script" path="res://Script/actors/animated_attack_hitbox.gd" id="hitbox"]
 
+[ext_resource type="Texture2D" path="res://assets/Art/HeroPicture/Role5/SpecialEffect_20.png" id="27"]
+
+[sub_resource type="AtlasTexture" id="602"]
+atlas = ExtResource( "27" )
+region = Rect2(0, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="603"]
+atlas = ExtResource( "27" )
+region = Rect2(132, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="604"]
+atlas = ExtResource( "27" )
+region = Rect2(264, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="605"]
+atlas = ExtResource( "27" )
+region = Rect2(396, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="606"]
+atlas = ExtResource( "27" )
+region = Rect2(528, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="607"]
+atlas = ExtResource( "27" )
+region = Rect2(660, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="608"]
+atlas = ExtResource( "27" )
+region = Rect2(0, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="609"]
+atlas = ExtResource( "27" )
+region = Rect2(132, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="610"]
+atlas = ExtResource( "27" )
+region = Rect2(264, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="611"]
+atlas = ExtResource( "27" )
+region = Rect2(396, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="612"]
+atlas = ExtResource( "27" )
+region = Rect2(528, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="613"]
+atlas = ExtResource( "27" )
+region = Rect2(660, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="614"]
+atlas = ExtResource( "27" )
+region = Rect2(0, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="615"]
+atlas = ExtResource( "27" )
+region = Rect2(132, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="616"]
+atlas = ExtResource( "27" )
+region = Rect2(264, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="617"]
+atlas = ExtResource( "27" )
+region = Rect2(396, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="618"]
+atlas = ExtResource( "27" )
+region = Rect2(528, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="619"]
+atlas = ExtResource( "27" )
+region = Rect2(660, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="620"]
+atlas = ExtResource( "27" )
+region = Rect2(0, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="621"]
+atlas = ExtResource( "27" )
+region = Rect2(132, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="622"]
+atlas = ExtResource( "27" )
+region = Rect2(264, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="623"]
+atlas = ExtResource( "27" )
+region = Rect2(396, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="624"]
+atlas = ExtResource( "27" )
+region = Rect2(528, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="625"]
+atlas = ExtResource( "27" )
+region = Rect2(660, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="626"]
+atlas = ExtResource( "27" )
+region = Rect2(0, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="627"]
+atlas = ExtResource( "27" )
+region = Rect2(132, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="628"]
+atlas = ExtResource( "27" )
+region = Rect2(264, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="629"]
+atlas = ExtResource( "27" )
+region = Rect2(396, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="630"]
+atlas = ExtResource( "27" )
+region = Rect2(528, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="631"]
+atlas = ExtResource( "27" )
+region = Rect2(660, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="632"]
+atlas = ExtResource( "27" )
+region = Rect2(0, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="633"]
+atlas = ExtResource( "27" )
+region = Rect2(132, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="634"]
+atlas = ExtResource( "27" )
+region = Rect2(264, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="635"]
+atlas = ExtResource( "27" )
+region = Rect2(396, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="636"]
+atlas = ExtResource( "27" )
+region = Rect2(528, 0, 132, 171)
+
+[sub_resource type="AtlasTexture" id="637"]
+atlas = ExtResource( "27" )
+region = Rect2(660, 0, 132, 171)
+
 [sub_resource type="RectangleShape2D" id="1028"]
 size = Vector2(176, 279.25)
 
@@ -11,14 +157,116 @@ size = Vector2(176, 279.25)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": null
+"texture": SubResource( "602" )
 }, {
 "duration": 1.0,
-"texture": null
+"texture": SubResource( "603" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "604" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "605" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "606" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "607" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "608" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "609" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "610" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "611" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "612" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "613" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "614" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "615" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "616" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "617" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "618" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "619" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "620" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "621" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "622" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "623" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "624" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "625" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "626" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "627" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "628" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "629" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "630" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "631" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "632" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "633" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "634" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "635" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "636" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "637" )
 }],
-"loop": true,
-"name": &"Empty",
-"speed": 5.0
+"loop": false,
+"name": &"Role5Bullet5",
+"speed": 10.0
 }]
 
 [sub_resource type="SpriteFrames" id="frames_SpecialEffect"]

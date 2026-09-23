@@ -4,6 +4,36 @@
 
 [ext_resource type="Script" path="res://Script/actors/animated_attack_hitbox.gd" id="hitbox"]
 
+[ext_resource type="Texture2D" path="res://assets/Art/HeroPicture/Role2/Role2Skill_xbz.png" id="8"]
+
+[sub_resource type="AtlasTexture" id="98"]
+atlas = ExtResource( "8" )
+region = Rect2(0, 0, 168, 181)
+
+[sub_resource type="AtlasTexture" id="99"]
+atlas = ExtResource( "8" )
+region = Rect2(168, 0, 168, 181)
+
+[sub_resource type="AtlasTexture" id="100"]
+atlas = ExtResource( "8" )
+region = Rect2(336, 0, 168, 181)
+
+[sub_resource type="AtlasTexture" id="101"]
+atlas = ExtResource( "8" )
+region = Rect2(504, 0, 168, 181)
+
+[sub_resource type="AtlasTexture" id="102"]
+atlas = ExtResource( "8" )
+region = Rect2(672, 0, 168, 181)
+
+[sub_resource type="AtlasTexture" id="103"]
+atlas = ExtResource( "8" )
+region = Rect2(840, 0, 168, 181)
+
+[sub_resource type="AtlasTexture" id="104"]
+atlas = ExtResource( "8" )
+region = Rect2(1008, 0, 168, 181)
+
 [sub_resource type="RectangleShape2D" id="979"]
 size = Vector2(116, 136)
 
@@ -14,14 +44,32 @@ size = Vector2(58, 51)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": null
+"texture": SubResource( "98" )
 }, {
 "duration": 1.0,
-"texture": null
+"texture": SubResource( "98" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "99" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "100" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "101" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "102" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "103" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "104" )
 }],
-"loop": true,
-"name": &"Empty",
-"speed": 5.0
+"loop": false,
+"name": &"Role2Bullet3",
+"speed": 15.0
 }]
 
 [sub_resource type="SpriteFrames" id="frames_SpecialEffect"]

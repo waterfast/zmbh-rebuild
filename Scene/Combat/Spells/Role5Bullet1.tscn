@@ -4,6 +4,48 @@
 
 [ext_resource type="Script" path="res://Script/actors/animated_attack_hitbox.gd" id="hitbox"]
 
+[ext_resource type="Texture2D" path="res://assets/Art/HeroPicture/Role5/SpecialEffect_6.png" id="23"]
+
+[sub_resource type="AtlasTexture" id="563"]
+atlas = ExtResource( "23" )
+region = Rect2(0, 0, 200, 255)
+
+[sub_resource type="AtlasTexture" id="564"]
+atlas = ExtResource( "23" )
+region = Rect2(200, 0, 200, 255)
+
+[sub_resource type="AtlasTexture" id="565"]
+atlas = ExtResource( "23" )
+region = Rect2(400, 0, 200, 255)
+
+[sub_resource type="AtlasTexture" id="566"]
+atlas = ExtResource( "23" )
+region = Rect2(600, 0, 200, 255)
+
+[sub_resource type="AtlasTexture" id="567"]
+atlas = ExtResource( "23" )
+region = Rect2(800, 0, 200, 255)
+
+[sub_resource type="AtlasTexture" id="568"]
+atlas = ExtResource( "23" )
+region = Rect2(1000, 0, 200, 255)
+
+[sub_resource type="AtlasTexture" id="569"]
+atlas = ExtResource( "23" )
+region = Rect2(1200, 0, 200, 255)
+
+[sub_resource type="AtlasTexture" id="570"]
+atlas = ExtResource( "23" )
+region = Rect2(1400, 0, 200, 255)
+
+[sub_resource type="AtlasTexture" id="571"]
+atlas = ExtResource( "23" )
+region = Rect2(1600, 0, 200, 255)
+
+[sub_resource type="AtlasTexture" id="572"]
+atlas = ExtResource( "23" )
+region = Rect2(1800, 0, 200, 255)
+
 [sub_resource type="RectangleShape2D" id="1020"]
 size = Vector2(140, 219)
 
@@ -11,14 +53,41 @@ size = Vector2(140, 219)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": null
+"texture": SubResource( "563" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "564" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "565" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "566" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "567" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "568" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "569" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "570" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "571" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "572" )
 }, {
 "duration": 1.0,
 "texture": null
 }],
-"loop": true,
-"name": &"Empty",
-"speed": 5.0
+"loop": false,
+"name": &"Role5Bullet1",
+"speed": 20.0
 }]
 
 [sub_resource type="SpriteFrames" id="frames_SpecialEffect"]

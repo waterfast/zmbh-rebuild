@@ -7,6 +7,9 @@ var playback_speed := 1.0
 var use_hitbox := false
 var _revision: int
 var _view: ActorView
+var _visual_events: Array[Dictionary] = []
+var _elapsed: float = 0.0
+var _next_visual_event: int = 0
 
 func _ready() -> void:
 	_revision = actor.action.revision
@@ -23,10 +26,20 @@ func _ready() -> void:
 	$Player.speed_scale = playback_speed
 	$Player.play(definition.animation)
 	$Player.advance(0)
+	_visual_events = CharacterVisualEvents.for_action(definition.character_id, definition.animation)
+	_emit_visual_events()
 
-func _physics_process(_delta: float) -> void:
+func _physics_process(delta: float) -> void:
 	if not is_instance_valid(actor) or actor.action.revision != _revision:
 		cancel()
+		return
+	_elapsed += delta
+	_emit_visual_events()
+
+func _emit_visual_events() -> void:
+	while _next_visual_event < _visual_events.size() and float(_visual_events[_next_visual_event].time) <= _elapsed:
+		CharacterVisualEvents.trigger(actor, String(_visual_events[_next_visual_event].name))
+		_next_visual_event += 1
 
 func cancel() -> void:
 	$base_damagebox/HitBox._spent = true

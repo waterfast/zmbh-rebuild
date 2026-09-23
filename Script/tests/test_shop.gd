@@ -51,6 +51,23 @@ func _run() -> void:
 	check(profile.progression.gold == 5000, "原确认按钮触发交易")
 	shop._request_purchase(&"wkbsz", 1)
 	check(profile.progression.gold == 5000, "不能通过界面回调购买角色外商品")
+	shop._on_total_pressed()
+	check(shop._rows.size() == 9, "恢复全部商品后为九宫布局")
+	for index in shop._rows.size():
+		var hovered: ShopItemView = shop._rows[index]
+		hovered._show_details()
+		await process_frame
+		await process_frame
+		await process_frame
+		var anchor: Vector2 = hovered._tooltip_anchor.global_position
+		var details: InventoryItemDetails = hovered._details
+		var details_rect: Rect2 = details.get_node("ColorRect").get_global_rect()
+		check(details != null and is_equal_approx(details.global_position.x, anchor.x) and details.global_position.y <= anchor.y,
+			"第%d个商品的悬停详情贴住该商品，而不是固定的鼠标偏移" % index)
+		check(details_rect.position.x >= 0.0 and details_rect.position.y >= 0.0
+			and details_rect.end.x <= 940.0 and details_rect.end.y <= 590.0,
+			"第%d个商品的悬停详情整体保持在视口内" % index)
+		hovered._hide_details()
 	shop.queue_free()
 	await process_frame
 	await process_frame

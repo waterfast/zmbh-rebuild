@@ -4,6 +4,44 @@
 
 [ext_resource type="Script" path="res://Script/actors/animated_attack_hitbox.gd" id="hitbox"]
 
+[ext_resource type="Texture2D" path="res://assets/Art/HeroPicture/Role5/SpecialEffect_13.png" id="24"]
+
+[sub_resource type="AtlasTexture" id="573"]
+atlas = ExtResource( "24" )
+region = Rect2(0, 0, 345, 453)
+
+[sub_resource type="AtlasTexture" id="574"]
+atlas = ExtResource( "24" )
+region = Rect2(345, 0, 345, 453)
+
+[sub_resource type="AtlasTexture" id="575"]
+atlas = ExtResource( "24" )
+region = Rect2(690, 0, 345, 453)
+
+[sub_resource type="AtlasTexture" id="576"]
+atlas = ExtResource( "24" )
+region = Rect2(1035, 0, 345, 453)
+
+[sub_resource type="AtlasTexture" id="577"]
+atlas = ExtResource( "24" )
+region = Rect2(1380, 0, 345, 453)
+
+[sub_resource type="AtlasTexture" id="578"]
+atlas = ExtResource( "24" )
+region = Rect2(0, 453, 345, 453)
+
+[sub_resource type="AtlasTexture" id="579"]
+atlas = ExtResource( "24" )
+region = Rect2(345, 453, 345, 453)
+
+[sub_resource type="AtlasTexture" id="580"]
+atlas = ExtResource( "24" )
+region = Rect2(690, 453, 345, 453)
+
+[sub_resource type="AtlasTexture" id="581"]
+atlas = ExtResource( "24" )
+region = Rect2(1035, 453, 345, 453)
+
 [sub_resource type="RectangleShape2D" id="1022"]
 size = Vector2(355, 439)
 
@@ -11,14 +49,35 @@ size = Vector2(355, 439)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": null
+"texture": SubResource( "573" )
 }, {
 "duration": 1.0,
-"texture": null
+"texture": SubResource( "574" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "575" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "576" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "577" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "578" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "579" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "580" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "581" )
 }],
-"loop": true,
-"name": &"Empty",
-"speed": 5.0
+"loop": false,
+"name": &"Role5Bullet2",
+"speed": 18.0
 }]
 
 [sub_resource type="SpriteFrames" id="frames_SpecialEffect"]

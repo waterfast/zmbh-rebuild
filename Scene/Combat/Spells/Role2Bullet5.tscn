@@ -4,6 +4,20 @@
 
 [ext_resource type="Script" path="res://Script/actors/animated_attack_hitbox.gd" id="hitbox"]
 
+[ext_resource type="Texture2D" path="res://assets/Art/HeroPicture/Role2/sgqbullet2.png" id="10"]
+
+[sub_resource type="AtlasTexture" id="127"]
+atlas = ExtResource( "10" )
+region = Rect2(0, 0, 95, 94)
+
+[sub_resource type="AtlasTexture" id="128"]
+atlas = ExtResource( "10" )
+region = Rect2(95, 0, 95, 94)
+
+[sub_resource type="AtlasTexture" id="129"]
+atlas = ExtResource( "10" )
+region = Rect2(0, 94, 95, 94)
+
 [sub_resource type="CircleShape2D" id="996"]
 radius = 38.6394
 
@@ -11,14 +25,188 @@ radius = 38.6394
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": null
+"texture": SubResource( "127" )
 }, {
 "duration": 1.0,
-"texture": null
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "127" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "128" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "129" )
 }],
-"loop": true,
-"name": &"Empty",
-"speed": 5.0
+"loop": false,
+"name": &"Role2Bullet5",
+"speed": 10.0
 }]
 
 [sub_resource type="SpriteFrames" id="frames_SpecialEffect"]

@@ -1,6 +1,23 @@
 """Extract shared original projectile timelines, including visual sublayers and collision."""
-import re,json
-from migrate_visual_content import sections, attribute, clean, copy_asset, resource_closure, write
+import re,json,shutil
+from pathlib import Path
+import migrate_visual_content as visual
+from migrate_visual_content import sections, attribute, clean, resource_closure, write
+
+PROJECT = Path(__file__).resolve().parents[1]
+visual.ROOT = PROJECT / 'oldproject' / 'zaomeng-bahuang'
+visual.TARGET = PROJECT
+
+def copy_asset(path):
+    relative = path.removeprefix('res://')
+    destination = PROJECT / 'assets' / relative
+    if not destination.exists():
+        source = visual.ROOT / relative
+        if not source.exists():
+            raise FileNotFoundError(f'Missing original texture: {path}')
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(source, destination)
+    return 'res://assets/' + relative
 
 def extract(name):
     original=sections('Scene/Hero/RoleBullet.tscn')
@@ -17,7 +34,9 @@ def extract(name):
         path=m.group(1)
         if '/type = "value"' not in track or path.split(':')[0] not in ['BulletPlayer','SpecialEffect','HitBox/Collion']:continue
         if path.endswith(':animation'):
-            names[path.split(':')[0]].update(re.findall(r'&"([^\"]+)"',track))
+            values = re.search(r'"values": \[([^]]*)\]', track)
+            if values:
+                names[path.split(':')[0]].update(re.findall(r'&?"([^\"]+)"', values.group(1)))
         if path.endswith(':disabled'):
             times=re.search(r'"times": PackedFloat32Array\(([^)]+)\)',track).group(1).split(',')
             values=re.search(r'"values": \[([^]]+)\]',track).group(1).split(',')

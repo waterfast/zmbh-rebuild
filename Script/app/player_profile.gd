@@ -17,6 +17,8 @@ var quests := QuestJournal.new()
 var equipment: EquipmentLoadout
 var selected_skin: StringName = &"tang_sanzang"
 var last_level: StringName = &"level_1"
+var permanent_dark_power_refusal: bool = false
+var dark_power_reward_claimed: bool = false
 var _equipped: Dictionary = {}
 var _rng := RandomNumberGenerator.new()
 
@@ -34,6 +36,8 @@ func _init() -> void:
 
 func start_new() -> void:
 	detach_actor()
+	permanent_dark_power_refusal = false
+	dark_power_reward_claimed = false
 	selected_skin = &"tang_sanzang"
 	last_level = &"level_1"
 	inventory = ItemInventory.new(catalog)
@@ -118,7 +122,7 @@ func detach_actor() -> void:
 		equipment = null
 
 func serialize() -> Dictionary:
-	return {"battle_relic": String(battle_relic), "skills": skills.serialize(), "inventory": inventory.serialize(), "equipment": equipment.serialize() if equipment != null else _equipped.duplicate(), "progression": progression.serialize(), "quests": quests.serialize(), "selected_skin": String(selected_skin), "last_level": String(last_level)}
+	return {"battle_relic": String(battle_relic), "skills": skills.serialize(), "inventory": inventory.serialize(), "equipment": equipment.serialize() if equipment != null else _equipped.duplicate(), "progression": progression.serialize(), "quests": quests.serialize(), "selected_skin": String(selected_skin), "last_level": String(last_level), "permanent_dark_power_refusal": permanent_dark_power_refusal, "dark_power_reward_claimed": dark_power_reward_claimed}
 
 func restore(data: Dictionary) -> bool:
 	if not data.get("inventory") is Dictionary or not data.get("equipment") is Dictionary or not data.get("progression") is Dictionary or not data.get("quests") is Dictionary:
@@ -161,6 +165,8 @@ func restore(data: Dictionary) -> bool:
 	battle_relic = StringName(data.get("battle_relic", ""))
 	selected_skin = restored_skin
 	last_level = StringName(data.get("last_level", "level_1"))
+	permanent_dark_power_refusal = bool(data.get("permanent_dark_power_refusal", false))
+	dark_power_reward_claimed = bool(data.get("dark_power_reward_claimed", false))
 	return true
 
 func select_battle_relic(uid: StringName) -> bool:

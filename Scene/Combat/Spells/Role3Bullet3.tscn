@@ -4,6 +4,12 @@
 
 [ext_resource type="Script" path="res://Script/actors/animated_attack_hitbox.gd" id="hitbox"]
 
+[ext_resource type="Texture2D" path="res://assets/Art/HeroPicture/Role3/Role3SpecialEffect15.png" id="16"]
+
+[sub_resource type="AtlasTexture" id="285"]
+atlas = ExtResource( "16" )
+region = Rect2(0, 0, 15, 18)
+
 [sub_resource type="RectangleShape2D" id="1006"]
 size = Vector2(17, 15)
 
@@ -11,13 +17,127 @@ size = Vector2(17, 15)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": null
+"texture": SubResource( "285" )
 }, {
 "duration": 1.0,
-"texture": null
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "285" )
 }],
-"loop": true,
-"name": &"Empty",
+"loop": false,
+"name": &"Role3Bullet3",
 "speed": 5.0
 }]
 

@@ -2,6 +2,8 @@ class_name CombatActor
 extends CharacterBody2D
 ## 组合入口：控制器提交意图，Actor 安排更新顺序，组件执行各自规则。
 
+signal despawning
+
 const MELEE_SCENE = preload("res://actors/melee.tscn")
 
 @export var definition: StatDefinition
@@ -10,6 +12,7 @@ const MELEE_SCENE = preload("res://actors/melee.tscn")
 @export var normal_attack: AbilityDefinition
 @export var body_color: Color = Color.CORNFLOWER_BLUE
 @export var despawn_on_death: bool = false
+@export var corpse_lifetime: float = 0.7
 @export var debug_draw: bool = true
 
 var combatant: Combatant
@@ -40,6 +43,9 @@ func _ready() -> void:
 	hurtbox.combatant = combatant
 	combatant.damaged.connect(_on_damaged)
 	combatant.health.died.connect(_on_died)
+	var view := get_node_or_null("ActorView") as ActorView
+	if view != null:
+		view.bind_actor(self)
 	abilities.cast.connect(_on_cast)
 	if starting_ability != null:
 		abilities.grant(starting_ability, &"character")
@@ -66,8 +72,10 @@ func _physics_process(delta: float) -> void:
 	locomotion.update(is_on_floor(), velocity)
 	if not combatant.health.is_alive() and despawn_on_death:
 		_corpse_time += delta
-		if _corpse_time >= 0.7:
+		if _corpse_time >= corpse_lifetime:
+			despawning.emit()
 			queue_free()
+			despawn_on_death = false
 	if debug_draw:
 		queue_redraw()
 

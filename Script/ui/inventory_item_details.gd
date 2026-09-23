@@ -1,5 +1,10 @@
+## 详情面板：只负责把物品数据渲染出来，并报告自身尺寸。
+## 面板放在哪里由调用方决定——本组件不保存任何定位策略。
 class_name InventoryItemDetails
 extends Control
+
+## 内容尺寸稳定后发出（背景随内容伸缩）。调用方据此重新定位面板。
+signal panel_resized(size: Vector2)
 
 const FIELDS := {
 	"eq_hp": [&"max_hp", "生命"], "eq_mp": [&"max_mp", "魔法"], "eq_power": [&"attack", "攻击"],
@@ -17,6 +22,10 @@ var item_definition: ItemDefinition
 var follow_pointer: bool = true
 var maximum_position := Vector2(495, 320)
 var horizontal_reposition: float = 270.0
+var _reported_size := Vector2.ZERO
+
+@onready var _background: ColorRect = $ColorRect
+@onready var _information: Control = $pro_wk/information
 
 func _ready() -> void:
 	for control in find_children("*", "Control", true, false):
@@ -77,9 +86,13 @@ func _bind_stats(container: VBoxContainer, stats: Dictionary) -> void:
 		label.text = "%s：%s" % [FIELDS[field][1], str(snappedf(amount, 0.01))]
 
 func _process(_delta: float) -> void:
-	$ColorRect.size = $pro_wk/information.size
-	if follow_pointer:
-		position = get_viewport().get_mouse_position() - Vector2(430, 250)
+	var content_size := _information.size
+	if not content_size.is_equal_approx(_reported_size):
+		_reported_size = content_size
+		_background.size = content_size
+		panel_resized.emit(content_size)
+	if not follow_pointer:
+		return
 	if position.y + $ColorRect.size.y >= maximum_position.y:
 		position.y = maximum_position.y - $ColorRect.size.y
 	if position.x + $ColorRect.size.x >= maximum_position.x:

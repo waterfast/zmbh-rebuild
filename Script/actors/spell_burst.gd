@@ -4,6 +4,8 @@ extends Node2D
 var packed: PackedScene
 var payload: HitData
 var facing := 1.0
+var reverse_visual := false
+var fixed_visual_facing := 0.0
 var offsets: Array = []
 var scales: Array = []
 var interval := 0.2
@@ -22,9 +24,10 @@ func _spawn() -> void:
 		return
 	var attack = packed.instantiate()
 	attack.payload = payload
-	attack.facing = facing
+	attack.facing = fixed_visual_facing if fixed_visual_facing != 0.0 else (-facing if reverse_visual else facing)
 	var offset: Vector2 = offsets[next_index]
 	attack.position = position + Vector2(offset.x * facing, offset.y)
-	attack.scale = Vector2.ONE * float(scales[next_index])
+	var requested_scale: Variant = scales[next_index]
+	attack.scale = requested_scale if requested_scale is Vector2 else Vector2.ONE * float(requested_scale)
 	get_parent().add_child(attack)
 	next_index += 1

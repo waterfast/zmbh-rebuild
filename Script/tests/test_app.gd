@@ -15,6 +15,7 @@ func check(condition: bool, message: String) -> void:
 func _run() -> void:
 	var app: GameApp = load("res://app/game_app.tscn").instantiate() as GameApp
 	app.load_saved_profile = false
+	app.save_store = SaveStore.new("user://test_app_only.json")
 	app.profile.start_new()
 	root.add_child(app)
 	for index in range(4):
@@ -43,7 +44,31 @@ func _run() -> void:
 	app._show_inventory()
 	app._toggle_pause()
 	check(app.inventory_screen == null and not paused, "Esc 关闭面板并恢复运行")
-	app.queue_free()
+	# 死亡：播完死亡表现后弹出战败界面并暂停世界
+	app.player.combatant.health.damage(app.player.combatant.health.maximum * 10.0)
+	for index in range(130):
+		await physics_frame
 	await process_frame
+	check(app.defeat_screen != null and app.defeat_screen.get_parent() == app.ui_layer, "角色死亡后弹出战败界面")
+	check(paused and not app.world.can_process(), "战败界面暂停世界")
+	app.defeat_screen.retry_requested.emit()
+	await process_frame
+	check(app.defeat_screen == null and not paused, "重新挑战关闭战败界面并重开关卡")
+	# 通关：结算界面显示用时/血量/星级
+	app.encounter.finished = true
+	app._on_level_completed()
+	await process_frame
+	check(app.victory_screen != null and app.victory_screen.report != null, "通关后弹出结算界面")
+	check(app.victory_screen.report.star_rating >= 1 and app.victory_screen.report.star_rating <= 5, "结算星级在 1~5 星之间")
+	check(app.victory_screen.report.hp_percent >= 0.0, "结算保留剩余血量百分比")
+	app.victory_screen.get_node("MoreInformaition").pressed.emit()
+	check(app.victory_screen.get_node_or_null("AfterLevelEnd") != null, "通关更多信息打开原版统计弹窗")
+	app.victory_screen.map_requested.emit()
+	await process_frame
+	if is_instance_valid(app):
+		app.queue_free()
+	for index in 4:
+		await process_frame
+	DirAccess.remove_absolute(ProjectSettings.globalize_path("user://test_app_only.json"))
 	print("APP TESTS: %d checks, %d failures" % [checks, failures])
 	quit(1 if failures > 0 else 0)

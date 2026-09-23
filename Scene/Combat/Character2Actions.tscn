@@ -4,11 +4,12 @@
 
 [ext_resource type="Script" path="res://Script/actors/animated_attack_hitbox.gd" id="hitbox"]
 
+[ext_resource type="Texture2D" path="res://assets/Art/HeroPicture/RoleDeath.png" id="fx9"]
 [sub_resource type="CompressedTexture2D" id="107"]
-load_path = "res://godot/imported/Role_2_Body_Empty.png-cf04e0f376cc0e7e4364b0221a3e3944.ctex"
+load_path = "res://.godot/imported/Role_2_Body_Empty.png-b3230a18fcc6ed689e63861cbfe89211.ctex"
 
 [sub_resource type="CompressedTexture2D" id="108"]
-load_path = "res://godot/imported/Role_2_Eq_Empty.png-ca0b3d5bd29cf2e3b3f6fc51cf1b100b.ctex"
+load_path = "res://.godot/imported/Role_2_Eq_Empty.png-48e7f5116135888295cf760e8b489072.ctex"
 
 [sub_resource type="CircleShape2D" id="170"]
 
@@ -98,6 +99,46 @@ tracks/2/keys = {
 }
 
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/Death:offset")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -120)]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Action/Death")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"death", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Action/Death:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+script = null
+
 [sub_resource type="Animation" id="action_2"]
 resource_name = "drop"
 length = 0.45
@@ -140,6 +181,20 @@ tracks/2/keys = {
 "values": [true]
 }
 
+
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/Death:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+script = null
 
 [sub_resource type="Animation" id="action_3"]
 resource_name = "hit1"
@@ -356,6 +411,20 @@ tracks/2/keys = {
 }
 
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/Death:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+script = null
+
 [sub_resource type="Animation" id="action_8"]
 resource_name = "jump2"
 length = 0.45
@@ -484,6 +553,20 @@ tracks/2/keys = {
 "values": [true]
 }
 
+
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/Death:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+script = null
 
 [sub_resource type="Animation" id="action_11"]
 resource_name = "sgq"
@@ -743,6 +826,20 @@ tracks/2/keys = {
 }
 
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/Death:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+script = null
+
 [sub_resource type="Animation" id="action_17"]
 resource_name = "xbz"
 length = 1.6
@@ -786,6 +883,20 @@ tracks/2/keys = {
 }
 
 
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Action/Death:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+script = null
+
 [sub_resource type="AnimationLibrary" id="actions"]
 _data = {"blb": SubResource("action_0"),
 "death": SubResource("action_1"),
@@ -806,6 +917,382 @@ _data = {"blb": SubResource("action_0"),
 "wait": SubResource("action_16"),
 "xbz": SubResource("action_17")}
 
+[sub_resource type="AtlasTexture" id="fx109"]
+atlas = ExtResource("fx9")
+region = Rect2(0, 0, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx110"]
+atlas = ExtResource("fx9")
+region = Rect2(229, 0, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx111"]
+atlas = ExtResource("fx9")
+region = Rect2(458, 0, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx112"]
+atlas = ExtResource("fx9")
+region = Rect2(687, 0, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx113"]
+atlas = ExtResource("fx9")
+region = Rect2(916, 0, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx114"]
+atlas = ExtResource("fx9")
+region = Rect2(1145, 0, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx115"]
+atlas = ExtResource("fx9")
+region = Rect2(1374, 0, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx116"]
+atlas = ExtResource("fx9")
+region = Rect2(1603, 0, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx117"]
+atlas = ExtResource("fx9")
+region = Rect2(0, 366, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx118"]
+atlas = ExtResource("fx9")
+region = Rect2(229, 366, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx119"]
+atlas = ExtResource("fx9")
+region = Rect2(458, 366, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx120"]
+atlas = ExtResource("fx9")
+region = Rect2(687, 366, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx121"]
+atlas = ExtResource("fx9")
+region = Rect2(916, 366, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx122"]
+atlas = ExtResource("fx9")
+region = Rect2(1145, 366, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx123"]
+atlas = ExtResource("fx9")
+region = Rect2(1374, 366, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx124"]
+atlas = ExtResource("fx9")
+region = Rect2(1603, 366, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx125"]
+atlas = ExtResource("fx9")
+region = Rect2(0, 732, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx126"]
+atlas = ExtResource("fx9")
+region = Rect2(229, 732, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx127"]
+atlas = ExtResource("fx9")
+region = Rect2(458, 732, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx128"]
+atlas = ExtResource("fx9")
+region = Rect2(687, 732, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx129"]
+atlas = ExtResource("fx9")
+region = Rect2(916, 732, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx130"]
+atlas = ExtResource("fx9")
+region = Rect2(1145, 732, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx131"]
+atlas = ExtResource("fx9")
+region = Rect2(1374, 732, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx132"]
+atlas = ExtResource("fx9")
+region = Rect2(1603, 732, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx133"]
+atlas = ExtResource("fx9")
+region = Rect2(0, 1098, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx134"]
+atlas = ExtResource("fx9")
+region = Rect2(229, 1098, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx135"]
+atlas = ExtResource("fx9")
+region = Rect2(458, 1098, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx136"]
+atlas = ExtResource("fx9")
+region = Rect2(687, 1098, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx137"]
+atlas = ExtResource("fx9")
+region = Rect2(916, 1098, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx138"]
+atlas = ExtResource("fx9")
+region = Rect2(1145, 1098, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx139"]
+atlas = ExtResource("fx9")
+region = Rect2(1374, 1098, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx140"]
+atlas = ExtResource("fx9")
+region = Rect2(1603, 1098, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx141"]
+atlas = ExtResource("fx9")
+region = Rect2(0, 1464, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx142"]
+atlas = ExtResource("fx9")
+region = Rect2(229, 1464, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx143"]
+atlas = ExtResource("fx9")
+region = Rect2(458, 1464, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx144"]
+atlas = ExtResource("fx9")
+region = Rect2(687, 1464, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx145"]
+atlas = ExtResource("fx9")
+region = Rect2(916, 1464, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx146"]
+atlas = ExtResource("fx9")
+region = Rect2(1145, 1464, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx147"]
+atlas = ExtResource("fx9")
+region = Rect2(1374, 1464, 229, 366)
+script = null
+
+[sub_resource type="AtlasTexture" id="fx148"]
+atlas = ExtResource("fx9")
+region = Rect2(1603, 1464, 229, 366)
+script = null
+
+[sub_resource type="SpriteFrames" id="fx149"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": SubResource("fx109")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx110")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx111")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx112")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx113")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx114")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx115")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx116")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx117")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx118")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx119")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx120")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx121")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx122")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx123")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx124")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx125")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx126")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx127")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx128")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx129")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx130")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx131")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx132")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx133")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx134")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx135")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx136")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx137")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx138")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx139")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx140")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx141")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx142")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx143")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx144")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx145")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx146")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx147")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx148")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx148")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx148")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx148")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx148")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx148")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx148")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx148")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx148")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx148")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx148")
+}, {
+"duration": 1.0,
+"texture": SubResource("fx148")
+}],
+"loop": false,
+"name": &"death",
+"speed": 25.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}],
+"loop": true,
+"name": &"empty",
+"speed": 5.0
+}]
+script = null
+
 [node name="ActionTimeline" type="Node2D"]
 script = ExtResource("runtime")
 
@@ -823,6 +1310,12 @@ texture = SubResource( "108" )
 offset = Vector2(-15, -15)
 hframes = 6
 vframes = 13
+
+[node name="Death" type="AnimatedSprite2D" parent="Action"]
+visible = false
+sprite_frames = SubResource("fx149")
+animation = &"death"
+offset = Vector2(0, -120)
 
 [node name="base_damagebox" type="Node2D" parent="."]
 position = Vector2(0, -30)

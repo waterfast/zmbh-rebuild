@@ -15,9 +15,22 @@ var _foot_offset := Vector2.ZERO
 var _is_hero: bool = false
 var _faces_left: bool = true
 var _action_revision: int = -1
+var _status_timeline: CharacterActionTimeline
+var _death_elapsed: float = 0.0
+var _death_effect_spawned: bool = false
 
 func _ready() -> void:
 	set_skin(skin_id)
+	if actor != null and actor.combatant != null:
+		bind_actor(actor)
+
+func bind_actor(source: CombatActor) -> void:
+	actor = source
+	_sync_corpse_lifetime()
+	if not source.combatant.damaged.is_connected(_on_actor_damaged):
+		source.combatant.damaged.connect(_on_actor_damaged)
+	if not source.despawning.is_connected(_on_actor_despawning):
+		source.despawning.connect(_on_actor_despawning)
 
 func bind_states(action: ActionState, locomotion: LocomotionState) -> void:
 	_action = action
@@ -26,11 +39,13 @@ func bind_states(action: ActionState, locomotion: LocomotionState) -> void:
 func sync_facing(direction: float) -> void:
 	_facing = direction
 
-func _process(_delta: float) -> void:
+func _process(delta: float) -> void:
 	if actor != null:
+		_update_monster_death_effect(delta)
 		if _action_revision != actor.action.revision:
 			_action_revision = actor.action.revision
 			_animation = &""
+			_present_status_timeline()
 		sync_facing(actor.facing)
 		present(actor.action.current, actor.locomotion.current, actor.facing)
 		return
@@ -65,6 +80,7 @@ func set_skin(id: StringName) -> bool:
 	weapon.position = body.position
 	weapon.sprite_frames = load(weapon_path) as SpriteFrames if not weapon_path.is_empty() and ResourceLoader.exists(weapon_path) else null
 	weapon.visible = weapon.sprite_frames != null
+	_sync_corpse_lifetime()
 	_animation = &""
 	present(ActionState.State.FREE, LocomotionState.State.IDLE, _facing)
 	return true
@@ -115,6 +131,56 @@ func _choose_animation(action_state: int, locomotion_state: int) -> StringName:
 
 func _attack_animation() -> StringName:
 	return &"hit1" if body.sprite_frames.has_animation(&"hit1") else &"hit1_1"
+
+func _present_status_timeline() -> void:
+	if not _is_hero or actor == null:
+		return
+	if actor.action.current != ActionState.State.HURT and actor.action.current != ActionState.State.DEAD:
+		return
+	if is_instance_valid(_status_timeline):
+		_status_timeline.cancel()
+	var animation := &"death" if actor.action.current == ActionState.State.DEAD else &"hurt"
+	_status_timeline = CharacterActionCatalog.present_status(actor, CharacterAbilityRegistry.character_id(skin_id), animation)
+
+func _on_actor_damaged(amount: float, _hitstun: float) -> void:
+	if amount <= 0.0 or actor == null or not is_instance_valid(actor.get_parent()):
+		return
+	if _is_hero:
+		SpecialEffect.spawn(actor, &"RoleBeHit", actor.global_position, false, 1.0, Vector2.ONE, true)
+	else:
+		var effect := load("res://Scene/Effects/MonsterBeHit.tscn").instantiate() as MonsterHitEffect
+		effect.top_level = true
+		effect.z_index = 90
+		actor.get_parent().add_child(effect)
+		effect.global_position = actor.global_position
+
+func _on_actor_despawning() -> void:
+	_spawn_monster_death_effect()
+
+func _update_monster_death_effect(delta: float) -> void:
+	if _is_hero or actor.action.current != ActionState.State.DEAD or _death_effect_spawned:
+		return
+	_death_elapsed += delta
+	# 原怪物死亡动画通常在 0.8 秒的方法帧生成粒子；短动画要赶在回收前播放。
+	if _death_elapsed >= minf(0.8, maxf(0.0, actor.corpse_lifetime - 0.1)):
+		_spawn_monster_death_effect()
+
+func _spawn_monster_death_effect() -> void:
+	if _is_hero or _death_effect_spawned or actor == null or not is_instance_valid(actor.get_parent()):
+		return
+	_death_effect_spawned = true
+	SpecialEffect.spawn(actor.get_parent(), &"MonsterDeath", actor.global_position)
+
+func _sync_corpse_lifetime() -> void:
+	if actor == null or not actor.despawn_on_death or body == null or body.sprite_frames == null:
+		return
+	var frames := body.sprite_frames
+	if not frames.has_animation(&"death"):
+		return
+	var duration := 0.0
+	for index in frames.get_frame_count(&"death"):
+		duration += frames.get_frame_duration(&"death", index) / maxf(1.0, frames.get_animation_speed(&"death"))
+	actor.corpse_lifetime = maxf(0.7, duration)
 
 func _exit_tree() -> void:
 	_action = null

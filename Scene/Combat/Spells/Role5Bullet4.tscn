@@ -4,6 +4,64 @@
 
 [ext_resource type="Script" path="res://Script/actors/animated_attack_hitbox.gd" id="hitbox"]
 
+[ext_resource type="Texture2D" path="res://assets/Art/HeroPicture/Role5/SpecialEffect_18.png" id="26"]
+
+[sub_resource type="AtlasTexture" id="588"]
+atlas = ExtResource( "26" )
+region = Rect2(0, 0, 323, 151)
+
+[sub_resource type="AtlasTexture" id="589"]
+atlas = ExtResource( "26" )
+region = Rect2(323, 0, 323, 151)
+
+[sub_resource type="AtlasTexture" id="590"]
+atlas = ExtResource( "26" )
+region = Rect2(646, 0, 323, 151)
+
+[sub_resource type="AtlasTexture" id="591"]
+atlas = ExtResource( "26" )
+region = Rect2(969, 0, 323, 151)
+
+[sub_resource type="AtlasTexture" id="592"]
+atlas = ExtResource( "26" )
+region = Rect2(1292, 0, 323, 151)
+
+[sub_resource type="AtlasTexture" id="593"]
+atlas = ExtResource( "26" )
+region = Rect2(1615, 0, 323, 151)
+
+[sub_resource type="AtlasTexture" id="594"]
+atlas = ExtResource( "26" )
+region = Rect2(0, 151, 323, 151)
+
+[sub_resource type="AtlasTexture" id="595"]
+atlas = ExtResource( "26" )
+region = Rect2(0, 0, 323, 151)
+
+[sub_resource type="AtlasTexture" id="596"]
+atlas = ExtResource( "26" )
+region = Rect2(323, 0, 323, 151)
+
+[sub_resource type="AtlasTexture" id="597"]
+atlas = ExtResource( "26" )
+region = Rect2(646, 0, 323, 151)
+
+[sub_resource type="AtlasTexture" id="598"]
+atlas = ExtResource( "26" )
+region = Rect2(969, 0, 323, 151)
+
+[sub_resource type="AtlasTexture" id="599"]
+atlas = ExtResource( "26" )
+region = Rect2(1292, 0, 323, 151)
+
+[sub_resource type="AtlasTexture" id="600"]
+atlas = ExtResource( "26" )
+region = Rect2(1615, 0, 323, 151)
+
+[sub_resource type="AtlasTexture" id="601"]
+atlas = ExtResource( "26" )
+region = Rect2(0, 151, 323, 151)
+
 [sub_resource type="RectangleShape2D" id="1026"]
 size = Vector2(283, 117)
 
@@ -11,14 +69,50 @@ size = Vector2(283, 117)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": null
+"texture": SubResource( "588" )
 }, {
 "duration": 1.0,
-"texture": null
+"texture": SubResource( "589" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "590" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "591" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "592" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "593" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "594" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "595" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "596" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "597" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "598" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "599" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "600" )
+}, {
+"duration": 1.0,
+"texture": SubResource( "601" )
 }],
-"loop": true,
-"name": &"Empty",
-"speed": 5.0
+"loop": false,
+"name": &"Role5Bullet4",
+"speed": 14.0
 }]
 
 [sub_resource type="SpriteFrames" id="frames_SpecialEffect"]

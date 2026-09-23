@@ -9,6 +9,8 @@ const QUEST_SCENE := preload("res://Scene/UI/QuestJournal.tscn")
 const SETTINGS_SCENE := preload("res://Scene/UI/InGameSettings.tscn")
 const SKILL_SCENE := preload("res://Scene/UI/Skill/LearnSkill.tscn")
 const MAGIC_WEAPON_SCENE := preload("res://Scene/UI/MagicWeaponUpgrade.tscn")
+const DEFEAT_SCENE := preload("res://Scene/Level/DefeatScreen.tscn")
+const VICTORY_SCENE := preload("res://Scene/Level/VictoryScreen.tscn")
 const PROFILE_PATH := "user://zaomeng_profile.json"
 var profile := PlayerProfile.new()
 var load_saved_profile: bool = true
@@ -22,10 +24,14 @@ var quest_screen: QuestScreen
 var settings_screen: InGameSettingsScreen
 var skill_screen: SkillLearningScreen
 var magic_weapon_screen: MagicWeaponUpgrade
+var defeat_screen: DefeatScreen
+var victory_screen: VictoryScreen
 var settings_store := SettingsStore.new()
 var ui_layer: CanvasLayer
 var _manual_pause: bool = false
 var _drop_rng := RandomNumberGenerator.new()
+var _level_began_at: String = ""
+var _level_started_msec: int = 0
 
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
@@ -66,12 +72,15 @@ func _load_level(id: StringName) -> void:
 	profile.attach_actor(player)
 	player.combatant.health.heal(player.combatant.health.maximum)
 	player.abilities.restore_mp(player.abilities.maximum_mp)
+	_level_began_at = Time.get_datetime_string_from_system(false, true)
+	_level_started_msec = Time.get_ticks_msec()
 	encounter = StageEncounter.new()
 	world.add_child(encounter)
 	encounter.setup(world, player)
 	encounter.enemy_defeated.connect(_on_enemy_defeated)
 	encounter.stage_cleared.connect(_on_stage_cleared)
 	encounter.completed.connect(_on_level_completed)
+	player.combatant.health.died.connect(_on_player_died, CONNECT_ONE_SHOT)
 	_create_camera()
 	_create_hud()
 
@@ -139,7 +148,9 @@ func _show_quests() -> void:
 	_update_pause()
 
 func _any_overlay_open() -> bool:
-	return is_instance_valid(inventory_screen) or is_instance_valid(quest_screen) or is_instance_valid(settings_screen) or is_instance_valid(skill_screen) or is_instance_valid(magic_weapon_screen)
+	return is_instance_valid(inventory_screen) or is_instance_valid(quest_screen) or is_instance_valid(settings_screen) \
+		or is_instance_valid(skill_screen) or is_instance_valid(magic_weapon_screen) \
+		or is_instance_valid(defeat_screen) or is_instance_valid(victory_screen)
 
 func _show_settings() -> void:
 	if _any_overlay_open():
@@ -232,6 +243,8 @@ func _close_magic_weapon() -> void:
 	_update_pause()
 
 func _toggle_pause() -> void:
+	if is_instance_valid(defeat_screen) or is_instance_valid(victory_screen):
+		return
 	if is_instance_valid(inventory_screen):
 		_close_inventory()
 	elif is_instance_valid(quest_screen):
@@ -268,15 +281,134 @@ func _on_stage_cleared(stage: int) -> void:
 	if is_instance_valid(hud):
 		hud.notify("第 %d 区域已肃清，前路开启" % stage)
 
+func _on_player_died() -> void:
+	# 老项目：死亡动画播完约 1.5 秒后进入战败界面。
+	await get_tree().create_timer(1.5, false, true).timeout
+	if not is_instance_valid(player) or is_instance_valid(defeat_screen) or is_instance_valid(victory_screen):
+		return
+	_show_defeat()
+
+func _show_defeat() -> void:
+	defeat_screen = DEFEAT_SCENE.instantiate() as DefeatScreen
+	defeat_screen.permanent_refusal = profile.permanent_dark_power_refusal
+	defeat_screen.reward_claimed = profile.dark_power_reward_claimed
+	ui_layer.add_child(defeat_screen)
+	defeat_screen.map_requested.connect(_exit_level_to_map)
+	defeat_screen.retry_requested.connect(_retry_level)
+	defeat_screen.dark_power_requested.connect(_on_dark_power_requested)
+	defeat_screen.permanent_refusal_requested.connect(_on_permanent_refusal_requested)
+	defeat_screen.reward_requested.connect(_on_dark_power_reward_requested)
+	_update_pause()
+
+func _on_dark_power_requested() -> void:
+	if profile.inventory.create_item(&"xczg", _drop_rng) == null:
+		defeat_screen.get_node("text").text = "背包空间不足，无法领取力量。"
+		return
+	_save()
+
+func _on_permanent_refusal_requested() -> void:
+	profile.permanent_dark_power_refusal = true
+	_save()
+
+func _on_dark_power_reward_requested() -> void:
+	if profile.inventory.item_ids().size() + 37 > profile.inventory.capacity:
+		defeat_screen.reward_claimed = false
+		defeat_screen.get_node("text").text = "背包空间不足，无法领取奖励。"
+		return
+	for id: StringName in [&"bsd_5", &"mpyj"]:
+		profile.inventory.create_item(id, _drop_rng)
+	for id: StringName in [&"xydxq", &"qhs_4", &"qhs_3", &"qhs_2", &"qhs_1"]:
+		var count := 3 if id == &"xydxq" else 8
+		for index in count:
+			profile.inventory.create_item(id, _drop_rng)
+	profile.dark_power_reward_claimed = true
+	_save()
+
+func _close_defeat() -> void:
+	if is_instance_valid(defeat_screen):
+		defeat_screen.queue_free()
+	defeat_screen = null
+	_update_pause()
+
+func _retry_level() -> void:
+	if is_instance_valid(defeat_screen):
+		defeat_screen.queue_free()
+	defeat_screen = null
+	if is_instance_valid(victory_screen):
+		victory_screen.queue_free()
+	victory_screen = null
+	_manual_pause = false
+	_update_pause()
+	_load_level(world.definition.id)
+
 func _on_level_completed() -> void:
 	profile.last_level = world.definition.id
 	profile.progression.complete_level(String(world.definition.id))
 	profile.progression.reward(60, 25)
 	_try_drop(true)
 	profile.quests.record(&"level_completed", world.definition.id)
-	if is_instance_valid(hud):
-		hud.notify("关卡完成，按 E 前往下一关")
 	_save()
+	if is_instance_valid(victory_screen) or is_instance_valid(defeat_screen):
+		return
+	_show_victory()
+
+func _show_victory() -> void:
+	victory_screen = VICTORY_SCENE.instantiate() as VictoryScreen
+	victory_screen.report = _build_level_report()
+	ui_layer.add_child(victory_screen)
+	victory_screen.map_requested.connect(_exit_level_to_map)
+	victory_screen.retry_requested.connect(_retry_level)
+	_update_pause()
+
+func _build_level_report() -> LevelReport:
+	var report := LevelReport.new()
+	report.begin_time = _level_began_at
+	report.end_time = Time.get_datetime_string_from_system(false, true)
+	report.elapsed_seconds = maxi(0, (Time.get_ticks_msec() - _level_started_msec) / 1000)
+	report.hp_percent = 0.0
+	report.maximum_combo = 0
+	report.received_hits = 0
+	if is_instance_valid(player):
+		report.hp_percent = snappedf(player.combatant.health.current / maxf(1.0, player.combatant.health.maximum) * 100.0, 0.01)
+	if encounter != null:
+		report.maximum_combo = encounter.maximum_combo
+		report.received_hits = encounter.received_hits
+		report.total_damage_received = encounter.total_damage_received
+		report.total_damage_dealt = encounter.total_damage_dealt
+		report.landed_hits = encounter.landed_hits
+	report.star_rating = _rate_level(report.elapsed_seconds, report.hp_percent, report.received_hits)
+	return report
+
+## 老项目 victory.gd::PDpj 的评价规则：用时越短、剩余血量越高星级越高。
+static func _rate_level(elapsed_seconds: int, hp_percent: float, received_hits: int) -> int:
+	var minutes := elapsed_seconds / 60
+	if minutes <= 2 and received_hits == 0 and hp_percent >= 95.0:
+		return 5
+	match minutes:
+		0, 1, 2, 3:
+			if hp_percent >= 85.0:
+				return 4
+			if hp_percent >= 75.0:
+				return 3
+			if hp_percent >= 65.0:
+				return 2
+			return 1
+		4:
+			if hp_percent >= 85.0:
+				return 3
+			if hp_percent >= 65.0:
+				return 2
+			return 1
+		5:
+			if hp_percent >= 75.0:
+				return 2
+			if hp_percent >= 65.0:
+				return 1
+			return 1
+		_:
+			if hp_percent >= 85.0:
+				return 2
+			return 1
 
 func _try_drop(guaranteed: bool = false) -> void:
 	if world == null or world.definition == null or world.definition.drop_ids.is_empty():
